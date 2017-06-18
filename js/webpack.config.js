@@ -1,5 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
+const superagent = require('superagent');
  
 module.exports = {
   entry: './src/index.js',

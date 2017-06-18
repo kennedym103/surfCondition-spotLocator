@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import AlarmCreate from './AlarmCreate';
-import AlarmList from './AlarmList'
+
 
 export default class App extends Component {
     interval = null
