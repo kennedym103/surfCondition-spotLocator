@@ -1,4 +1,4 @@
-{
+const data = {
     "france": [
         {
             "href": "/Algajola-Surf-Report/3503/",
@@ -5335,4 +5335,15 @@
             "lng": 143.5527423
         }
     ]
-}
+};
+
+
+const array = Object.keys(data).reduce((_arr, currItem) => _arr.concat(data[currItem]), []);
+
+exports.array = array;
+
+
+
+
+
+
