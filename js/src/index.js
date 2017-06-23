@@ -3,7 +3,7 @@ var location = data.array;
 var Dexie = require('dexie');
 var db = new Dexie('surfSpots');
 db.version(1).stores({
-    locations: 'spotId, [lat+lng], done'
+    locations: 'spotId, [lat+lng], town'
 });
 
 
@@ -26,7 +26,7 @@ Dexie.spawn(function*() {
 
     for (var i = 0; i < location.length; ++i) {
         yield db.locations.bulkPut([
-            { spotId: location[i].spotId, lat: location[i].lat, lng: location[i].lng, done: i }
+            { spotId: location[i].spotId, lat: location[i].lat, lng: location[i].lng, town: location[i].town }
         ]);
     }
     // Ok, so let's query it
