@@ -8,39 +8,65 @@ db.version(1).stores({
 
 
 const getGeolocationData = () => {
-	return new Promise((resolve, reject) => {
-		if (!navigator.geolocation) reject('navigator not supported!') 
-		navigator.geolocation.getCurrentPosition(position => {
-			const {latitude, longitude} = position.coords;
+    return new Promise((resolve, reject) => {
+        if (!navigator.geolocation) reject('navigator not supported!')
+        navigator.geolocation.getCurrentPosition(position => {
+            const { latitude, longitude } = position.coords;
 
-			resolve({
-				currentLat: latitude,
-				currentLng: longitude,
-			})
-		});
-	})
+            resolve({
+                currentLat: latitude,
+                currentLng: longitude,
+            })
+        });
+    })
 }
 
 Dexie.spawn(function*() {
-        // Now lets add a bunch of tasks
-     
-     	for (var i=0;i<location.length;++i) {
-	    yield db.locations.bulkPut([
-	        {spotId: location[i].spotId, lat: location[i].lat, lng: location[i].lng, done: i}
-	    ]);
-	   }
+    // Now lets add a bunch of tasks
+
+    for (var i = 0; i < location.length; ++i) {
+        yield db.locations.bulkPut([
+            { spotId: location[i].spotId, lat: location[i].lat, lng: location[i].lng, done: i }
+        ]);
+    }
     // Ok, so let's query it
-    
-    getGeolocationData().then(({currentLat, currentLng}) => {
-		var yourSurfSpots = db.locations.where('[lat+lng]').between([currentLat - 2, currentLng - 2],[currentLat + 2, currentLng + 2])
-		.toArray();
-		yourSurfSpots.then(data => {
-			console.log("Completed locations: " + JSON.stringify(yourSurfSpots));
-    		console.log ("Done.");
-		})
-   		
+
+    getGeolocationData().then(({ currentLat, currentLng }) => {
+        var yourSurfSpots = db.locations.where('[lat+lng]').between([currentLat - 2, currentLng - 2], [currentLat + 2, currentLng + 2])
+            .toArray();
+        yourSurfSpots.then(data => {
+            console.log("Done.");
+        })
+        Promise.resolve(yourSurfSpots).then(function(value) {
+
+        	const spotNumber = value[0].spotId;
+        	console.log(spotNumber);
+            $.ajax({
+                url: "http://magicseaweed.com/api/76b9f172c5acb310986adca80941a8bb/forecast/?spot_id={spotNumber}",
+
+                // The name of the callback parameter, as specified by the YQL service
+                    jsonp: "callback",
+
+                // Tell jQuery we're expecting JSONP
+                dataType: "jsonp",
+
+                // Tell YQL what we want and that we want JSON
+                data: {
+                    format: "json"
+                },
+
+                // Work with the response
+                success: function(data) {
+                    return data;
+                }
+            });
+
+            // "Success"
+        }, function(value) {
+            // not called
+        });
     })
-    
-}).catch (err => {
-    console.error ("Uh oh! " + err.stack);
+
+}).catch(err => {
+    console.error("Uh oh! " + err.stack);
 });
