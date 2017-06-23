@@ -3316,72 +3316,75 @@ if(new $WeakMap().set((Object.freeze || Object)(tmp), 7).get(tmp) != 7){
 "use strict";
 
 
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
 var data = __webpack_require__(116);
 var location = data.array;
 var Dexie = __webpack_require__(117);
 var db = new Dexie('surfSpots');
 db.version(1).stores({
-    locations: 'spotId, lat, lng, done'
+	locations: 'spotId, [lat+lng], done'
 });
 
-// Don't be confused over Dexie.spawn() and yield here. It's not required for using Dexie,
-// but it really simplifies the code. If you're a Promise Ninja, use vanilla promise
-// style instead.
+var getGeolocationData = function getGeolocationData() {
+	return new Promise(function (resolve, reject) {
+		if (!navigator.geolocation) reject('navigator not supported!');
+		navigator.geolocation.getCurrentPosition(function (position) {
+			var _position$coords = position.coords,
+			    latitude = _position$coords.latitude,
+			    longitude = _position$coords.longitude;
+
+
+			resolve({
+				currentLat: latitude,
+				currentLng: longitude
+			});
+		});
+	});
+};
+
 Dexie.spawn(regeneratorRuntime.mark(function _callee() {
-    var _db$locations$put;
+	var i;
+	return regeneratorRuntime.wrap(function _callee$(_context) {
+		while (1) {
+			switch (_context.prev = _context.next) {
+				case 0:
+					i = 0;
 
-    var id, locations;
-    return regeneratorRuntime.wrap(function _callee$(_context) {
-        while (1) {
-            switch (_context.prev = _context.next) {
-                case 0:
-                    _context.next = 2;
-                    return db.locations.put((_db$locations$put = { spotId: location[0].spotId, lat: location[0].lat }, _defineProperty(_db$locations$put, 'lat', location[0].lng), _defineProperty(_db$locations$put, 'done', 0), _db$locations$put));
+				case 1:
+					if (!(i < location.length)) {
+						_context.next = 7;
+						break;
+					}
 
-                case 2:
-                    id = _context.sent;
+					_context.next = 4;
+					return db.locations.bulkPut([{ spotId: location[i].spotId, lat: location[i].lat, lng: location[i].lng, done: i }]);
 
-                    console.log("Got id " + id);
-                    // Now lets add a bunch of tasks
-                    _context.next = 6;
-                    return db.locations.bulkPut([{ spotId: location[0].spotId, lat: location[0].lat, lng: location[0].lng, done: 1 }, { spotId: location[0].spotId, lat: location[0].lat, lng: location[0].lng, done: 1 }]);
+				case 4:
+					++i;
+					_context.next = 1;
+					break;
 
-                case 6:
-                    _context.next = 8;
-                    return db.locations.where('done').above(0).toArray();
+				case 7:
+					// Ok, so let's query it
 
-                case 8:
-                    locations = _context.sent;
+					getGeolocationData().then(function (_ref) {
+						var currentLat = _ref.currentLat,
+						    currentLng = _ref.currentLng;
 
-                    console.log("Completed locations: " + JSON.stringify(locations, 0, 2));
+						var yourSurfSpots = db.locations.where('[lat+lng]').between([currentLat - 2, currentLng - 2], [currentLat + 2, currentLng + 2]).toArray();
+						yourSurfSpots.then(function (data) {
+							console.log("Completed locations: " + JSON.stringify(yourSurfSpots));
+							console.log("Done.");
+						});
+					});
 
-                    // Ok, so let's complete the 'Test Dexie' task.
-                    _context.next = 12;
-                    return db.locations.where('spotId').startsWithIgnoreCase('3').modify({ done: 1 });
-
-                case 12:
-
-                    console.log("All locations should be completed now.");
-                    console.log("Now let's delete all old locations:");
-
-                    // And let's remove all old tasks:
-                    _context.next = 16;
-                    return db.location.where('lng').below(10).delete();
-
-                case 16:
-
-                    console.log("Done.");
-
-                case 17:
-                case 'end':
-                    return _context.stop();
-            }
-        }
-    }, _callee, this);
+				case 8:
+				case 'end':
+					return _context.stop();
+			}
+		}
+	}, _callee, this);
 })).catch(function (err) {
-    console.error("Uh oh! " + err.stack);
+	console.error("Uh oh! " + err.stack);
 });
 
 /***/ }),
