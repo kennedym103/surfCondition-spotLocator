@@ -4123,8 +4123,8 @@ var data = {
         "href": "/Ditch-Plains-Surf-Report/2159/",
         "town": "Ditch Plains",
         "spotId": "2159",
-        "lat": 40.729221,
-        "lng": -74.003748
+        "lat": 41.0406577,
+        "lng": -71.9178462
     }, {
         "href": "/Fire-Island-Surf-Report/380/",
         "town": "Fire Island",
