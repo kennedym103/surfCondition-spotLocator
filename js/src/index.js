@@ -53,7 +53,6 @@ db.open()
 
 const main = (db) => {
      getGeolocationData().then(({ currentLat, currentLng }) => {
-        console.log(currentLng, currentLng)
         db
             .locations
             .where('[lat+lng]')
@@ -66,7 +65,7 @@ const main = (db) => {
 
 const handleData = (values) => {
     const promises = values.map(value => $.ajax({
-        url: `http://magicseaweed.com/api/76b9f172c5acb310986adca80941a8bb/forecast/?spot_id=${value.spotId}`,
+        url: `https://magicseaweed.com/api/76b9f172c5acb310986adca80941a8bb/forecast/?spot_id=${value.spotId}`,
 
         // The name of the callback parameter, as specified by the YQL service
         jsonp: "callback",
