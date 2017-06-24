@@ -56,8 +56,8 @@ const main = (db) => {
         db
             .locations
             .where('[lat+lng]')
-            .between([currentLat - 1.2, currentLng], [currentLat + 1.2])
-            .and(x => (x.lng > currentLng - 1.2) && (x.lng < currentLng + 1.2))
+            .between([currentLat - 2, currentLng], [currentLat + 2])
+            .and(x => (x.lng > currentLng - 2) && (x.lng < currentLng + 2))
             .toArray()
             .then(handleData)
     })  

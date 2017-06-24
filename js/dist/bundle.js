@@ -3375,8 +3375,8 @@ var main = function main(db) {
         var currentLat = _ref.currentLat,
             currentLng = _ref.currentLng;
 
-        db.locations.where('[lat+lng]').between([currentLat - 1.2, currentLng], [currentLat + 1.2]).and(function (x) {
-            return x.lng > currentLng - 1.2 && x.lng < currentLng + 1.2;
+        db.locations.where('[lat+lng]').between([currentLat - 2, currentLng], [currentLat + 2]).and(function (x) {
+            return x.lng > currentLng - 2 && x.lng < currentLng + 2;
         }).toArray().then(handleData);
     });
 };
