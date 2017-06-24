@@ -3774,29 +3774,7 @@ const data = {
             "lng": 129.3640905
         }
     ],
-    "north korea": [
-        {
-            "href": "/Majon-Hotel-Beach-Surf-Report/4576/",
-            "town": "Majon Hotel Beach",
-            "spotId": "4576",
-            "lat": 39.8181087,
-            "lng": 127.6672868
-        },
-        {
-            "href": "/Pioneers-Surf-Report/4577/",
-            "town": "Pioneers",
-            "spotId": "4577",
-            "lat": 30.283237,
-            "lng": 120.2366722
-        },
-        {
-            "href": "/Sijung-Surf-Report/4582/",
-            "town": "Sijung",
-            "spotId": "4582",
-            "lat": 41.0793559,
-            "lng": 126.3869546
-        }
-    ],
+    
     "iran": [
         {
             "href": "/Beris-Surf-Report/4604/",

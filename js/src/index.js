@@ -56,11 +56,14 @@ const main = (db) => {
         db
             .locations
             .where('[lat+lng]')
-            .between([currentLat - .6, currentLng - .6], [currentLat + .6, currentLng + .6])
+            .between([currentLat - 1.2, currentLng], [currentLat + 1.2])
+            .and(x => (x.lng > currentLng - 1.2) && (x.lng < currentLng + 1.2))
             .toArray()
             .then(handleData)
     })  
 }
+
+// db.table1.where("key1").between(8,12).and(function (x) { return x.key2 >= 3 && x.key2 < 18; }).toArray();
 
 
 const handleData = (values) => {
