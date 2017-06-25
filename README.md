@@ -12,7 +12,7 @@ This project was built in a node environment with babel.
 npm install
 ```
 
-###Link to Live Version
+### Link to Live Version
 
 ```
 https://kennedym103.github.io/surfCondition-locator/
