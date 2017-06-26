@@ -104,7 +104,7 @@ const handleDataResults = (results, values) => {
             if (currNow < results[j][k].timestamp*1000 ) {
              
                 const data = results[j][k-1];
-                data.overallRating = data.solidRating * 2 + data.fadedRating;
+                data.overallRating = data.solidRating  + data.fadedRating * 2;
                 const dataWithValue = Object.assign({}, data, values[j])
 
                 locations.push(dataWithValue)
