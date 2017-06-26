@@ -748,6 +748,33 @@ const data = {
             "spotId": "3683",
             "lat": 40.1784471,
             "lng": -74.02180369999999
+        },
+        {  "href": "/Deal-Surf-Report/822/",
+            "town": "Deal",
+            "spotId": "822",
+            "lat": 40.243168,
+            "lng": -74.0006927
+        },
+        { 
+            "href": "/Holyoke-Surf-Report/389/",
+            "town": "Beach Haven, Holyoke",
+            "spotId": "389",
+            "lat": 39.5592848,
+            "lng": -74.2431963
+        },
+        { 
+            "href": "/Jenkinsons-Surf-Report/4053/",
+            "town": "Point Pleasant, Jenks",
+            "spotId": "4053",
+            "lat": 40.0912268,
+            "lng": -74.0479146
+        },
+        { 
+            "href": "/Casino-Pier-Surf-Report/387/",
+            "town": "Seaside Heights, Casino Pier",
+            "spotId": "387",
+            "lat": 39.944285,
+            "lng": -74.0729139
         }
     ],
     "new york": [
@@ -774,10 +801,31 @@ const data = {
         },
         {
             "href": "/Fire-Island-Surf-Report/380/",
-            "town": "Fire Island",
+            "town": "Fire Island, Democrat Point",
             "spotId": "380",
-            "lat": 40.64759970000001,
-            "lng": -73.1459474
+            "lat": 40.62343389999999,
+            "lng": -73.3040086
+        },
+        {
+            "href": "/Long-Beach-Surf-Report/383/",
+            "town": "Long Beach",
+            "spotId": "383",
+            "lat": 40.5884374,
+            "lng": -73.657908
+        },
+        {
+            "href": "/Robert-Moses-State-Park-Surf-Report/381/",
+            "town": "Robert Moses",
+            "spotId": "381",
+            "lat": 40.6233545,
+            "lng": -73.2611703
+        },
+        {
+            "href": "/Rockaway-Surf-Report/384/",
+            "town": "Rockaway, 90th Street",
+            "spotId": "384",
+            "lat": 40.5846394,
+            "lng": -73.8108278
         }
     ],
     "delaware": [
@@ -5319,6 +5367,9 @@ const data = {
 const array = Object.keys(data).reduce((_arr, currItem) => _arr.concat(data[currItem]), []);
 
 exports.array = array;
+
+
+
 
 
 
