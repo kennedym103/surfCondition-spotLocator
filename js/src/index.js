@@ -121,9 +121,11 @@ const drawHtml = (arr) => {
     for (let l = 0; l < arr.length; l++){
         $('#js-cards').append(
         `<div class="card mt-4 mb-4">
-            <div class="card-border--top"
-            </div>
             <img class="card-img-top img-fluid" src="https://maps.googleapis.com/maps/api/staticmap?center=${arr[l].lat},${arr[l].lng}&zoom=13&size=500x300&key=AIzaSyBwKCefMD-LRIuQvwoGCbsFkcGKas0hjo4" alt="Card image cap">
+            <div class="card-img-overlay">
+                <div class="card-border--top"
+                </div>
+              </div>
             <div class="card-block">
                 <div class="row">
                     <div class="col">
