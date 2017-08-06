@@ -19,9 +19,18 @@ font-family: skolar-sans-latin, sans-serif;
 .town-text {
   font-style: normal;
   font-weight: 300;
+  text-transform: uppercase;
+  padding: 5px;
+  color: white;
+  font-size: 16px;
 }
 
 .navigation-text {
   font-style: normal;
   font-weight: 300;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 5px;
+  color: white;
+  font-size: 12px;
 }
