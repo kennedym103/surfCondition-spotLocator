@@ -10,10 +10,6 @@ font-family: skolar-sans-latin, sans-serif;
 
 /*---------- card styling --------- */
 
-.card-header {
-  padding: 5px 20px 5px 5px;
-}
-
 .card-header--top {
   height: 40px;
   background-color: #dac76d;
