@@ -3797,6 +3797,7 @@ var handleData = function handleData(values) {
         });
 
         drawHtml(locations);
+        surfHeight();
     });
 };
 
@@ -3827,9 +3828,21 @@ var handleDataResults = function handleDataResults(results, values) {
 
 var drawHtml = function drawHtml(arr) {
     for (var l = 0; l < arr.length; l++) {
-        $('#js-cards').append('\n        <div class="card-border--top"\n        </div>\n        <div class="card mt-4 mb-4">\n            <img class="card-img-top img-fluid" src="https://maps.googleapis.com/maps/api/staticmap?center=' + arr[l].lat + ',' + arr[l].lng + '&zoom=13&size=500x300&key=AIzaSyBwKCefMD-LRIuQvwoGCbsFkcGKas0hjo4" alt="Card image cap">\n            <div class="card-block">\n                <div class="row">\n                    <div class="col">\n                       <div class="card-title">' + arr[l].town + '</div>\n                    </div>\n                </div>\n                <div class="row">\n                    <div class="col">\n                       <div class="card-text">SWELL HEIGHT</div>\n                        <div>' + arr[l].swell.maxBreakingHeight + ' FT</div>\n                    </div>\n                    <div class="col">\n                       <div class="card-text">DIRECTION</div>\n                        <div>' + arr[l].swell.components.primary.compassDirection + '</div>\n\n                       <div class="card-text">PERIOD</div>\n                        <div>' + arr[l].swell.components.primary.period + ' SECONDS</div>\n                    </div>\n                </div>\n                <div class="row">\n                <div class="col">\n                        <div class="card-text">WIND</div>\n                    </div>\n                </div>\n                <div class="row">\n\n                   <div class="col">\n                        <div>' + arr[l].wind.compassDirection + '</div>\n                    </div>\n                    <div class="col">\n                        <div>' + arr[l].wind.speed + ' MPH</div>\n                    </div>\n                </div>\n              </div>\n              <div class="row ">\n                  <a class="text-center col p-3" href="https://maps.google.com?q=' + arr[l].lat + ',' + arr[l].lng + '">NAVIGATE</a>\n              </div>\n              </div>\n            </div>\n        </div>');
+        $('#js-cards').append('<div class="card mt-4 mb-4">\n         <div class="card-header card-border--top">\n            <div class="row">\n              <div class="col">\n                <div class="town-text">' + arr[l].town + '</div>\n              </div>\n              <div class="col">\n                <a class="navigation-text" href="https://maps.google.com?q=' + arr[l].lat + ',' + arr[l].lng + '">NAVIGATE</a>\n               </div>\n            </div>\n        </div>\n\n        <img class="card-img-top img-fluid" src="https://maps.googleapis.com/maps/api/staticmap?center=' + arr[l].lat + ',' + arr[l].lng + '&zoom=13&size=500x150&key=AIzaSyBwKCefMD-LRIuQvwoGCbsFkcGKas0hjo4" alt="Card image cap">\n            <div class="card-block pt-0">\n\n              <div class="row">\n                <div class="col">\n                  <div class="swell-text text-color text-center swellHeight' + l + '">' + arr[l].swell.components.combined.height + '</div>\n                  <div class="swell-sub-text text-color text-center">SWELL HEIGHT - <span>ft</span></div>\n                </div>\n              </div>\n\n\n                <div class="row">\n\n                    <div class="col">\n                       <div class="card-text">DIRECTION</div>\n                        <div>' + arr[l].swell.components.primary.compassDirection + '</div>\n                        <div class="card-text">PERIOD</div>\n                        <div>' + arr[l].swell.components.primary.period + ' SECONDS</div>\n                    </div>\n                </div>\n                <div class="row">\n                <div class="col">\n                        <div class="card-text">WIND</div>\n                    </div>\n                </div>\n                <div class="row">\n\n                   <div class="col">\n                        <div>' + arr[l].wind.compassDirection + '</div>\n                    </div>\n                    <div class="col">\n                        <div>' + arr[l].wind.speed + ' MPH</div>\n                    </div>\n                </div>\n              </div>\n\n              </div>\n            </div>\n        </div>');
     }
 };
+
+function surfHeight() {
+    for (var m = 0; m < 20; m++) {
+        if (parseFloat($('.swellHeight' + m).text()) <= 2.5) {
+            $('.swellHeight' + m).append('<img src="assets/surf-height-red.png">');
+        } else if (parseFloat($('.swellHeight' + m).text()) > 2.5 && parseFloat($('.swellHeight' + m).text()) < 4) {
+            $('.swellHeight' + m).append('<img src="assets/surf-height-teal.png">');
+        } else {
+            $('.swellHeight' + m).append('<img src="assets/surf-height-green.png">');
+        };
+    }
+}
 
 /***/ }),
 /* 125 */

@@ -89,6 +89,7 @@ const handleData = (values) => {
        locations.sort( (a, b) => a.overallRating <= b.overallRating ? 1 : -1);
 
        drawHtml(locations)
+       surfHeight();
     })
 }
 
@@ -120,27 +121,35 @@ const handleDataResults = (results, values) => {
 const drawHtml = (arr) => {
     for (let l = 0; l < arr.length; l++){
         $('#js-cards').append(
-        `
-        <div class="card-border--top"
+        `<div class="card mt-4 mb-4">
+         <div class="card-header card-border--top">
+            <div class="row">
+              <div class="col">
+                <div class="town-text">${arr[l].town}</div>
+              </div>
+              <div class="col">
+                <a class="navigation-text" href="https://maps.google.com?q=${arr[l].lat},${arr[l].lng}">NAVIGATE</a>
+               </div>
+            </div>
         </div>
-        <div class="card mt-4 mb-4">
-            <img class="card-img-top img-fluid" src="https://maps.googleapis.com/maps/api/staticmap?center=${arr[l].lat},${arr[l].lng}&zoom=13&size=500x300&key=AIzaSyBwKCefMD-LRIuQvwoGCbsFkcGKas0hjo4" alt="Card image cap">
-            <div class="card-block">
-                <div class="row">
-                    <div class="col">
-                       <div class="card-title">${arr[l].town}</div>
-                    </div>
+
+        <img class="card-img-top img-fluid" src="https://maps.googleapis.com/maps/api/staticmap?center=${arr[l].lat},${arr[l].lng}&zoom=13&size=500x150&key=AIzaSyBwKCefMD-LRIuQvwoGCbsFkcGKas0hjo4" alt="Card image cap">
+            <div class="card-block pt-0">
+
+              <div class="row">
+                <div class="col">
+                  <div class="swell-text text-color text-center swellHeight${l}">${arr[l].swell.components.combined.height}</div>
+                  <div class="swell-sub-text text-color text-center">SWELL HEIGHT - <span>ft</span></div>
                 </div>
+              </div>
+
+
                 <div class="row">
-                    <div class="col">
-                       <div class="card-text">SWELL HEIGHT</div>
-                        <div>${arr[l].swell.maxBreakingHeight} FT</div>
-                    </div>
+
                     <div class="col">
                        <div class="card-text">DIRECTION</div>
                         <div>${arr[l].swell.components.primary.compassDirection}</div>
-
-                       <div class="card-text">PERIOD</div>
+                        <div class="card-text">PERIOD</div>
                         <div>${arr[l].swell.components.primary.period} SECONDS</div>
                     </div>
                 </div>
@@ -159,11 +168,22 @@ const drawHtml = (arr) => {
                     </div>
                 </div>
               </div>
-              <div class="row ">
-                  <a class="text-center col p-3" href="https://maps.google.com?q=${arr[l].lat},${arr[l].lng}">NAVIGATE</a>
-              </div>
+
               </div>
             </div>
         </div>`);
+
     }
+}
+
+function surfHeight() {
+  for (let m = 0; m < 20; m++) {
+    if((parseFloat($('.swellHeight'+m).text())) <= 2.5) {
+      $('.swellHeight'+m).append('<img src="assets/surf-height-red.png">');
+    } else if ((parseFloat($('.swellHeight'+m).text())) > 2.5 && (parseFloat($('.swellHeight'+m).text())) < 4) {
+      $('.swellHeight'+m).append('<img src="assets/surf-height-teal.png">');
+    } else {
+      $('.swellHeight'+m).append('<img src="assets/surf-height-green.png">')
+    } ;
+  }
 }
