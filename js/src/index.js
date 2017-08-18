@@ -124,12 +124,10 @@ const drawHtml = (arr) => {
         `<div class="card mt-4 mb-4">
            <div class="card-header card-border--top">
               <div class="row">
-                <div class="col-8">
-                  <div class="town-text">${arr[l].town}</div>
+                <div class="col-12">
+                  <div class="town-text text-center">${arr[l].town}</div>
                 </div>
-                <div class="col-4">
-                  <a class="navigation-text" href="https://maps.google.com?q=${arr[l].lat},${arr[l].lng}">NAVIGATE</a>
-                 </div>
+
               </div>
           </div>
           <img class="card-img-top img-fluid" src="https://maps.googleapis.com/maps/api/staticmap?center=${arr[l].lat},${arr[l].lng}&zoom=13&size=500x150&key=AIzaSyBwKCefMD-LRIuQvwoGCbsFkcGKas0hjo4" alt="Card image cap">
@@ -140,19 +138,24 @@ const drawHtml = (arr) => {
                 <div class="swell-sub-text text-color text-center">SWELL HEIGHT - <span>ft</span></div>
               </div>
             </div>
-            <div class="row">
+            <div class="row mt-3">
                 <div class="col">
-                  <div class="wind-direction-text text-color">${arr[l].wind.compassDirection} <img src="assets/wind-directions/south-west.png"> </div>
-                  <div class="wind-direction-sub-text text-color">WIND DIRECTION</div>
+                  <div class="wind-direction-text text-color text-center ">${arr[l].wind.compassDirection} <img src="assets/wind-directions/south-west.png"> </div>
+                  <div class="wind-direction-sub-text text-color text-center ">WIND DIRECTION</div>
                 </div>
                 <div class="col">
-                  <div class="wind-speed-text text-color" >${arr[l].wind.speed} <img src="assets/wind-speed.png"></div>
-                  <div class="wind-speed-sub-text text-color">WIND SPEED - <span>mph</span></div>
+                  <div class="wind-speed-text text-color text-center " >${arr[l].wind.speed} <img src="assets/wind-speed.png"></div>
+                  <div class="wind-speed-sub-text text-color text-center ">WIND SPEED - <span>mph</span></div>
                 </div>
                 <div class="col">
-                  <div class="swell-period-text text-color">${arr[l].swell.components.primary.period} <img src="assets/swell-period.png"></div>
-                  <div class="swell-period-sub-text text-color">SWELL PERIOD - <span>seconds</span></div>
+                  <div class="swell-period-text text-color text-center ">${arr[l].swell.components.primary.period} <img src="assets/swell-period.png"></div>
+                  <div class="swell-period-sub-text text-color text-center ">SWELL PERIOD - <span>seconds</span></div>
                 </div>
+              </div>
+              <div class="row mt-6 mb-4">
+                <div class="col text-center">
+                  <a class="navigation" href="https://maps.google.com?q=${arr[l].lat},${arr[l].lng}">NAVIGATe</a>
+                  </div>
               </div>
             </div>
           </div>

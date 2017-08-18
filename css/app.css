@@ -3,6 +3,10 @@ font-family: skolar-sans-latin, sans-serif;
 background-color: #efefef;
 }
 
+.card {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
 .text-color {
   color: #42525f;
 }
@@ -13,13 +17,17 @@ background-color: #efefef;
   height: 75px;
 }
 
+.mt-6 {
+  margin-top: 45px;
+}
+
 /*---------- card styling --------- */
 
 .card-header {
   height: 45px;
   background-color: #dac76d;
   border-bottom: 3px solid #c9b764;
-  padding: 3px;
+  padding: 0px;
 }
 
 
@@ -31,19 +39,48 @@ background-color: #efefef;
   color: white;
   font-size: 14px;
   width: 100%;
-  float: left;
   font-weight: 500;
+  position: relative;
+  top: 5px;
 }
 
-.navigation-text {
+.navigation {
   font-style: normal;
-  font-weight: 300;
+  font-weight: 500;
   text-decoration: none;
   text-transform: uppercase;
-  padding: 5px;
   color: white;
   font-size: 12px;
-  float: right;
+  background-color: #9ad56f;
+  padding: 8px 13px 10px 13px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  transition: .2s;
+}
+
+.navigation:hover, .navigation:active {
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  background-color: #93cc69;
+}
+
+.card-header .col-3 {
+  border-left: 2px solid  #c9b764;
+  background-color: #b7a65a;
+}
+
+.card-header .row {
+  height: 100%;
+}
+
+.navigation img {
+  width: 25px;
+  position: relative;
+  top: 0px;
+  margin-right: 5px;
 }
 
 .card-img-top {
@@ -66,6 +103,7 @@ background-color: #efefef;
   font-weight: 300;
   position: relative;
   top: -10px;
+  font-size: 14px;
 }
 
 .swell-sub-text span {
