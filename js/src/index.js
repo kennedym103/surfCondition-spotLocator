@@ -122,17 +122,16 @@ const drawHtml = (arr) => {
     for (let l = 0; l < arr.length; l++){
         $('#js-cards').append(
         `<div class="card mt-4 mb-4">
-           <div class="card-header card-border--top">
-              <div class="row">
-                <div class="col-12">
-                  <div class="town-text text-center">${arr[l].town}</div>
-                </div>
 
-              </div>
-          </div>
-          <img class="card-img-top img-fluid" src="https://maps.googleapis.com/maps/api/staticmap?center=${arr[l].lat},${arr[l].lng}&zoom=13&size=500x150&key=AIzaSyBwKCefMD-LRIuQvwoGCbsFkcGKas0hjo4" alt="Card image cap">
+          <img class="card-img-top img-fluid" src="https://maps.googleapis.com/maps/api/staticmap?center=${arr[l].lat},${arr[l].lng}&zoom=13&size=500x250&&style=feature:water|element:all|color:0x92afd1&key=AIzaSyBwKCefMD-LRIuQvwoGCbsFkcGKas0hjo4" alt="Card image cap">
+
           <div class="card-block pt-0">
             <div class="row">
+              <div class="col">
+                <div class="town-text text-color text-center">current conditions at ${arr[l].town}</div>
+              </div>
+            </div>
+            <div class="row border-t">
               <div class="col">
                 <div class="swell-text text-color text-center swellHeight${l}">${arr[l].swell.components.combined.height}</div>
                 <div class="swell-sub-text text-color text-center">SWELL HEIGHT - <span>ft</span></div>
@@ -152,9 +151,17 @@ const drawHtml = (arr) => {
                   <div class="swell-period-sub-text text-color text-center ">SWELL PERIOD - <span>seconds</span></div>
                 </div>
               </div>
-              <div class="row mt-6 mb-4">
+              <div class="row mt-6">
+              <div class="col-4">
+              <a class="navigation" href="https://maps.google.com?q=${arr[l].lat},${arr[l].lng}">NAVIGATe</a>
+
+              </div>
+              <div class="col-4"></div>
+              <div class="col-4"></div>
+              </div>
+              <div class="row ">
                 <div class="col text-center">
-                  <a class="navigation" href="https://maps.google.com?q=${arr[l].lat},${arr[l].lng}">NAVIGATe</a>
+
                   </div>
               </div>
             </div>
