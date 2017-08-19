@@ -9,6 +9,7 @@ background-color: #efefef;
 
 .text-color {
   color: #42525f;
+  letter-spacing: .75px;
 }
 
 .header {
@@ -21,6 +22,10 @@ background-color: #efefef;
   margin-top: 45px;
 }
 
+.border-t {
+  border-top: 1px solid #ccc;
+}
+
 /*---------- card styling --------- */
 
 .card-header {
@@ -30,18 +35,20 @@ background-color: #efefef;
   padding: 0px;
 }
 
+.no-height{
+  height: 0px;
+  }
+
 
 .town-text {
   font-style: normal;
   font-weight: 300;
   text-transform: uppercase;
   padding: 5px;
-  color: white;
-  font-size: 14px;
-  width: 100%;
-  font-weight: 500;
-  position: relative;
-  top: 5px;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+  color: #999;
 }
 
 .navigation {
@@ -51,10 +58,10 @@ background-color: #efefef;
   text-transform: uppercase;
   color: white;
   font-size: 12px;
-  background-color: #9ad56f;
-  padding: 8px 13px 10px 13px;
-  border-radius: 3px;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  color: #42525f;
+
+
+
   transition: .2s;
 }
 
@@ -62,9 +69,7 @@ background-color: #efefef;
   font-style: normal;
   font-weight: 500;
   text-decoration: none;
-  color: white;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
-  background-color: #93cc69;
+
 }
 
 .card-header .col-3 {
