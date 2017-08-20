@@ -62,7 +62,7 @@ background-color: #efefef;
   text-transform: uppercase;
   color: white;
   font-size: 8px;
-  color: #ccc;
+  color: #aaa;
   transition: .2s;
   display: flex;
   flex-direction: column;
@@ -70,7 +70,7 @@ background-color: #efefef;
   letter-spacing: 1.25px;
 }
 
-.navigation:hover, .navigation:active {
+.navigation:hover, .navigation:active, .navigation:focus {
   font-style: normal;
   font-weight: 500;
   text-decoration: none;
@@ -80,11 +80,78 @@ background-color: #efefef;
 .navigation svg {
   height: 30px;
   stroke: 1px;
-  fill: #ccc;
+  fill: #aaa;
+  padding-bottom: 3px;
 }
 
-.navigation svg:hover {
+.navigation svg:hover, .navigation svg:active, .navigation svg:focus {
   fill: #91c27e;
+}
+
+.more-data {
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 8px;
+  color: #aaa;
+  transition: .2s;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  letter-spacing: 1.25px;
+}
+
+.more-data svg {
+  height: 30px;
+  fill: none;
+  stroke:#aaa;
+  stroke-width:25.6835;
+  stroke-linecap:round
+
+}
+
+.more-data:hover, .more-data:active, .more-data:focus {
+  color: #d8a972;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.more-data svg:hover, .more-data svg:active, .more-data svg:focus {
+  stroke:#d8a972;
+}
+
+.share {
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 8px;
+  color: #aaa !important;
+  transition: .2s;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  letter-spacing: 1.25px;
+}
+
+.share svg {
+  height: 30px;
+  fill: #aaa;
+}
+
+.share:hover, .share:active, .share:focus {
+  color: #72aed8 !important;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.share svg:hover, .share svg:active, .share svg:focus {
+  stroke:#72aed8;
 }
 
 .card-header .col-3 {
@@ -190,16 +257,4 @@ background-color: #efefef;
 .swell-period-sub-text span {
   font-weight: 300;
   font-style: italic;
-}
-
-
-
-
-
-
-@media only screen and (max-width:700px) {
-  .town-text {
-    font-size: 12px;
-
-  }
 }

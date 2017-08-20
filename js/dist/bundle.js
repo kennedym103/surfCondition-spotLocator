@@ -3705,6 +3705,7 @@ if (fails(function () { return new $WeakMap().set((Object.freeze || Object)(tmp)
 var data = __webpack_require__(126);
 var $ = __webpack_require__(332);
 var location = data.array;
+var locationsNextThreeHours = data.array2;
 var Dexie = __webpack_require__(330);
 
 var getGeolocationData = function getGeolocationData() {
@@ -3790,13 +3791,12 @@ var handleData = function handleData(values) {
 
     Promise.all(promises).then(function (resultsArr) {
         var locations = handleDataResults(resultsArr, values);
+        var locationsNextThreeHours = handleDataResultsNext(resultsArr, values);
         // sort locations
 
-        locations.sort(function (a, b) {
-            return a.overallRating <= b.overallRating ? 1 : -1;
-        });
-
-        drawHtml(locations);
+        //  locations.sort( (a, b) => a.overallRating <= b.overallRating ? 1 : -1);
+        //  locationsNextThreeHours.sort( (a, b) => a.overallRating <= b.overallRating ? 1 : -1);
+        drawHtml(locations, locationsNextThreeHours);
         surfHeight();
         addIcons();
     });
@@ -3827,9 +3827,34 @@ var handleDataResults = function handleDataResults(results, values) {
     return locations;
 };
 
-var drawHtml = function drawHtml(arr) {
-    for (var l = 0; l < arr.length; l++) {
-        $('#js-cards').append('<div class="card mt-4 mb-4">\n\n          <img class="card-img-top img-fluid" src="https://maps.googleapis.com/maps/api/staticmap?center=' + arr[l].lat + ',' + arr[l].lng + '&zoom=13&size=500x250&&style=feature:water|element:all|color:0x92afd1&key=AIzaSyBwKCefMD-LRIuQvwoGCbsFkcGKas0hjo4" alt="Card image cap">\n\n          <div class="card-block pt-0 pb-0">\n            <div class="row">\n              <div class="col">\n                <div class="town-text text-center">current conditions at ' + arr[l].town + '</div>\n              </div>\n            </div>\n            <div class="row border-t">\n              <div class="col">\n                <div class="swell-text text-color text-center swellHeight' + l + '">' + arr[l].swell.components.combined.height + '</div>\n                <div class="swell-sub-text text-color text-center">SWELL HEIGHT - <span>ft</span></div>\n              </div>\n            </div>\n          <div class="row mt-3">\n              <div class="col">\n                <div class="wind-direction-text text-color text-center ">' + arr[l].wind.compassDirection + ' <img src="assets/wind-directions/south-west.png"> </div>\n                <div class="wind-direction-sub-text text-color text-center ">WIND DIRECTION</div>\n              </div>\n              <div class="col">\n                <div class="wind-speed-text text-color text-center " >' + arr[l].wind.speed + ' <img src="assets/wind-speed.png"></div>\n                <div class="wind-speed-sub-text text-color text-center ">WIND SPEED - <span>mph</span></div>\n              </div>\n              <div class="col">\n                <div class="swell-period-text text-color text-center">' + arr[l].swell.components.primary.period + ' <img src="assets/swell-period.png"></div>\n                <div class="swell-period-sub-text text-color text-center ">SWELL PERIOD - <span>seconds</span></div>\n              </div>\n            </div>\n            <div class="collapse border-t mt-3" id="more-surf-data' + l + '">\n              <div class="row">\n                <div class="col pt-3">\n                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.\n                </div>\n              </div>\n            </div>\n            <div class="row mt-4 btn-container border-t">\n              <div class="col-4 mt-3 mb-3">\n              <a class="btn btn-primary" data-toggle="collapse" href="#more-surf-data' + l + '" aria-expanded="false" aria-controls="collapseExample">\n                Link with href\n              </a>\n              </div>\n              <div class="col-4 mt-3 mb-3">\n              </div>\n              <div class="col-4 mt-3 mb-3">\n              <a class="navigation text-center" href="https://maps.google.com?q=' + arr[l].lat + ',' + arr[l].lng + '"><span>NAVIGATE</span></a>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>');
+var handleDataResultsNext = function handleDataResultsNext(results, values) {
+
+    var currNow = new Date().getTime();
+    var locationsNextThreeHours = [];
+
+    for (var j = 0; j < results.length; j++) {
+
+        for (var k = 0; k < results[j].length; k++) {
+
+            if (currNow < results[j][k].timestamp * 1000) {
+
+                var data1 = results[j][k];
+                data1.overallRating = data1.solidRating + data1.fadedRating * 2;
+                var nextThreeHours = Object.assign({}, data1, values[j]);
+
+                locationsNextThreeHours.push(nextThreeHours);
+                break;
+            }
+        }
+    }
+
+    console.log(locationsNextThreeHours);
+    return locationsNextThreeHours;
+};
+
+var drawHtml = function drawHtml(arr, arr2) {
+    for (var l = 0; l < arr.length && arr2.length; l++) {
+        $('#js-cards').append('<div class="card mt-4 mb-4">\n\n          <img class="card-img-top img-fluid" src="https://maps.googleapis.com/maps/api/staticmap?center=' + arr[l].lat + ',' + arr[l].lng + '&zoom=13&size=500x250&&style=feature:water|element:all|color:0x92afd1&key=AIzaSyBwKCefMD-LRIuQvwoGCbsFkcGKas0hjo4" alt="Card image cap">\n\n          <div class="card-block pt-0 pb-0">\n            <div class="row">\n              <div class="col">\n                <div class="town-text text-center">conditions at ' + arr[l].town + '</div>\n              </div>\n            </div>\n            <div class="row border-t">\n              <div class="col">\n                <div class="swell-text text-color text-center swellHeight' + l + '">' + arr[l].swell.components.combined.height + '</div>\n                <div class="swell-sub-text text-color text-center">SURF HEIGHT - <span>ft</span></div>\n              </div>\n            </div>\n          <div class="row mt-3">\n              <div class="col">\n                <div class="wind-direction-text text-color text-center ">' + arr[l].wind.compassDirection + ' <img src="assets/wind-directions/south-west.png"> </div>\n                <div class="wind-direction-sub-text text-color text-center ">WIND DIRECTION</div>\n              </div>\n              <div class="col">\n                <div class="wind-speed-text text-color text-center " >' + arr[l].wind.speed + ' <img src="assets/wind-speed.png"></div>\n                <div class="wind-speed-sub-text text-color text-center ">WIND SPEED - <span>mph</span></div>\n              </div>\n              <div class="col">\n                <div class="swell-period-text text-color text-center">' + arr[l].swell.components.primary.period + ' <img src="assets/swell-period.png"></div>\n                <div class="swell-period-sub-text text-color text-center ">SWELL PERIOD - <span>seconds</span></div>\n              </div>\n            </div>\n            <div class=" row collapse border-t mt-3" id="more-surf-data' + l + '">\n                <div class="col pt-3 p-3 pb-0">\n                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.\n              </div>\n            </div>\n            <div class="row mt-4 btn-container border-t">\n              <div class="col-4 mt-3 mb-3">\n                <a class="more-data text-center" data-toggle="collapse" href="#more-surf-data' + l + '" aria-expanded="false" aria-controls="more-data">\n                <span>MORE</span>\n                </a>\n              </div>\n              <div class="col-4 mt-3 mb-3">\n                <a href="https://maps.google.com?q=' + arr[l].lat + ',' + arr[l].lng + '" class="share text-center"><span>SHARE</span></a>\n              </div>\n              <div class="col-4 mt-3 mb-3">\n                <a class="navigation text-center" href="https://maps.google.com?q=' + arr[l].lat + ',' + arr[l].lng + '"><span>NAVIGATE</span></a>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>');
     }
 };
 
@@ -3846,7 +3871,9 @@ function surfHeight() {
 }
 
 function addIcons() {
-    $('.navigation').prepend('<svg xmlns:x="http://ns.adobe.com/Extensibility/1.0/" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/" xmlns:graph="http://ns.adobe.com/Graphs/1.0/" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="-949 951 100 125" style="enable-background:new -949 951 100 100;" xml:space="preserve"><switch><foreignObject requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" x="0" y="0" width="1" height="1"/><g i:extraneous="self"><path d="M-886.6,1047.5c-3.6,0-6.9-2-8.4-5.3l-14.6-30.3c0-0.1-0.1-0.2-0.2-0.2l-30.3-14.6c-3.5-1.7-5.5-5.2-5.3-9.1    c0.2-3.8,2.8-7.1,6.4-8.3l74.2-24.7c3.4-1.1,7.1-0.3,9.6,2.3c2.5,2.5,3.4,6.2,2.3,9.6l-24.7,74.2c-1.2,3.6-4.5,6.2-8.3,6.4    C-886.2,1047.5-886.4,1047.5-886.6,1047.5z M-861.9,962.5c-0.1,0-0.3,0-0.4,0.1l-74.2,24.7c-0.8,0.3-0.9,0.9-0.9,1.2    c0,0.3,0,1,0.8,1.3l30.3,14.6c1.7,0.8,3.1,2.2,4,4l14.6,30.3c0.4,0.7,1,0.8,1.3,0.8c0.3,0,1-0.2,1.2-0.9l24.7-74.2    c0.2-0.5,0-1-0.3-1.4C-861.2,962.6-861.5,962.5-861.9,962.5z"/></g></switch></svg>');
+    $('.navigation').prepend('<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve"> <g id="Layer_1"> </g> <g id="Layer_2"> <path class="st0" d="M60.7,91.8c-2.4,0-4.3-1.1-5.6-2c-0.9-0.6-1.6-1.5-2.1-2.5L40.3,59.7c-0.2-0.4-0.5-0.8-0.9-1L11,44.2 c-1.6-0.8-2.9-2.3-3.4-4.1c-0.5-1.7-0.3-3.5,0.6-5c0,0,0.1-0.1,0.1-0.1c0.8-1.3,2-2.2,3.5-2.7L81.7,8.6c1-0.3,1.9-0.4,2.9-0.3 c3.2,0.4,5.4,2.5,6,5.7c0.2,1.1,0.1,2.2-0.2,3.3L67,87.3c-0.8,2.5-3.2,4.3-5.8,4.5C61,91.8,60.9,91.8,60.7,91.8z M83.8,12.7 c-0.2,0-0.4,0-0.7,0.1L13.2,36.5c-0.5,0.2-0.8,0.4-1.1,0.8c-0.4,0.6-0.3,1.2-0.2,1.5c0.2,0.6,0.6,1.1,1.1,1.3c0,0,0,0,0,0 l28.3,14.5c1.3,0.7,2.4,1.8,3,3.1l12.8,27.6c0.1,0.3,0.4,0.6,0.6,0.8c0.6,0.4,1.8,1.2,3.1,1.1c0.8,0,1.5-0.6,1.7-1.4l23.4-70 c0.1-0.3,0.1-0.7,0.1-1c-0.3-1.6-1.3-1.9-2.2-2C83.9,12.8,83.8,12.7,83.8,12.7z"/></g> </svg>');
+    $('.more-data').prepend('<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality;" viewBox="0 0 500 441.91875000000005" x="0px" y="0px" fill-rule="evenodd" clip-rule="evenodd"><g><path class="fil0 str0" d="M38.548 114.784c19.9892,-26.7694 60.4079,-47.282 105.447,-53.5096 41.4662,-5.73316 81.0744,1.45825 105.431,19.1333m-210.879 216.801c19.9892,-26.7695 60.4079,-47.2823 105.447,-53.5096 41.4662,-5.73367 81.0744,1.45774 105.431,19.1328m212.025 -24.0808c-20.6343,25.8111 -61.5328,44.4052 -106.699,48.5039 -41.8399,3.79714 -81.4677,-5.39444 -105.327,-24.4231m-210.878 -56.8355c19.9892,-26.7694 60.4079,-47.2823 105.447,-53.5099 41.4662,-5.73316 81.0744,1.45825 105.431,19.1332m212.025 -115.293c-20.6343,25.8108 -61.5328,44.4049 -106.699,48.5039 -41.8399,3.79731 -81.4677,-5.39428 -105.327,-24.4229m212.026 67.1313c-20.6343,25.8111 -61.5328,44.4049 -106.699,48.5039 -41.8399,3.79731 -81.4677,-5.39428 -105.327,-24.4231"/></g></svg>');
+    $('.share').prepend('<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve"> <path d="M74.1,37.6c1.2,0.5,2.4,0.7,3.6,0.7c1.3,0,2.6-0.3,3.8-0.8c2.4-1,4.2-2.9,5.2-5.3c1-2.4,0.9-5.1-0.1-7.5 c-1-2.4-2.9-4.2-5.3-5.2c-2.4-1-5.1-0.9-7.5,0.1c-2.4,1-4.2,2.9-5.2,5.3c-0.7,1.7-0.8,3.5-0.6,5.2L30,44.5 c-1.8-2.1-4.5-3.5-7.5-3.5c-5.4,0-9.8,4.4-9.8,9.8s4.4,9.8,9.8,9.8c3,0,5.8-1.4,7.6-3.6L66.7,71c0,0.2,0,0.5,0,0.7 c0,5.4,4.4,9.8,9.8,9.8s9.8-4.4,9.8-9.8s-4.4-9.8-9.8-9.8c-3.5,0-6.7,1.9-8.4,4.8L32,52.8c0.1-0.7,0.2-1.4,0.2-2.1 c0-0.8-0.1-1.5-0.3-2.2l37.9-14.2C70.9,35.8,72.4,36.9,74.1,37.6z M76.4,66.4c2.9,0,5.3,2.4,5.3,5.3s-2.4,5.3-5.3,5.3 s-5.3-2.4-5.3-5.3S73.5,66.4,76.4,66.4z M22.5,56c-2.9,0-5.3-2.4-5.3-5.3c0-2.9,2.4-5.3,5.3-5.3s5.3,2.4,5.3,5.3 C27.8,53.6,25.4,56,22.5,56z M72.9,26.6c0.5-1.3,1.5-2.3,2.8-2.9c0.7-0.3,1.4-0.4,2.1-0.4c0.7,0,1.3,0.1,2,0.4 c1.3,0.5,2.3,1.5,2.9,2.8s0.6,2.7,0,4c-0.5,1.3-1.5,2.3-2.8,2.9c-1.3,0.6-2.7,0.6-4,0c-1.3-0.5-2.3-1.5-2.9-2.8v0 C72.4,29.4,72.4,27.9,72.9,26.6z"/></svg>');
 }
 
 /***/ }),
