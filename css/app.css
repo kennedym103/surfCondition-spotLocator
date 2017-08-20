@@ -18,8 +18,8 @@ background-color: #efefef;
   height: 75px;
 }
 
-.mt-6 {
-  margin-top: 45px;
+.mt-4 {
+  margin-top: 25px;
 }
 
 .border-t {
@@ -51,25 +51,40 @@ background-color: #efefef;
   color: #999;
 }
 
+.btn-container {
+
+}
+
 .navigation {
   font-style: normal;
   font-weight: 500;
   text-decoration: none;
   text-transform: uppercase;
   color: white;
-  font-size: 12px;
-  color: #42525f;
-
-
-
+  font-size: 8px;
+  color: #ccc;
   transition: .2s;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  letter-spacing: 1.25px;
 }
 
 .navigation:hover, .navigation:active {
   font-style: normal;
   font-weight: 500;
   text-decoration: none;
+  color: #91c27e;
+}
 
+.navigation svg {
+  height: 30px;
+  stroke: 1px;
+  fill: #ccc;
+}
+
+.navigation svg:hover {
+  fill: #91c27e;
 }
 
 .card-header .col-3 {
