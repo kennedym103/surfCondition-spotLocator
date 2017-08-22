@@ -86,11 +86,17 @@ const handleData = (values) => {
     Promise.all(promises).then(resultsArr => {
        const locations = handleDataResults(resultsArr, values)
        const locationsNextThreeHours = handleDataResultsNext(resultsArr, values)
-       // sort locations
 
-      //  locations.sort( (a, b) => a.overallRating <= b.overallRating ? 1 : -1);
-      //  locationsNextThreeHours.sort( (a, b) => a.overallRating <= b.overallRating ? 1 : -1);
-       drawHtml(locations, locationsNextThreeHours);
+       //  sort locations
+
+       locations.sort( (a, b) => a.overallRating <= b.overallRating ? 1 : -1)
+
+
+       var finalArray = [locations, sortedLocationsNextThreeHours];
+
+      console.log(finalArray);
+
+       drawHtml(finalArray[0], finalArray[1]);
        surfHeight();
        addIcons();
     })
