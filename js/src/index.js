@@ -88,16 +88,26 @@ const handleData = (values) => {
        const locationsNextThreeHours = handleDataResultsNext(resultsArr, values)
 
        //  sort locations
-
-       locations.sort( (a, b) => a.overallRating <= b.overallRating ? 1 : -1)
        var finalArray = locations.concat(locationsNextThreeHours);
-       finalArray.sort( (a, b) => a.town <= b.town ? 1 : -1)
+
+        finalArray.sort(function (a, b) {
+
+          if(a.town == b.town)
+          {
+              return (a.overallRating  < b.overallRating ) ? -1 : (a.overallRating  > b.overallRating ) ? 1 : 0;
+          }
+          else
+          {
+              return (a.overallRating  < b.overallRating ) ? -1 : 1;
+          }
+      });
+
        const finalLocations = finalArray.filter((element, index) => {
-        return index % 2 === 0;
-      })
+          return index % 2 === 0;
+        })
       const finalLocationsNextThreeHours = finalArray.filter((element, index) => {
-       return index % 2 === 1;
-     })
+         return index % 2 === 1;
+       })
 
        console.log(finalLocations);
        console.log(finalLocationsNextThreeHours);
@@ -169,7 +179,7 @@ const drawHtml = (arr, arr2) => {
           <div class="card-block pt-0 pb-0">
             <div class="row">
               <div class="col">
-                <div class="town-text text-center">conditions at ${arr[l].town} ${arr2[l].town}</div>
+                <div class="town-text text-center">conditions at ${arr[l].town}</div>
               </div>
             </div>
             <div class="row border-t">
