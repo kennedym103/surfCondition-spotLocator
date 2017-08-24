@@ -90,13 +90,19 @@ const handleData = (values) => {
        //  sort locations
 
        locations.sort( (a, b) => a.overallRating <= b.overallRating ? 1 : -1)
+       var finalArray = locations.concat(locationsNextThreeHours);
+       finalArray.sort( (a, b) => a.town <= b.town ? 1 : -1)
+       const finalLocations = finalArray.filter((element, index) => {
+        return index % 2 === 0;
+      })
+      const finalLocationsNextThreeHours = finalArray.filter((element, index) => {
+       return index % 2 === 1;
+     })
 
+       console.log(finalLocations);
+       console.log(finalLocationsNextThreeHours);
 
-       var finalArray = [locations, sortedLocationsNextThreeHours];
-
-      console.log(finalArray);
-
-       drawHtml(finalArray[0], finalArray[1]);
+       drawHtml(finalLocations, finalLocationsNextThreeHours);
        surfHeight();
        addIcons();
     })
@@ -123,7 +129,7 @@ const handleDataResults = (results, values) => {
         }
     }
 
-    console.log(locations)
+
     return locations;
 }
 
@@ -148,12 +154,12 @@ const handleDataResultsNext = (results, values) => {
         }
     }
 
-    console.log(locationsNextThreeHours)
+
     return locationsNextThreeHours;
 }
 
 
-const drawHtml = (arr , arr2) => {
+const drawHtml = (arr, arr2) => {
     for (let l = 0; l < arr.length && arr2.length; l++){
         $('#js-cards').append(
         `<div class="card mt-4 mb-4">
@@ -163,7 +169,7 @@ const drawHtml = (arr , arr2) => {
           <div class="card-block pt-0 pb-0">
             <div class="row">
               <div class="col">
-                <div class="town-text text-center">conditions at ${arr[l].town}</div>
+                <div class="town-text text-center">conditions at ${arr[l].town} ${arr2[l].town}</div>
               </div>
             </div>
             <div class="row border-t">
