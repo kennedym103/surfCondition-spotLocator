@@ -189,7 +189,7 @@ const drawHtml = (arr, arr2) => {
               </div>
             </div>
           <div class="row mt-3">
-              <div class="col">
+              <div class="col pl-0">
                 <div class="wind-direction-text text-color text-center ">${arr[l].wind.compassDirection} <img src="assets/wind-directions/south-west.png"> </div>
                 <div class="wind-direction-sub-text text-color text-center ">WIND DIRECTION</div>
               </div>
@@ -203,9 +203,32 @@ const drawHtml = (arr, arr2) => {
               </div>
             </div>
             <div class=" row collapse border-t mt-3" id="more-surf-data${l}">
-                <div class="col pt-3 p-3 pb-0">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-              </div>
+                <div class="row ">
+                   <div class="col ">
+                       <div class="town-text text-center">
+                        SECONDARY CONDITIONS
+                       </div>
+
+                   </div>
+                </div>
+                <div class="col border-t">
+                </div>
+                <div class="row ">
+                  <div class="col pt-3 p-3 pb-0">
+
+
+                  </div>
+                  <div class="col pt-3 p-3 pb-0">
+
+                  </div>
+                  <div class="col pt-3 p-3 pb-0">
+
+                  </div>
+                  <div class="col pt-3 p-3 pb-0">
+                    <div class="wind-direction-text text-color text-center "> <img src="http://cdnimages.magicseaweed.com/30x30/${arr[l].condition.weather}.png"> </div>
+                    <div class="wind-direction-sub-text text-color text-center ">WEATHER</div>
+                  </div>
+                </div>
             </div>
             <div class="row mt-4 btn-container border-t">
               <div class="col-4 mt-3 mb-3">
