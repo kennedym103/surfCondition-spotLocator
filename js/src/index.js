@@ -92,7 +92,7 @@ const handleData = (values) => {
 
         finalArray.sort(function (a, b) {
 
-          if(a.town == b.town)
+          if(a.town === b.town)
           {
               return (a.overallRating  < b.overallRating ) ? -1 : (a.overallRating  > b.overallRating ) ? 1 : 0;
           }
@@ -215,14 +215,12 @@ const drawHtml = (arr, arr2) => {
                 </div>
                 <div class="row ">
                   <div class="col pt-3 p-3 pb-0">
-
-
+                    <div class="temperature-text text-color text-center "> ${arr[l].condition.temperature} &#176; </div>
+                    <div class="temperature-sub-text text-color text-center ">TEMPERATURE - <span>F</span></div>
                   </div>
                   <div class="col pt-3 p-3 pb-0">
-
-                  </div>
-                  <div class="col pt-3 p-3 pb-0">
-
+                    <div class="temperature-text text-color text-center "> ${arr[l].wind.chill} &#176; </div>
+                    <div class="temperature-sub-text text-color text-center ">WIND CHILL - <span>F</span></div>
                   </div>
                   <div class="col pt-3 p-3 pb-0">
                     <div class="wind-direction-text text-color text-center "> <img src="http://cdnimages.magicseaweed.com/30x30/${arr[l].condition.weather}.png"> </div>
