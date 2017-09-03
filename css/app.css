@@ -78,7 +78,7 @@ background-color: #efefef;
   letter-spacing: 1.25px;
 }
 
-.navigation:hover, .navigation:active, .navigation:focus {
+.navigation:hover, .navigation:active {
   font-style: normal;
   font-weight: 500;
   text-decoration: none;
@@ -92,7 +92,7 @@ background-color: #efefef;
   padding-bottom: 3px;
 }
 
-.navigation svg:hover, .navigation svg:active, .navigation svg:focus {
+.navigation svg:hover, .navigation svg:active {
   fill: #91c27e;
 }
 
@@ -120,14 +120,14 @@ background-color: #efefef;
 
 }
 
-.more-data:hover, .more-data:active, .more-data:focus {
+.more-data:hover, .more-data:active {
   color: #d8a972;
   font-style: normal;
   font-weight: 500;
   text-decoration: none;
 }
 
-.more-data svg:hover, .more-data svg:active, .more-data svg:focus {
+.more-data svg:hover, .more-data svg:active {
   stroke:#d8a972;
 }
 
@@ -151,14 +151,14 @@ background-color: #efefef;
   fill: #aaa;
 }
 
-.share:hover, .share:active, .share:focus {
+.share:hover, .share:active {
   color: #72aed8 !important;
   font-style: normal;
   font-weight: 500;
   text-decoration: none;
 }
 
-.share svg:hover, .share svg:active, .share svg:focus {
+.share svg:hover, .share svg:active {
   stroke:#72aed8;
 }
 
@@ -181,6 +181,8 @@ background-color: #efefef;
 .card-img-top {
   border-radius: 0;
 }
+
+/*************** MAIN CONDITIONS STYLING *****************/
 
 .swell-text {
   font-size: 65px;
@@ -223,20 +225,6 @@ background-color: #efefef;
   font-size: 8px;
 }
 
-.temperature-text {
-  font-weight: 700;
-  font-size: 25px;
-}
-
-.temperature-sub-text span {
-  font-weight: 300;
-  font-style: italic;
-}
-
-.temperature-sub-text {
-  font-weight: 300;
-  font-size: 8px;
-}
 
 .wind-speed-text {
   font-weight: 700;
@@ -282,6 +270,118 @@ background-color: #efefef;
   font-style: italic;
 }
 
+/*************** END MAIN CONDITIONS STYLING *****************/
+
+/*----------------------------------------------------------*/
+
+/*************** SECONDARY CONDITIONS STYLING *****************/
+
+
+.temperature-text {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.temperature-sub-text span {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.temperature-sub-text {
+  font-weight: 300;
+  font-size: 8px;
+}
+
+/*************** END SECONDARY CONDITIONS STYLING *****************/
+
+/*----------------------------------------------------------------*/
+
+/************************  FORECAST STYLING ***********************/
+
+
+.swell-text-forecast {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.swell-text-forecast img {
+  width: 15px;
+  position: relative;
+  top: -2px;
+  margin-left: 5px;
+}
+
+.swell-sub-text-forecast {
+  font-weight: 300;
+  font-size: 7px;
+}
+
+.swell-sub-text-forecast span {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.wind-direction-text-forecast {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.wind-direction-text-forecast img {
+  width: 15px;
+  position: relative;
+  top: -2px;
+  margin-left: 2px;
+}
+
+.wind-direction-sub-text-forecast {
+  font-weight: 300;
+  font-size: 7px;
+}
+
+
+.wind-speed-text-forecast {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.wind-speed-text-forecast img {
+  width: 15px;
+  position: relative;
+  top: -2px;
+  margin-left: 2px;
+}
+
+.wind-speed-sub-text-forecast {
+  font-weight: 300;
+  font-size: 7px;
+}
+
+.wind-speed-sub-text-forecast span {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.swell-period-text-forecast {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.swell-period-text-forecast img {
+  width: 15px;
+  position: relative;
+  top: -2px;
+  margin-left: 2px;
+}
+
+.swell-period-sub-text-forecast {
+  font-weight: 300;
+  font-size: 7px;
+}
+
+.swell-period-sub-text-forecast span {
+  font-weight: 300;
+  font-style: italic;
+}
 
 
 /*MAGIC SEAWEED WEATHER STYLES*/

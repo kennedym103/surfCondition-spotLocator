@@ -91,45 +91,48 @@ const handleData = (values) => {
        var finalArray = locations.concat(locationsNextThreeHours);
 
         finalArray.sort(function (a, b) {
+         (a.overallRating  < b.overallRating ) ? -1 : (a.overallRating  > b.overallRating ) ? 1 : 0;
+        });
 
-          if(a.town === b.town)
-          {
-              return (a.overallRating  < b.overallRating ) ? -1 : (a.overallRating  > b.overallRating ) ? 1 : 0;
-          }
-          else
-          {
-              return (a.overallRating  < b.overallRating ) ? -1 : 1;
-          }
-      });
+        finalArray.sort(function (a, b) {
+           (a.localTimestamp === b.localTimestamp) ? -1 : (a.localTimestamp !== b.localTimestamp) ? 1 : 0;
+        });
 
-       const finalLocations = finalArray.filter((element, index) => {
-          return index % 2 === 0;
+        finalArray.sort(function (a, b) {
+          (a.localTimestamp > b.localTimestamp) ? -1 : (a.localTimestamp < b.localTimestamp) ? 1 : 0;
         })
-      const finalLocationsNextThreeHours = finalArray.filter((element, index) => {
-         return index % 2 === 1;
-       })
+
+        const finalLocations = finalArray.filter((element, index) => {
+            return index < finalArray.length/2;
+        })
+        const finalLocationsNextThreeHours = finalArray.filter((element, index) => {
+            return index >= finalArray.length/2;
+        })
+
 
        console.log(finalLocations);
        console.log(finalLocationsNextThreeHours);
-
        drawHtml(finalLocations, finalLocationsNextThreeHours);
-       surfHeight();
+       surfHeight(finalLocations, finalLocationsNextThreeHours);
        addIcons();
     })
 }
 
 const handleDataResults = (results, values) => {
 
-    const currNow = new Date().getTime()
+    const currNow = new Date().getTime();
+    const currHours = new Date(currNow);
+    const hours = currHours.getHours();
     const locations = []
 
     for (let j = 0; j < results.length; j++) {
 
         for (let k = 0; k < results[j].length; k++) {
 
-            if (currNow < results[j][k].timestamp*1000 ) {
+            if (currNow < results[j][k].localTimestamp*1000 ) {
 
                 const data = results[j][k-1];
+                data.hours = hours;
                 data.overallRating = data.solidRating  + data.fadedRating * 2;
                 const dataWithValue = Object.assign({}, data, values[j])
 
@@ -145,16 +148,19 @@ const handleDataResults = (results, values) => {
 
 const handleDataResultsNext = (results, values) => {
 
-    const currNow = new Date().getTime()
+    const currNow = new Date().getTime();
+    const currHours = new Date(currNow);
+    const hours = currHours.getHours()+4;
     const locationsNextThreeHours = []
 
     for (let j = 0; j < results.length; j++) {
 
         for (let k = 0; k < results[j].length; k++) {
 
-            if (currNow < results[j][k].timestamp*1000 ) {
+            if (currNow < results[j][k].localTimestamp*1000 ) {
 
-                const data1 = results[j][k];
+                const data1 = results[j][k+3];
+                data1.hours = hours;
                 data1.overallRating = data1.solidRating  + data1.fadedRating * 2;
                 const nextThreeHours = Object.assign({}, data1, values[j])
 
@@ -163,14 +169,21 @@ const handleDataResultsNext = (results, values) => {
             }
         }
     }
-
-
     return locationsNextThreeHours;
 }
 
 
 const drawHtml = (arr, arr2) => {
     for (let l = 0; l < arr.length && arr2.length; l++){
+
+      let currentTime1 = arr2[l].hours;
+      let hours = currentTime1;
+      let ampm = hours >= 12 ? 'pm' : 'am';
+      hours = hours % 12;
+      hours = hours ? hours : 12; // the hour '0' should be '12'
+      var strTime = hours +' ' + ampm;
+
+
         $('#js-cards').append(
         `<div class="card mt-4 mb-4">
 
@@ -205,26 +218,53 @@ const drawHtml = (arr, arr2) => {
             <div class=" row collapse border-t mt-3" id="more-surf-data${l}">
                 <div class="row ">
                    <div class="col ">
-                       <div class="town-text text-center">
+                       <div class="town-text text-center pt-2">
                         SECONDARY CONDITIONS
                        </div>
 
                    </div>
                 </div>
-                <div class="col border-t">
-                </div>
+
                 <div class="row ">
-                  <div class="col pt-3 p-3 pb-0">
+                  <div class="col pr-3 pl-3 pt-2 pb-3">
                     <div class="temperature-text text-color text-center "> ${arr[l].condition.temperature} &#176; </div>
                     <div class="temperature-sub-text text-color text-center ">TEMPERATURE - <span>F</span></div>
                   </div>
-                  <div class="col pt-3 p-3 pb-0">
+                  <div class="col pr-3 pl-3 pt-2 pb-3">
                     <div class="temperature-text text-color text-center "> ${arr[l].wind.chill} &#176; </div>
                     <div class="temperature-sub-text text-color text-center ">WIND CHILL - <span>F</span></div>
                   </div>
-                  <div class="col pt-3 p-3 pb-0">
+                  <div class="col pr-3 pl-3 pt-2 pb-3">
                     <div class="wind-direction-text text-color text-center "> <img src="http://cdnimages.magicseaweed.com/30x30/${arr[l].condition.weather}.png"> </div>
                     <div class="wind-direction-sub-text text-color text-center ">WEATHER</div>
+                  </div>
+                </div>
+                <div class="col border-t">
+                </div>
+                <div class="row ">
+                   <div class="col ">
+                       <div class="town-text text-center pt-2">
+                        FORECAST - ${strTime}
+                       </div>
+                   </div>
+                </div>
+
+                <div class="row px-3">
+                  <div class="col pr-3 pl-3 pt-2 pb-0">
+                    <div class="swell-text-forecast text-color text-center swellHeightForecast${l} "> ${arr2[l].swell.components.combined.height} </div>
+                    <div class="swell-sub-text-forecast text-color text-center">SURF HEIGHT - <span>ft</span></div>
+                  </div>
+                  <div class="col pr-3 pl-3 pt-2 pb-0">
+                    <div class="swell-period-text-forecast text-color text-center">${arr[l].swell.components.primary.period} <img src="assets/swell-period.png"></div>
+                    <div class="swell-period-sub-text-forecast text-color text-center ">SWELL PERIOD - <span>seconds</span></div>
+                  </div>
+                  <div class="col pr-3 pl-3 pt-2 pb-0">
+                    <div class="wind-direction-text-forecast text-color text-center ">${arr[l].wind.compassDirection} <img src="assets/wind-directions/south-west.png"> </div>
+                    <div class="wind-direction-sub-text-forecast text-color text-center ">WIND DIRECTION</div>
+                  </div>
+                  <div class="col pr-3 pl-3 pt-2 pb-0">
+                    <div class="wind-speed-text-forecast text-color text-center " >${arr[l].wind.speed} <img src="assets/wind-speed.png"></div>
+                    <div class="wind-speed-sub-text-forecast text-color text-center ">WIND SPEED - <span>mph</span></div>
                   </div>
                 </div>
             </div>
@@ -248,7 +288,9 @@ const drawHtml = (arr, arr2) => {
     }
 }
 
-function surfHeight() {
+
+
+function surfHeight(arr, arr2) {
   for (let m = 0; m < 20; m++) {
     if((parseFloat($('.swellHeight'+m).text())) <= 2.5) {
       $('.swellHeight'+m).append('<img src="assets/surf-height-red.png">');
@@ -256,6 +298,15 @@ function surfHeight() {
       $('.swellHeight'+m).append('<img src="assets/surf-height-teal.png">');
     } else {
       $('.swellHeight'+m).append('<img src="assets/surf-height-green.png">')
+    } ;
+  }
+  for (let m = 0; m < 20; m++) {
+    if((parseFloat($('.swellHeightForecast'+m).text())) <= 2.5) {
+      $('.swellHeightForecast'+m).append('<img src="assets/surf-height-red.png">');
+    } else if ((parseFloat($('.swellHeightForecast'+m).text())) > 2.5 && (parseFloat($('.swellHeightForecast'+m).text())) < 4) {
+      $('.swellHeightForecast'+m).append('<img src="assets/surf-height-teal.png">');
+    } else {
+      $('.swellHeightForecast'+m).append('<img src="assets/surf-height-green.png">')
     } ;
   }
 }
