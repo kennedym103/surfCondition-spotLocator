@@ -86,9 +86,10 @@ const handleData = (values) => {
     Promise.all(promises).then(resultsArr => {
        const locations = handleDataResults(resultsArr, values)
        const locationsNextThreeHours = handleDataResultsNext(resultsArr, values)
+       const locationsNextSixHours = handleDataResultsNext6(resultsArr, values)
 
        //  sort locations
-       var finalArray = locations.concat(locationsNextThreeHours);
+       var finalArray = locations.concat(locationsNextThreeHours, locationsNextSixHours);
 
         finalArray.sort(function (a, b) {
          (a.overallRating  < b.overallRating ) ? -1 : (a.overallRating  > b.overallRating ) ? 1 : 0;
@@ -103,16 +104,18 @@ const handleData = (values) => {
         })
 
         const finalLocations = finalArray.filter((element, index) => {
-            return index < finalArray.length/2;
+            return index < finalArray.length/3;
         })
         const finalLocationsNextThreeHours = finalArray.filter((element, index) => {
-            return index >= finalArray.length/2;
+          if (index >= finalArray.length/3 && index < finalArray.length/3 * 2) {
+            return index;
+          }
+        })
+        const finalLocationsNextSixHours = finalArray.filter((element, index) => {
+            return index >= finalArray.length/3 * 2;
         })
 
-
-       console.log(finalLocations);
-       console.log(finalLocationsNextThreeHours);
-       drawHtml(finalLocations, finalLocationsNextThreeHours);
+       drawHtml(finalLocations, finalLocationsNextThreeHours, finalLocationsNextSixHours);
        surfHeight(finalLocations, finalLocationsNextThreeHours);
        addIcons();
     })
@@ -150,7 +153,7 @@ const handleDataResultsNext = (results, values) => {
 
     const currNow = new Date().getTime();
     const currHours = new Date(currNow);
-    const hours = currHours.getHours()+4;
+    const hours = currHours.getHours()+3;
     const locationsNextThreeHours = []
 
     for (let j = 0; j < results.length; j++) {
@@ -159,7 +162,7 @@ const handleDataResultsNext = (results, values) => {
 
             if (currNow < results[j][k].localTimestamp*1000 ) {
 
-                const data1 = results[j][k+3];
+                const data1 = results[j][k+2];
                 data1.hours = hours;
                 data1.overallRating = data1.solidRating  + data1.fadedRating * 2;
                 const nextThreeHours = Object.assign({}, data1, values[j])
@@ -172,16 +175,49 @@ const handleDataResultsNext = (results, values) => {
     return locationsNextThreeHours;
 }
 
+const handleDataResultsNext6 = (results, values) => {
 
-const drawHtml = (arr, arr2) => {
-    for (let l = 0; l < arr.length && arr2.length; l++){
+    const currNow = new Date().getTime();
+    const currHours = new Date(currNow);
+    const hours = currHours.getHours()+6;
+    const locationsNextSixHours = []
 
-      let currentTime1 = arr2[l].hours;
-      let hours = currentTime1;
+    for (let j = 0; j < results.length; j++) {
+
+        for (let k = 0; k < results[j].length; k++) {
+
+            if (currNow < results[j][k].localTimestamp*1000 ) {
+
+                const data2 = results[j][k+5];
+                data2.hours = hours;
+                data2.overallRating = data2.solidRating  + data2.fadedRating * 2;
+                const nextSixHours = Object.assign({}, data2, values[j])
+
+                locationsNextSixHours.push(nextSixHours)
+                break;
+            }
+        }
+    }
+    return locationsNextSixHours;
+}
+
+
+const drawHtml = (arr, arr2, arr3) => {
+    for (let l = 0; l < arr.length && arr2.length && arr3.length; l++){
+
+      let time3Hours = arr2[l].hours;
+      let hours = time3Hours;
       let ampm = hours >= 12 ? 'pm' : 'am';
       hours = hours % 12;
       hours = hours ? hours : 12; // the hour '0' should be '12'
       var strTime = hours +' ' + ampm;
+
+      let time6Hours = arr3[l].hours;
+      let hours6 = time6Hours;
+      let ampm6 = hours6 >= 12 ? 'pm' : 'am';
+      hours6 = hours6 % 12;
+      hours6 = hours6 ? hours6 : 12; // the hour '0' should be '12'
+      var strTime6 = hours6 +' ' + ampm6;
 
 
         $('#js-cards').append(
@@ -250,20 +286,48 @@ const drawHtml = (arr, arr2) => {
                 </div>
 
                 <div class="row px-3">
-                  <div class="col pr-3 pl-3 pt-2 pb-0">
+                  <div class="col pr-3 pl-3 pt-2 pb-2">
                     <div class="swell-text-forecast text-color text-center swellHeightForecast${l} "> ${arr2[l].swell.components.combined.height} </div>
                     <div class="swell-sub-text-forecast text-color text-center">SURF HEIGHT - <span>ft</span></div>
                   </div>
+                  <div class="col pr-3 pl-3 pt-2 pb-2">
+                    <div class="swell-period-text-forecast text-color text-center">${arr2[l].swell.components.primary.period} <img src="assets/swell-period.png"></div>
+                    <div class="swell-period-sub-text-forecast text-color text-center ">SWELL PERIOD - <span>seconds</span></div>
+                  </div>
+                  <div class="col pr-3 pl-3 pt-2 pb-2">
+                    <div class="wind-direction-text-forecast text-color text-center ">${arr2[l].wind.compassDirection} <img src="assets/wind-directions/south-west.png"> </div>
+                    <div class="wind-direction-sub-text-forecast text-color text-center ">WIND DIRECTION</div>
+                  </div>
+                  <div class="col pr-3 pl-3 pt-2 pb-2">
+                    <div class="wind-speed-text-forecast text-color text-center " >${arr2[l].wind.speed} <img src="assets/wind-speed.png"></div>
+                    <div class="wind-speed-sub-text-forecast text-color text-center ">WIND SPEED - <span>mph</span></div>
+                  </div>
+                </div>
+                <div class="col border-t">
+                </div>
+                <div class="row ">
+                   <div class="col ">
+                       <div class="town-text text-center pt-2">
+                        FORECAST - ${strTime6}
+                       </div>
+                   </div>
+                </div>
+
+                <div class="row px-3">
                   <div class="col pr-3 pl-3 pt-2 pb-0">
-                    <div class="swell-period-text-forecast text-color text-center">${arr[l].swell.components.primary.period} <img src="assets/swell-period.png"></div>
+                    <div class="swell-text-forecast text-color text-center swellHeightForecast${l} "> ${arr3[l].swell.components.combined.height} </div>
+                    <div class="swell-sub-text-forecast text-color text-center">SURF HEIGHT - <span>ft</span></div>
+                  </div>
+                  <div class="col pr-3 pl-3 pt-2 pb-0">
+                    <div class="swell-period-text-forecast text-color text-center">${arr3[l].swell.components.primary.period} <img src="assets/swell-period.png"></div>
                     <div class="swell-period-sub-text-forecast text-color text-center ">SWELL PERIOD - <span>seconds</span></div>
                   </div>
                   <div class="col pr-3 pl-3 pt-2 pb-0">
-                    <div class="wind-direction-text-forecast text-color text-center ">${arr[l].wind.compassDirection} <img src="assets/wind-directions/south-west.png"> </div>
+                    <div class="wind-direction-text-forecast text-color text-center ">${arr3[l].wind.compassDirection} <img src="assets/wind-directions/south-west.png"> </div>
                     <div class="wind-direction-sub-text-forecast text-color text-center ">WIND DIRECTION</div>
                   </div>
                   <div class="col pr-3 pl-3 pt-2 pb-0">
-                    <div class="wind-speed-text-forecast text-color text-center " >${arr[l].wind.speed} <img src="assets/wind-speed.png"></div>
+                    <div class="wind-speed-text-forecast text-color text-center " >${arr3[l].wind.speed} <img src="assets/wind-speed.png"></div>
                     <div class="wind-speed-sub-text-forecast text-color text-center ">WIND SPEED - <span>mph</span></div>
                   </div>
                 </div>

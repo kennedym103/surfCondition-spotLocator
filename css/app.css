@@ -127,6 +127,11 @@ background-color: #efefef;
   text-decoration: none;
 }
 
+.more-data a:visited {
+  color: #d8a972;
+  text-decoration: none;
+}
+
 .more-data svg:hover, .more-data svg:active {
   stroke:#d8a972;
 }
