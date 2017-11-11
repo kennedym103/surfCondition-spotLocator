@@ -15,5 +15,5 @@ npm install
 ### Link to Live Version
 
 ```
-https://kennedym103.github.io/surfCondition-locator/
+https://kennedym103.github.io/surfCondition-spotLocator/
 ```
