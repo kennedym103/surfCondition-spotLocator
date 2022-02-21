@@ -4,133 +4,1744 @@ const data = {
             "href": "/Algajola-Surf-Report/3503/",
             "town": "Algajola",
             "spotId": "3503",
-            "lat": 42.60815849999999,
-            "lng": 8.8610452
+            "lat": 42.6102,
+            "lng": 8.8712,
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
             "href": "/Anse-de-Pen-hat-Surf-Report/1521/",
             "town": "Anse de Pen-hat",
             "spotId": "1521",
-            "lat": 48.273276,
-            "lng": -4.6207079
+            "lat": 48.2737,
+            "lng": -4.6215,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Aytre-Surf-Report/6005/",
+            "town": "AytrÃ©",
+            "spotId": "6005",
+            "lat": 46.1225,
+            "lng": -1.1261,
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
             "href": "/Baie-des-Trepasses-Lescoff-Surf-Report/73/",
             "town": "Baie des TrÃ©passÃ©s (Lescoff)",
             "spotId": "73",
-            "FAILED": true
+            "lat": 48.0465,
+            "lng": -4.71,
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
             "href": "/Bandol-Surf-Report/3523/",
             "town": "Bandol",
             "spotId": "3523",
-            "lat": 43.136418,
-            "lng": 5.754186
+            "lat": 43.1334,
+            "lng": 5.748,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Barzan-Plage-Surf-Report/5990/",
+            "town": "Barzan-Plage",
+            "spotId": "5990",
+            "lat": 45.5292,
+            "lng": -0.8817,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Beauvallon-Surf-Report/3495/",
+            "town": "Beauvallon",
+            "spotId": "3495",
+            "lat": 43.2908,
+            "lng": 6.6112,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Belharra-Perdun-Surf-Report/1543/",
+            "town": "Belharra Perdun   ",
+            "spotId": "1543",
+            "lat": 43.4066,
+            "lng": -1.7148,
+            "hasHourlyForecast": true,
+            "isBigWave": true
+        },
+        {
+            "href": "/Biarritz-Grande-Plage-Surf-Report/62/",
+            "town": "Biarritz Grande Plage",
+            "spotId": "62",
+            "lat": 43.4859,
+            "lng": -1.5596,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Bidart-Surf-Report/1540/",
+            "town": "Bidart",
+            "spotId": "1540",
+            "lat": 43.4366,
+            "lng": -1.5981,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Biscarrosse-Plage-Surf-Report/65/",
+            "town": "Biscarrosse-Plage",
+            "spotId": "65",
+            "lat": 44.4461,
+            "lng": -1.258,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Blancs-Sablons-Surf-Report/74/",
+            "town": "Blancs-Sablons",
+            "spotId": "74",
+            "lat": 48.3704,
+            "lng": -4.7663,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Boutrouilles-Surf-Report/1591/",
+            "town": "Boutrouilles",
+            "spotId": "1591",
+            "lat": 48.6589,
+            "lng": -4.4022,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Calais-Surf-Report/3985/",
+            "town": "Calais",
+            "spotId": "3985",
+            "lat": 50.9787,
+            "lng": 1.8958,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Calanque-de-Figuiere-Surf-Report/8259/",
+            "town": "Calanque de Figuiere",
+            "spotId": "8259",
+            "lat": 43.3302,
+            "lng": 5.2114,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Canet-Plage-Surf-Report/3511/",
+            "town": "Canet Plage",
+            "spotId": "3511",
+            "lat": 42.6991,
+            "lng": 3.0403,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Cannes-Surf-Report/3397/",
+            "town": "Cannes",
+            "spotId": "3397",
+            "lat": 43.5357,
+            "lng": 7.0409,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Cantin-Surf-Report/8334/",
+            "town": "Cantin",
+            "spotId": "8334",
+            "lat": 46.7349,
+            "lng": -2.3728,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Cap-de-LHomy-Surf-Report/885/",
+            "town": "Cap de L'Homy",
+            "spotId": "885",
+            "lat": 44.0387,
+            "lng": -1.3431,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Cap-de-la-Chevre-Surf-Report/1523/",
+            "town": "Cap de la ChÃ¨vre",
+            "spotId": "1523",
+            "lat": 48.1669,
+            "lng": -4.5577,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Cap-Frehel-Surf-Report/1579/",
+            "town": "Cap FrÃ©hel",
+            "spotId": "1579",
+            "lat": 48.6575,
+            "lng": -2.3614,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Cap-Gris-Nez-Surf-Report/3990/",
+            "town": "Cap Gris-Nez",
+            "spotId": "3990",
+            "lat": 50.8708,
+            "lng": 1.5906,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Cap-Saint-Louis-Surf-Report/3522/",
+            "town": "Cap Saint-Louis",
+            "spotId": "3522",
+            "lat": 43.1772,
+            "lng": 5.6735,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Capbreton-La-Piste-VVF-Surf-Report/883/",
+            "town": "Capbreton (La Piste/VVF)",
+            "spotId": "883",
+            "lat": 43.6445,
+            "lng": -1.4474,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Capo-di-Feno-Surf-Report/3506/",
+            "town": "Capo di Feno",
+            "spotId": "3506",
+            "lat": 41.9351,
+            "lng": 8.622,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Carcans-Surf-Report/1535/",
+            "town": "Carcans",
+            "spotId": "1535",
+            "lat": 45.0845,
+            "lng": -1.195,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Carnon-Surf-Report/3514/",
+            "town": "Carnon",
+            "spotId": "3514",
+            "lat": 43.5402,
+            "lng": 3.9725,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Casernes-Surf-Report/1175/",
+            "town": "Casernes ",
+            "spotId": "1175",
+            "lat": 43.7232,
+            "lng": -1.4326,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Cassis-Surf-Report/3520/",
+            "town": "Cassis",
+            "spotId": "3520",
+            "lat": 43.2122,
+            "lng": 5.5368,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Chassiron-Surf-Report/68/",
+            "town": "Chassiron",
+            "spotId": "68",
+            "lat": 46.0479,
+            "lng": -1.4186,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Ciboure-Socoa-Surf-Report/1542/",
+            "town": "Ciboure Socoa",
+            "spotId": "1542",
+            "lat": 43.3941,
+            "lng": -1.6794,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Cipiniellu-Surf-Report/6020/",
+            "town": "Cipiniellu",
+            "spotId": "6020",
+            "lat": 41.6869,
+            "lng": 8.9166,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Collignon-Surf-Report/1592/",
+            "town": "Collignon",
+            "spotId": "1592",
+            "lat": 49.658,
+            "lng": -1.5691,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Contis-Plage-Surf-Report/884/",
+            "town": "Contis-Plage",
+            "spotId": "884",
+            "lat": 44.0927,
+            "lng": -1.3281,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Cote-des-Basques-Surf-Report/894/",
+            "town": "Cote des Basques",
+            "spotId": "894",
+            "lat": 43.4802,
+            "lng": -1.5678,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Dalbosc-Surf-Report/1519/",
+            "town": "Dalbosc ",
+            "spotId": "1519",
+            "lat": 48.341,
+            "lng": -4.6333,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Dielette-Surf-Report/1548/",
+            "town": "Dielette",
+            "spotId": "1548",
+            "lat": 49.5602,
+            "lng": -1.8618,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Erretegia-Surf-Report/1511/",
+            "town": "Erretegia",
+            "spotId": "1511",
+            "lat": 43.4471,
+            "lng": -1.5904,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Erromardie-Surf-Report/1539/",
+            "town": "Erromardie",
+            "spotId": "1539",
+            "lat": 43.4107,
+            "lng": -1.6387,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Esclamandes-Surf-Report/5994/",
+            "town": "Esclamandes",
+            "spotId": "5994",
+            "lat": 43.4029,
+            "lng": 6.7322,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Etel-Surf-Report/1561/",
+            "town": "Etel",
+            "spotId": "1561",
+            "lat": 47.6398,
+            "lng": -3.2115,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Etretat-Surf-Report/80/",
+            "town": "Etretat",
+            "spotId": "80",
+            "lat": 49.7075,
+            "lng": 0.1984,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Eze-Surf-Report/3500/",
+            "town": "Eze",
+            "spotId": "3500",
+            "lat": 43.7216,
+            "lng": 7.3582,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Farinole-Surf-Report/3501/",
+            "town": "Farinole",
+            "spotId": "3501",
+            "lat": 42.7362,
+            "lng": 9.3439,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Figari-Surf-Report/3509/",
+            "town": "Figari",
+            "spotId": "3509",
+            "lat": 41.4492,
+            "lng": 9.0687,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Fouesnou-Surf-Report/1170/",
+            "town": "Fouesnou",
+            "spotId": "1170",
+            "lat": 47.9691,
+            "lng": -4.4455,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Frejus-Surf-Report/5995/",
+            "town": "FrÃ©jus",
+            "spotId": "5995",
+            "lat": 43.4216,
+            "lng": 6.753,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Galiote-Surf-Report/3496/",
+            "town": "Galiote",
+            "spotId": "3496",
+            "lat": 43.3936,
+            "lng": 6.7317,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Gavres-Surf-Report/1560/",
+            "town": "Gavres",
+            "spotId": "1560",
+            "lat": 47.6937,
+            "lng": -3.3247,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Gigaro-Surf-Report/3494/",
+            "town": "Gigaro",
+            "spotId": "3494",
+            "lat": 43.1832,
+            "lng": 6.5997,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Gohaud-Surf-Report/4409/",
+            "town": "Gohaud",
+            "spotId": "4409",
+            "lat": 47.1612,
+            "lng": -2.1733,
+            "hasHourlyForecast": true,
+            "isBigWave": false
         }
-    ],
+    ]
+,
     "south africa": [
+        {
+            "href": "/Addington-Beach-Surf-Report/6480/",
+            "town": "Addington Beach",
+            "spotId": "6480",
+            "lat": -29.8619,
+            "lng": 31.0435,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Alkantstrand-Surf-Report/6326/",
+            "town": "Alkantstrand",
+            "spotId": "6326",
+            "lat": -28.8012,
+            "lng": 32.0962,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Alkantstrand-Beach-Surf-Report/6276/",
+            "town": "Alkantstrand Beach",
+            "spotId": "6276",
+            "lat": -28.7985,
+            "lng": 32.1012,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Ansteys-Beach-Surf-Report/6479/",
+            "town": "Ansteys Beach",
+            "spotId": "6479",
+            "lat": -29.9267,
+            "lng": 31.0174,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Ansteys-Beach-Surf-Report/6289/",
+            "town": "Ansteys Beach",
+            "spotId": "6289",
+            "lat": -29.9238,
+            "lng": 31.0198,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
         {
             "href": "/Ballito-Surf-Report/995/",
             "town": "Ballito",
             "spotId": "995",
-            "lat": -29.4375777,
-            "lng": 31.2225713
+            "lat": -29.5297,
+            "lng": 31.2247,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Banana-Beach-Surf-Report/6325/",
+            "town": "Banana Beach",
+            "spotId": "6325",
+            "lat": -30.6627,
+            "lng": 30.5167,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Battery-Beach-Surf-Report/6324/",
+            "town": "Battery Beach",
+            "spotId": "6324",
+            "lat": -29.8375,
+            "lng": 31.0372,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Bayview-Surf-Report/6341/",
+            "town": "Bayview",
+            "spotId": "6341",
+            "lat": -34.1837,
+            "lng": 18.4253,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Bazley-Beach-Surf-Report/6323/",
+            "town": "Bazley Beach",
+            "spotId": "6323",
+            "lat": -30.4329,
+            "lng": 30.6694,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Bettys-Bay-Surf-Report/8302/",
+            "town": "Bettys Bay",
+            "spotId": "8302",
+            "lat": -34.3598,
+            "lng": 18.9085,
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
             "href": "/Big-Bay-Surf-Report/4625/",
             "town": "Big Bay",
             "spotId": "4625",
-            "lat": -33.7900903,
-            "lng": 18.4587626
+            "lat": -33.7954,
+            "lng": 18.454,
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
             "href": "/Bikini-Beach-Gordons-Bay-Surf-Report/3781/",
             "town": "Bikini Beach (Gordon's Bay)",
             "spotId": "3781",
-            "lat": -34.1657057,
-            "lng": 18.858769
+            "lat": -34.1656,
+            "lng": 18.858,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Blombos-Surf-Report/6306/",
+            "town": "Blombos",
+            "spotId": "6306",
+            "lat": -34.407,
+            "lng": 21.206,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Bloubergstrand-Surf-Report/6353/",
+            "town": "Bloubergstrand",
+            "spotId": "6353",
+            "lat": -33.794,
+            "lng": 18.4559,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Boknes-Strand-Surf-Report/6281/",
+            "town": "Boknes Strand",
+            "spotId": "6281",
+            "lat": -33.7403,
+            "lng": 26.5703,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Boknesstrand-Surf-Report/6212/",
+            "town": "Boknesstrand",
+            "spotId": "6212",
+            "lat": -33.7282,
+            "lng": 26.5856,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Bosbokstrand-Surf-Report/6305/",
+            "town": "Bosbokstrand",
+            "spotId": "6305",
+            "lat": -32.7872,
+            "lng": 28.1824,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Bothastrand-Surf-Report/6304/",
+            "town": "Bothastrand",
+            "spotId": "6304",
+            "lat": -34.0545,
+            "lng": 22.2712,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Boulders-Beach-Surf-Report/6217/",
+            "town": "Boulders Beach",
+            "spotId": "6217",
+            "lat": -34.197,
+            "lng": 18.451,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Brighton-Beach-Surf-Report/6303/",
+            "town": "Brighton Beach",
+            "spotId": "6303",
+            "lat": -29.9338,
+            "lng": 31.0127,
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
             "href": "/Buffels-Bay-Surf-Report/230/",
             "town": "Buffels Bay",
             "spotId": "230",
-            "lat": -34.083333,
-            "lng": 22.966667
-        }
-    ],
-    "namibia": [
-        {
-            "href": "/Setters-Surf-Report/3780/",
-            "town": "Setters",
-            "spotId": "3780",
-            "FAILED": true
+            "lat": -34.0849,
+            "lng": 22.9766,
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/Skeleton-Bay-Surf-Report/4591/",
-            "town": "Skeleton Bay",
-            "spotId": "4591",
-            "lat": -20,
-            "lng": 13.3333333
+            "href": "/Cape-St-Francis-Surf-Report/714/",
+            "town": "Cape St. Francis",
+            "spotId": "714",
+            "lat": -34.2128,
+            "lng": 24.8392,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Cape-Town-Surf-Report/81/",
+            "town": "Cape Town",
+            "spotId": "81",
+            "lat": -33.9037,
+            "lng": 18.472,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Clovelly-beach-Surf-Report/6329/",
+            "town": "Clovelly beach",
+            "spotId": "6329",
+            "lat": -34.1333,
+            "lng": 18.4333,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Coffee-Bay-Surf-Report/231/",
+            "town": "Coffee Bay",
+            "spotId": "231",
+            "lat": -31.9826,
+            "lng": 29.1547,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Compensation-Beach-Surf-Report/6235/",
+            "town": "Compensation Beach",
+            "spotId": "6235",
+            "lat": -29.5354,
+            "lng": 31.2229,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Curlew-Strand-Surf-Report/6352/",
+            "town": "Curlew Strand",
+            "spotId": "6352",
+            "lat": -31.7542,
+            "lng": 18.2263,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Danger-Beach-Surf-Report/6351/",
+            "town": "Danger Beach",
+            "spotId": "6351",
+            "lat": -34.1212,
+            "lng": 18.4565,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Dias-Beach-Surf-Report/6350/",
+            "town": "Dias Beach",
+            "spotId": "6350",
+            "lat": -34.3545,
+            "lng": 18.4824,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Diaz-Beach-Surf-Report/6307/",
+            "town": "Diaz Beach",
+            "spotId": "6307",
+            "lat": -34.1546,
+            "lng": 22.1106,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Die-Gruis-Surf-Report/6349/",
+            "town": "Die Gruis",
+            "spotId": "6349",
+            "lat": -34.6505,
+            "lng": 19.4469,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Die-Hoek-Surf-Report/6348/",
+            "town": "Die Hoek",
+            "spotId": "6348",
+            "lat": -34.7667,
+            "lng": 19.7667,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Die-Plaat-Surf-Report/6347/",
+            "town": "Die Plaat",
+            "spotId": "6347",
+            "lat": -34.5253,
+            "lng": 19.3741,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Ding-Dangs-Surf-Report/8178/",
+            "town": "Ding Dangs",
+            "spotId": "8178",
+            "lat": -34.1577,
+            "lng": 22.1114,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Dungeons-Surf-Report/1203/",
+            "town": "Dungeons",
+            "spotId": "1203",
+            "lat": -34.0636,
+            "lng": 18.3387,
+            "hasHourlyForecast": true,
+            "isBigWave": true
+        },
+        {
+            "href": "/Durban-Surf-Report/87/",
+            "town": "Durban",
+            "spotId": "87",
+            "lat": -29.8395,
+            "lng": 31.0391,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/East-London-Surf-Report/716/",
+            "town": "East London",
+            "spotId": "716",
+            "lat": -32.9976,
+            "lng": 27.9551,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Eastern-Beach-Surf-Report/6318/",
+            "town": "Eastern Beach",
+            "spotId": "6318",
+            "lat": -33.0078,
+            "lng": 27.9265,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Elands-bay-Surf-Report/227/",
+            "town": "Eland's bay",
+            "spotId": "227",
+            "lat": -32.3136,
+            "lng": 18.3307,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/First-Beach-Surf-Report/6317/",
+            "town": "First Beach",
+            "spotId": "6317",
+            "lat": -31.6293,
+            "lng": 29.5529,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Glen-Beach-Surf-Report/6485/",
+            "town": "Glen Beach",
+            "spotId": "6485",
+            "lat": -33.9467,
+            "lng": 18.3767,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Glencairn-Beach-Surf-Report/6346/",
+            "town": "Glencairn Beach",
+            "spotId": "6346",
+            "lat": -34.1595,
+            "lng": 18.4317,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Glentana-Beach-Surf-Report/6316/",
+            "town": "Glentana Beach",
+            "spotId": "6316",
+            "lat": -34.0508,
+            "lng": 22.3019,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Goda-Surf-Report/6309/",
+            "town": "Goda",
+            "spotId": "6309",
+            "lat": -33.1033,
+            "lng": 27.7742,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Grotto-Beach-Surf-Report/6345/",
+            "town": "Grotto Beach",
+            "spotId": "6345",
+            "lat": -34.4166,
+            "lng": 19.2926,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Harmony-Beach-Surf-Report/6344/",
+            "town": "Harmony Beach",
+            "spotId": "6344",
+            "lat": -34.1394,
+            "lng": 18.8464,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Hermanus-Surf-Report/719/",
+            "town": "Hermanus",
+            "spotId": "719",
+            "lat": -34.4296,
+            "lng": 19.1437,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Humewood-Beach-Surf-Report/6477/",
+            "town": "Humewood Beach",
+            "spotId": "6477",
+            "lat": -33.9771,
+            "lng": 25.6513,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Isipingo-Beach-Surf-Report/6315/",
+            "town": "Isipingo Beach",
+            "spotId": "6315",
+            "lat": -30.003,
+            "lng": 30.9452,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Jeffreys-Bay-J-Bay-Surf-Report/88/",
+            "town": "Jeffreys Bay (J-Bay)",
+            "spotId": "88",
+            "lat": -34.029,
+            "lng": 24.9328,
+            "hasHourlyForecast": true,
+            "isBigWave": false
         }
-    ],
+    ]
+,
+"namibia": [
+    {
+        "href": "/Dolfynstrand-Surf-Report/6216/",
+        "town": "Dolfynstrand",
+        "spotId": "6216",
+        "lat": -22.8431,
+        "lng": 14.5394,
+        "hasHourlyForecast": true,
+        "isBigWave": false
+    },
+    {
+        "href": "/Jorg-Henrichsen-Park-Surf-Report/6327/",
+        "town": "JÃ¶rg Henrichsen Park",
+        "spotId": "6327",
+        "lat": -22.6833,
+        "lng": 14.5167,
+        "hasHourlyForecast": true,
+        "isBigWave": false
+    },
+    {
+        "href": "/Langstrand-Surf-Report/6546/",
+        "town": "Langstrand",
+        "spotId": "6546",
+        "lat": -22.8183,
+        "lng": 14.5426,
+        "hasHourlyForecast": true,
+        "isBigWave": false
+    },
+    {
+        "href": "/Setters-Surf-Report/3780/",
+        "town": "Setters",
+        "spotId": "3780",
+        "lat": -20.1591,
+        "lng": 13.1396,
+        "hasHourlyForecast": true,
+        "isBigWave": false
+    },
+    {
+        "href": "/Skeleton-Bay-Surf-Report/4591/",
+        "town": "Skeleton Bay",
+        "spotId": "4591",
+        "lat": -22.9366,
+        "lng": 14.4183,
+        "hasHourlyForecast": true,
+        "isBigWave": false
+    }
+],
     "new zealand": [
         {
             "href": "/90-Mile-Beach-Surf-Report/118/",
             "town": "90 Mile Beach",
             "spotId": "118",
-            "lat": -34.7194348,
-            "lng": 172.9284145
+            "lat": -34.8365,
+            "lng": 173.025,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Ahipara-Beach-Surf-Report/6899/",
+            "town": "Ahipara Beach",
+            "spotId": "6899",
+            "lat": -35.1649,
+            "lng": 173.1468,
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
             "href": "/Ahu-Ahu-Surf-Report/2015/",
             "town": "Ahu Ahu",
             "spotId": "2015",
-            "lat": -39.1188264,
-            "lng": 173.9305567
+            "lat": -39.1172,
+            "lng": 173.931,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Allans-Beach-Surf-Report/7176/",
+            "town": "Allans Beach",
+            "spotId": "7176",
+            "lat": -45.8752,
+            "lng": 170.7004,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Amberley-Beach-Surf-Report/6876/",
+            "town": "Amberley Beach",
+            "spotId": "6876",
+            "lat": -43.1612,
+            "lng": 172.793,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Anatori-Surf-Report/7169/",
+            "town": "Anatori",
+            "spotId": "7169",
+            "lat": -40.6991,
+            "lng": 172.3664,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Anaura-Bay-Surf-Report/7041/",
+            "town": "Anaura Bay",
+            "spotId": "7041",
+            "lat": -38.2339,
+            "lng": 178.3113,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Anawhata-Beach-Surf-Report/6933/",
+            "town": "Anawhata Beach",
+            "spotId": "6933",
+            "lat": -36.9212,
+            "lng": 174.4551,
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
             "href": "/Aramoana-Spit-Surf-Report/4063/",
             "town": "Aramoana Spit",
             "spotId": "4063",
-            "lat": -45.78160159999999,
-            "lng": 170.7102094
+            "lat": -45.7733,
+            "lng": 170.712,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Aranga-Surf-Report/6895/",
+            "town": "Aranga",
+            "spotId": "6895",
+            "lat": -35.7761,
+            "lng": 173.5733,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Arataki-Beach-Surf-Report/7023/",
+            "town": "Arataki Beach",
+            "spotId": "7023",
+            "lat": -37.672,
+            "lng": 176.2367,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Arohaki-Bay-Surf-Report/6942/",
+            "town": "Arohaki Bay",
+            "spotId": "6942",
+            "lat": -38.118,
+            "lng": 174.6934,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Awakino-Beach-Surf-Report/7051/",
+            "town": "Awakino Beach",
+            "spotId": "7051",
+            "lat": -38.6761,
+            "lng": 174.6178,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Awana-Bay-Surf-Report/6885/",
+            "town": "Awana Bay",
+            "spotId": "6885",
+            "lat": -36.2108,
+            "lng": 175.4816,
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
             "href": "/Back-Beach-Taranaki-Surf-Report/1957/",
             "town": "Back Beach (Taranaki)",
             "spotId": "1957",
-            "lat": -39.0607388,
-            "lng": 174.021067
+            "lat": -39.0653,
+            "lng": 174.015,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Baylys-Beach-Surf-Report/7173/",
+            "town": "Baylys Beach",
+            "spotId": "7173",
+            "lat": -35.9508,
+            "lng": 173.7393,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Bell-Block-Beach-Surf-Report/7053/",
+            "town": "Bell Block Beach",
+            "spotId": "7053",
+            "lat": -39.0194,
+            "lng": 174.1461,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Bethells-Beach-Surf-Report/7145/",
+            "town": "Bethells Beach",
+            "spotId": "7145",
+            "lat": -36.8995,
+            "lng": 174.4456,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Blacks-Beach-Surf-Report/2028/",
+            "town": "Black's Beach",
+            "spotId": "2028",
+            "lat": -39.0695,
+            "lng": 177.804,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Blackhead-Surf-Report/7127/",
+            "town": "Blackhead",
+            "spotId": "7127",
+            "lat": -45.9285,
+            "lng": 170.4249,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Blaketown-Surf-Report/7142/",
+            "town": "Blaketown",
+            "spotId": "7142",
+            "lat": -42.4531,
+            "lng": 171.1907,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Bland-Bay-Surf-Report/6918/",
+            "town": "Bland Bay",
+            "spotId": "6918",
+            "lat": -35.3425,
+            "lng": 174.3513,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Blenheim-Surf-Report/7085/",
+            "town": "Blenheim",
+            "spotId": "7085",
+            "lat": -41.4973,
+            "lng": 174.0598,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Blue-Duck-Stream-Surf-Report/4064/",
+            "town": "Blue Duck Stream",
+            "spotId": "4064",
+            "lat": -42.2565,
+            "lng": 173.813,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Bluecliffs-Beach-Surf-Report/7083/",
+            "town": "Bluecliffs Beach",
+            "spotId": "7083",
+            "lat": -46.1684,
+            "lng": 167.5485,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Bluehouse-Surf-Report/6898/",
+            "town": "Bluehouse",
+            "spotId": "6898",
+            "lat": -35.1631,
+            "lng": 173.07,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Boulder-Bank-Lighthouse-Surf-Report/7130/",
+            "town": "Boulder Bank Lighthouse",
+            "spotId": "7130",
+            "lat": -41.2547,
+            "lng": 173.2653,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Bowentown-Surf-Report/7019/",
+            "town": "Bowentown",
+            "spotId": "7019",
+            "lat": -37.4621,
+            "lng": 175.9876,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Breakers-Bay-Surf-Report/7161/",
+            "town": "Breakers Bay",
+            "spotId": "7161",
+            "lat": -41.337,
+            "lng": 174.8248,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Brighton-Surf-Report/6872/",
+            "town": "Brighton",
+            "spotId": "6872",
+            "lat": -45.9525,
+            "lng": 170.3263,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Cable-Bay-Beach-Surf-Report/7091/",
+            "town": "Cable Bay Beach",
+            "spotId": "7091",
+            "lat": -41.1591,
+            "lng": 173.416,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Cannibal-Bay-Surf-Report/7099/",
+            "town": "Cannibal Bay",
+            "spotId": "7099",
+            "lat": -46.4693,
+            "lng": 169.7555,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Cape-Palliser-Surf-Report/7198/",
+            "town": "Cape Palliser",
+            "spotId": "7198",
+            "lat": -41.5832,
+            "lng": 175.3582,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Carters-Beach-Surf-Report/7136/",
+            "town": "Carters Beach",
+            "spotId": "7136",
+            "lat": -41.746,
+            "lng": 171.5555,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Castlepoint-Surf-Report/573/",
+            "town": "Castlepoint",
+            "spotId": "573",
+            "lat": -40.9,
+            "lng": 176.23,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Castlepoint-Gap-Surf-Report/7189/",
+            "town": "Castlepoint Gap",
+            "spotId": "7189",
+            "lat": -40.9067,
+            "lng": 176.221,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Charleston-Surf-Report/6866/",
+            "town": "Charleston",
+            "spotId": "6866",
+            "lat": -41.8936,
+            "lng": 171.4444,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Christmas-Bay-Surf-Report/7078/",
+            "town": "Christmas Bay",
+            "spotId": "7078",
+            "lat": -40.9112,
+            "lng": 176.2091,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Chrystalls-Beach-Surf-Report/5189/",
+            "town": "Chrystalls Beach",
+            "spotId": "5189",
+            "lat": -46.1963,
+            "lng": 170.0963,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Clarence-Point-Surf-Report/6890/",
+            "town": "Clarence Point",
+            "spotId": "6890",
+            "lat": -42.1608,
+            "lng": 173.9405,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Clarence-River-Surf-Report/4065/",
+            "town": "Clarence River",
+            "spotId": "4065",
+            "lat": -42.1756,
+            "lng": 173.935,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Clifford-Bay-Surf-Report/7086/",
+            "town": "Clifford Bay",
+            "spotId": "7086",
+            "lat": -41.6588,
+            "lng": 174.1585,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Cobden-Surf-Report/7140/",
+            "town": "Cobden",
+            "spotId": "7140",
+            "lat": -42.4351,
+            "lng": 171.201,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Colac-Bay-Surf-Report/6782/",
+            "town": "Colac Bay",
+            "spotId": "6782",
+            "lat": -46.3595,
+            "lng": 167.9055,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Conway-Surf-Report/6878/",
+            "town": "Conway",
+            "spotId": "6878",
+            "lat": -42.6294,
+            "lng": 173.46,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Cooks-Cove-Surf-Report/7153/",
+            "town": "Cooks Cove",
+            "spotId": "7153",
+            "lat": -38.3776,
+            "lng": 178.3382,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Cray-Bay-Surf-Report/7063/",
+            "town": "Cray Bay",
+            "spotId": "7063",
+            "lat": -39.8446,
+            "lng": 176.9955,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Crushers-Surf-Report/7202/",
+            "town": "Crushers",
+            "spotId": "7202",
+            "lat": -39.2547,
+            "lng": 173.7649,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Curio-Bay-Surf-Report/7098/",
+            "town": "Curio Bay",
+            "spotId": "7098",
+            "lat": -46.6544,
+            "lng": 169.1041,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Dee-Dees-Surf-Report/8184/",
+            "town": "Dee Dee's",
+            "spotId": "8184",
+            "lat": -41.5709,
+            "lng": 175.221,
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Delaware-Bay-Surf-Report/7092/",
+            "town": "Delaware Bay",
+            "spotId": "7092",
+            "lat": -41.1578,
+            "lng": 173.4765,
+            "hasHourlyForecast": true,
+            "isBigWave": false
         }
-    ],
+    ]
+,
     "fuerteventura": [
         {
             "href": "/Bajo-del-Medio-Surf-Report/214/",
             "town": "Bajo del Medio",
             "spotId": "214",
-            "lat": 28.731426,
-            "lng": -13.859142
+            "lat": 28.7355,
+            "lng": -13.8576,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
             "href": "/Bristol-Surf-Report/213/",
             "town": "Bristol",
             "spotId": "213",
-            "lat": 28.743579,
-            "lng": -13.8693272
+            "lat": 28.7476,
+            "lng": -13.8722,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Caleta-de-Fuste-Beach-Surf-Report/5802/",
+            "town": "Caleta de Fuste Beach",
+            "spotId": "5802",
+            "lat": 28.3949,
+            "lng": -13.8579,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
             "href": "/Cotillo-Surf-Report/133/",
             "town": "Cotillo",
             "spotId": "133",
-            "lat": 28.6855572,
-            "lng": -14.0108625
+            "lat": 28.6754,
+            "lng": -14.0104,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
             "href": "/Cruz-Roja-Surf-Report/3934/",
             "town": "Cruz Roja",
             "spotId": "3934",
-            "lat": 28.4990501,
-            "lng": -13.8629192
+            "lat": 28.0437,
+            "lng": -14.3313,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/East-Coast-Surf-Report/212/",
+            "town": "East Coast",
+            "spotId": "212",
+            "lat": 28.32,
+            "lng": -13.88,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/El-Burro-Glasbeach-Surf-Report/845/",
+            "town": "El Burro (Glasbeach)",
+            "spotId": "845",
+            "lat": 28.69,
+            "lng": -13.83,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/El-Hierro-Surf-Report/937/",
+            "town": "El Hierro",
+            "spotId": "937",
+            "lat": 28.7439,
+            "lng": -13.9486,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/El-Veril-de-Santiago-Surf-Report/5676/",
+            "town": "El Veril de Santiago",
+            "spotId": "5676",
+            "lat": 28.6036,
+            "lng": -13.8271,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Flag-Beach-Surf-Report/5682/",
+            "town": "Flag Beach",
+            "spotId": "5682",
+            "lat": 28.7229,
+            "lng": -13.8416,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Generosa-Surf-Report/3935/",
+            "town": "Generosa",
+            "spotId": "3935",
+            "lat": 28.756,
+            "lng": -13.8849,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Jandia-Surf-Report/5588/",
+            "town": "Jandia",
+            "spotId": "5588",
+            "lat": 28.1006,
+            "lng": -14.2713,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Las-Salinas-Surf-Report/211/",
+            "town": "Las Salinas",
+            "spotId": "211",
+            "lat": 28.0748,
+            "lng": -14.4663,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Los-Lobos-Surf-Report/925/",
+            "town": "Los Lobos",
+            "spotId": "925",
+            "lat": 28.7481,
+            "lng": -13.8345,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Majanicho-Surf-Report/134/",
+            "town": "Majanicho",
+            "spotId": "134",
+            "lat": 28.7484,
+            "lng": -13.9366,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Playa-Barca-Surf-Report/6079/",
+            "town": "Playa Barca",
+            "spotId": "6079",
+            "lat": 28.1272,
+            "lng": -14.2473,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Playa-Barlovento-Surf-Report/5706/",
+            "town": "Playa Barlovento",
+            "spotId": "5706",
+            "lat": 28.1331,
+            "lng": -14.3363,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Playa-de-Cofete-Surf-Report/5667/",
+            "town": "Playa de Cofete",
+            "spotId": "5667",
+            "lat": 28.1118,
+            "lng": -14.3902,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Playa-de-la-Pared-Surf-Report/210/",
+            "town": "Playa de la Pared",
+            "spotId": "210",
+            "lat": 28.2146,
+            "lng": -14.225,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Playa-de-las-Pilas-Surf-Report/5642/",
+            "town": "Playa de las Pilas",
+            "spotId": "5642",
+            "lat": 28.0729,
+            "lng": -14.4478,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Playa-de-los-James-Surf-Report/5659/",
+            "town": "Playa de los James",
+            "spotId": "5659",
+            "lat": 28.2383,
+            "lng": -13.9311,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Playa-de-los-Valdivias-Surf-Report/5670/",
+            "town": "Playa de los Valdivias",
+            "spotId": "5670",
+            "lat": 28.5733,
+            "lng": -13.8293,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Playa-del-Esquinzo-Surf-Report/5611/",
+            "town": "Playa del Esquinzo",
+            "spotId": "5611",
+            "lat": 28.0727,
+            "lng": -14.3027,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Playa-del-Moro-Surf-Report/5846/",
+            "town": "Playa del Moro",
+            "spotId": "5846",
+            "lat": 28.6845,
+            "lng": -13.8321,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Playa-del-Perchel-Surf-Report/5845/",
+            "town": "Playa del Perchel",
+            "spotId": "5845",
+            "lat": 28.5789,
+            "lng": -13.8296,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Playa-Jarugo-Surf-Report/5649/",
+            "town": "Playa Jarugo",
+            "spotId": "5649",
+            "lat": 28.5716,
+            "lng": -14.0482,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Playa-La-Cabezuela-Surf-Report/5582/",
+            "town": "Playa La Cabezuela",
+            "spotId": "5582",
+            "lat": 28.6217,
+            "lng": -13.8269,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Playa-los-Matos-Surf-Report/5652/",
+            "town": "Playa los Matos",
+            "spotId": "5652",
+            "lat": 28.6984,
+            "lng": -13.8313,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Playa-Los-Picachos-Surf-Report/5654/",
+            "town": "Playa Los Picachos",
+            "spotId": "5654",
+            "lat": 28.617,
+            "lng": -13.8257,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Playa-Puerto-Rico-Surf-Report/5680/",
+            "town": "Playa Puerto Rico",
+            "spotId": "5680",
+            "lat": 28.1752,
+            "lng": -14.1712,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Shipwreck-Surf-Report/3933/",
+            "town": "Shipwreck",
+            "spotId": "3933",
+            "lat": 28.3464,
+            "lng": -14.1784,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         }
     ],
     "tenerife": [
@@ -138,4124 +1749,1595 @@ const data = {
             "href": "/Derecha-del-Cartel-Surf-Report/1849/",
             "town": "Derecha del Cartel",
             "spotId": "1849",
-            "FAILED": true
+            "lat": 28.0591,
+            "lng": -16.7375,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
             "href": "/El-Callado-Surf-Report/1851/",
             "town": "El Callado",
             "spotId": "1851",
-            "FAILED": true
+            "lat": 28.5654,
+            "lng": -16.3335,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
             "href": "/El-Charco-Surf-Report/1853/",
             "town": "El Charco ",
             "spotId": "1853",
-            "lat": 28.3960855,
-            "lng": -16.6519344
+            "lat": 28.5572,
+            "lng": -16.3438,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
             "href": "/El-Confital-Tenerife-Surf-Report/1850/",
             "town": "El Confital - Tenerife",
             "spotId": "1850",
-            "lat": 28.0305199,
-            "lng": -16.5684969
-        }
-    ],
-    "lanzarote": [
-        {
-            "href": "/Ghost-Town-Surf-Report/208/",
-            "town": "Ghost Town",
-            "spotId": "208",
-            "lat": 29.0468535,
-            "lng": -13.5899733
+            "lat": 28.0285,
+            "lng": -16.5693,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/Jameos-del-Agua-Surf-Report/206/",
-            "town": "Jameos del Agua",
-            "spotId": "206",
-            "lat": 29.157434,
-            "lng": -13.43217
+            "href": "/El-Conquistador-Surf-Report/1848/",
+            "town": "El Conquistador",
+            "spotId": "1848",
+            "lat": 28.0577,
+            "lng": -16.7379,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/La-Santa-Surf-Report/207/",
-            "town": "La Santa",
-            "spotId": "207",
-            "lat": 29.11978089999999,
-            "lng": -13.6500439
+            "href": "/Fuera-de-la-Bajeta-Surf-Report/1852/",
+            "town": "Fuera de la Bajeta",
+            "spotId": "1852",
+            "lat": 28.5707,
+            "lng": -16.3349,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/Morro-Negro-Surf-Report/938/",
-            "town": "Morro Negro",
-            "spotId": "938",
-            "lat": 29.12023,
-            "lng": -13.6655918
-        }
-    ],
-    "gran canaria": [
-        {
-            "href": "/Arguineguin-Surf-Report/216/",
-            "town": "Arguineguin",
-            "spotId": "216",
-            "lat": 27.7619672,
-            "lng": -15.6833181
+            "href": "/La-Caleta-Surf-Report/1855/",
+            "town": "La Caleta",
+            "spotId": "1855",
+            "lat": 28.3763,
+            "lng": -16.792,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/Bocabarranco-Gran-Canaria-Surf-Report/1882/",
-            "town": "Bocabarranco - Gran Canaria",
-            "spotId": "1882",
-            "lat": 28.0313917,
-            "lng": -15.3963692
+            "href": "/La-Fitenia-Surf-Report/222/",
+            "town": "La Fitenia",
+            "spotId": "222",
+            "lat": 28.0552,
+            "lng": -16.7385,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/Boquines-Surf-Report/1871/",
-            "town": "Boquines",
-            "spotId": "1871",
-            "FAILED": true
+            "href": "/La-Izquierda-Spanish-Left-Surf-Report/223/",
+            "town": "La Izquierda / Spanish Left",
+            "spotId": "223",
+            "lat": 28.0623,
+            "lng": -16.7357,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/Derecha-del-Faro-Surf-Report/221/",
-            "town": "Derecha del Faro",
-            "spotId": "221",
-            "lat": 27.7351212,
-            "lng": -15.5989162
-        }
-    ],
-    "spain": [
-        {
-            "href": "/Aguas-Blancas-Ibiza-Surf-Report/3547/",
-            "town": "Aguas Blancas - Ibiza",
-            "spotId": "3547",
-            "lat": 39.059435,
-            "lng": 1.589259
+            "href": "/Las-Galletas-Surf-Report/811/",
+            "town": "Las Galletas",
+            "spotId": "811",
+            "lat": 28.0053,
+            "lng": -16.6575,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/Arenal-de-Moris-Surf-Report/4222/",
-            "town": "Arenal de Moris",
-            "spotId": "4222",
-            "lat": 43.4745417,
-            "lng": -5.1752489
+            "href": "/Los-dos-Hermanos-Surf-Report/226/",
+            "town": "Los dos Hermanos",
+            "spotId": "226",
+            "lat": 28.5727,
+            "lng": -16.3143,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/Aucanada-Mallorca-Surf-Report/3551/",
-            "town": "Aucanada - Mallorca",
-            "spotId": "3551",
-            "lat": 39.84316,
-            "lng": 3.134023
+            "href": "/Los-Patos-Surf-Report/1854/",
+            "town": "Los Patos",
+            "spotId": "1854",
+            "lat": 28.4236,
+            "lng": -16.5089,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/Bakio-Surf-Report/4400/",
-            "town": "Bakio",
-            "spotId": "4400",
-            "lat": 43.427173,
-            "lng": -2.8126769
-        }
-    ],
-    "portugal": [
-        {
-            "href": "/Afife-Surf-Report/187/",
-            "town": "Afife",
-            "spotId": "187",
-            "lat": 41.7793772,
-            "lng": -8.861042099999999
+            "href": "/Playa-de-Antequera-Surf-Report/5938/",
+            "town": "Playa de Antequera",
+            "spotId": "5938",
+            "lat": 28.535,
+            "lng": -16.1318,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/Agucadoura-Surf-Report/189/",
-            "town": "AguÃ§adoura",
-            "spotId": "189",
-            "lat": 41.4312668,
-            "lng": -8.7780304
+            "href": "/Playa-de-Argayal-Surf-Report/5595/",
+            "town": "Playa de Argayal",
+            "spotId": "5595",
+            "lat": 28.0787,
+            "lng": -17.3234,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/Almagreira-Surf-Report/4349/",
-            "town": "Almagreira",
-            "spotId": "4349",
-            "lat": 36.966874,
-            "lng": -25.1029403
+            "href": "/Playa-de-Benijo-Surf-Report/5936/",
+            "town": "Playa de Benijo",
+            "spotId": "5936",
+            "lat": 28.5764,
+            "lng": -16.1854,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/Amoreira-Surf-Report/4329/",
-            "town": "Amoreira",
-            "spotId": "4329",
-            "lat": 37.3498052,
-            "lng": -8.8453109
-        }
-    ],
-    "madeira": [
-        {
-            "href": "/Ponta-do-Tristao-Surf-Report/2364/",
-            "town": " Ponta do TristÃ£o",
-            "spotId": "2364",
-            "lat": 32.8667693,
-            "lng": -17.2003023
+            "href": "/Playa-de-El-Cabrito-Surf-Report/5584/",
+            "town": "Playa de El Cabrito",
+            "spotId": "5584",
+            "lat": 28.0633,
+            "lng": -17.1435,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/Achadas-da-Cruz-Surf-Report/2360/",
-            "town": "Achadas da Cruz",
-            "spotId": "2360",
-            "lat": 32.8421246,
-            "lng": -17.2090161
+            "href": "/Playa-de-Ijuana-Surf-Report/5660/",
+            "town": "Playa de Ijuana",
+            "spotId": "5660",
+            "lat": 28.5449,
+            "lng": -16.127,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/Jardim-do-Mar-Surf-Report/639/",
-            "town": "Jardim do Mar",
-            "spotId": "639",
-            "lat": 32.7385099,
-            "lng": -17.2112322
+            "href": "/Playa-de-la-Arena-Surf-Report/5564/",
+            "town": "Playa de la Arena",
+            "spotId": "5564",
+            "lat": 28.2297,
+            "lng": -16.8415,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/Lugar-de-Baixo-Surf-Report/2363/",
-            "town": "Lugar de Baixo",
-            "spotId": "2363",
-            "lat": 32.679825,
-            "lng": -17.087432
-        }
-    ],
-    "florida - west coast": [
-        {
-            "href": "/880-Surf-Report/4619/",
-            "town": "880",
-            "spotId": "4619",
-            "lat": 27.0938171,
-            "lng": -82.4295063
+            "href": "/Playa-de-la-Entrada-Surf-Report/5664/",
+            "town": "Playa de la Entrada",
+            "spotId": "5664",
+            "lat": 28.3252,
+            "lng": -16.3627,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/Alabama-Point-Surf-Report/956/",
-            "town": "Alabama Point",
-            "spotId": "956",
-            "lat": 28.0003234,
-            "lng": -82.3908656
+            "href": "/Playa-de-la-Nea-Surf-Report/5648/",
+            "town": "Playa de la Nea",
+            "spotId": "5648",
+            "lat": 28.4041,
+            "lng": -16.3184,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/Clearwater-Surf-Report/60/",
-            "town": "Clearwater",
-            "spotId": "60",
-            "lat": 27.9605039,
-            "lng": -82.7855493
+            "href": "/Playa-de-las-Caletas-Surf-Report/5703/",
+            "town": "Playa de las Caletas",
+            "spotId": "5703",
+            "lat": 28.3785,
+            "lng": -16.3608,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/Dauphin-Island-Surf-Report/1125/",
-            "town": "Dauphin Island",
-            "spotId": "1125",
-            "lat": 30.2499786,
-            "lng": -88.0807344
-        }
-    ],
-    "texas": [
-        {
-            "href": "/37th-Street-Surf-Report/3954/",
-            "town": "37th Street",
-            "spotId": "3954",
-            "lat": 33.5600256,
-            "lng": -101.9579309
+            "href": "/Playa-de-las-Gaviotas-Surf-Report/5888/",
+            "town": "Playa de las Gaviotas",
+            "spotId": "5888",
+            "lat": 28.5157,
+            "lng": -16.1722,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/61st-Street-Surf-Report/3944/",
-            "town": "61st Street",
-            "spotId": "3944",
-            "lat": 29.2797089,
-            "lng": -94.8331609
+            "href": "/Playa-de-las-Teresitas-Surf-Report/5674/",
+            "town": "Playa de las Teresitas",
+            "spotId": "5674",
+            "lat": 28.5086,
+            "lng": -16.1859,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/Bob-Hall-Pier-Surf-Report/361/",
-            "town": "Bob Hall Pier",
-            "spotId": "361",
-            "lat": 27.582173,
-            "lng": -97.2194365
+            "href": "/Playa-de-Lima-Surf-Report/5657/",
+            "town": "Playa de Lima",
+            "spotId": "5657",
+            "lat": 28.3392,
+            "lng": -16.3654,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/Boca-Chica-Surf-Report/3946/",
-            "town": "Boca Chica",
-            "spotId": "3946",
-            "lat": 25.998146,
-            "lng": -97.1646262
-        }
-    ],
-    "mexico - gulf coast": [
-        {
-            "href": "/Cancun-Surf-Report/790/",
-            "town": "Cancun",
-            "spotId": "790",
-            "lat": 21.161908,
-            "lng": -86.8515279
+            "href": "/Playa-de-Nogales-Surf-Report/8983/",
+            "town": "Playa de Nogales",
+            "spotId": "8983",
+            "lat": 28.7599,
+            "lng": -17.7399,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/Cozumel-Surf-Report/642/",
-            "town": "Cozumel",
-            "spotId": "642",
-            "lat": 20.4229839,
-            "lng": -86.9223432
+            "href": "/Playa-de-San-Roque-Surf-Report/5677/",
+            "town": "Playa de San Roque",
+            "spotId": "5677",
+            "lat": 28.5697,
+            "lng": -16.208,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/Puerto-Morelos-Surf-Report/4045/",
-            "town": "Puerto Morelos",
-            "spotId": "4045",
-            "lat": 20.853342,
-            "lng": -86.873589
-        }
-    ],
-    "denmark": [
-        {
-            "href": "/Agger-Surf-Report/3927/",
-            "town": "Agger",
-            "spotId": "3927",
-            "lat": 56.781856,
-            "lng": 8.238483
+            "href": "/Playa-del-Llano-Surf-Report/5656/",
+            "town": "Playa del Llano",
+            "spotId": "5656",
+            "lat": 28.5222,
+            "lng": -16.1568,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/Bunkers-Surf-Report/1836/",
-            "town": "Bunkers",
-            "spotId": "1836",
-            "lat": 57.738978,
-            "lng": 10.631769
+            "href": "/Playa-del-Muerto-Surf-Report/5650/",
+            "town": "Playa del Muerto",
+            "spotId": "5650",
+            "lat": 28.4267,
+            "lng": -16.2914,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/Gillelje-Havn-Surf-Report/4526/",
-            "town": "Gillelje Havn",
-            "spotId": "4526",
-            "lat": 56.1251488,
-            "lng": 12.308303
+            "href": "/Playa-del-Socorro-Surf-Report/225/",
+            "town": "Playa del Socorro",
+            "spotId": "225",
+            "lat": 28.3948,
+            "lng": -16.6028,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/Hanstholm-Surf-Report/1837/",
-            "town": "Hanstholm",
-            "spotId": "1837",
-            "lat": 57.112861,
-            "lng": 8.617668000000002
-        }
-    ],
-    "germany": [
-        {
-            "href": "/Baltrum-Surf-Report/1117/",
-            "town": "Baltrum",
-            "spotId": "1117",
-            "lat": 53.7281887,
-            "lng": 7.3705802
+            "href": "/Playa-del-Terrero-Surf-Report/5673/",
+            "town": "Playa del Terrero",
+            "spotId": "5673",
+            "lat": 28.3944,
+            "lng": -16.6126,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/Binz-Rugen-Surf-Report/4429/",
-            "town": "Binz / RÃ¼gen",
-            "spotId": "4429",
-            "lat": 54.4022152,
-            "lng": 13.606025
+            "href": "/Playa-del-Topuerque-Surf-Report/5672/",
+            "town": "Playa del Topuerque",
+            "spotId": "5672",
+            "lat": 28.2322,
+            "lng": -16.4083,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/Borkum-Surf-Report/156/",
-            "town": "Borkum",
-            "spotId": "156",
-            "lat": 53.5973774,
-            "lng": 6.7180445
+            "href": "/Playa-El-Poris-Surf-Report/4693/",
+            "town": "Playa El Poris",
+            "spotId": "4693",
+            "lat": 28.1529,
+            "lng": -16.4321,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/Juist-Surf-Report/1116/",
-            "town": "Juist",
-            "spotId": "1116",
-            "lat": 53.681385,
-            "lng": 7.008163
-        }
-    ],
-    "morocco": [
-        {
-            "href": "/Agadir-Surf-Report/254/",
-            "town": "Agadir",
-            "spotId": "254",
-            "lat": 30.4277547,
-            "lng": -9.5981072
+            "href": "/Playa-El-Troche-Surf-Report/5665/",
+            "town": "Playa El Troche",
+            "spotId": "5665",
+            "lat": 28.5715,
+            "lng": -16.3107,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/Ain-Diab-Surf-Report/4571/",
-            "town": "Ain Diab",
-            "spotId": "4571",
-            "lat": 33.58921910000001,
-            "lng": -7.6738023
+            "href": "/Playa-Fajana-Surf-Report/5663/",
+            "town": "Playa Fajana",
+            "spotId": "5663",
+            "lat": 28.5714,
+            "lng": -16.2774,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/Anchor-Point-Surf-Report/905/",
-            "town": "Anchor Point",
-            "spotId": "905",
-            "lat": 30.546037,
-            "lng": -9.726398
+            "href": "/Playa-Martianez-Surf-Report/7817/",
+            "town": "Playa Martianez",
+            "spotId": "7817",
+            "lat": 28.4176,
+            "lng": -16.5412,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/Banana-Point-Surf-Report/900/",
-            "town": "Banana Point",
-            "spotId": "900",
-            "lat": 30.499863,
-            "lng": -9.678611
-        }
-    ],
-    "washington": [
-        {
-            "href": "/Cape-Flattery-Surf-Report/710/",
-            "town": "Cape Flattery",
-            "spotId": "710",
-            "lat": 48.38311789999999,
-            "lng": -124.7144109
+            "href": "/Playas-de-los-Mozos-Surf-Report/5651/",
+            "town": "Playas de los Mozos",
+            "spotId": "5651",
+            "lat": 27.701,
+            "lng": -18.098,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/La-Push-Surf-Report/308/",
-            "town": "La Push",
-            "spotId": "308",
-            "lat": 47.90813350000001,
-            "lng": -124.6352255
+            "href": "/Playas-de-Manchas-Blancas-Surf-Report/5653/",
+            "town": "Playas de Manchas Blancas",
+            "spotId": "5653",
+            "lat": 27.6638,
+            "lng": -17.9722,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/Long-Beach-Surf-Report/311/",
-            "town": "Long Beach",
-            "spotId": "311",
-            "lat": 46.3523219,
-            "lng": -124.0543234
-        },
-        {
-            "href": "/Ocean-Shores-Surf-Report/3813/",
-            "town": "Ocean Shores",
-            "spotId": "3813",
-            "lat": 46.9736986,
-            "lng": -124.1562852
-        }
-    ],
-    "oregon": [
-        {
-            "href": "/Brookings-Surf-Report/322/",
-            "town": "Brookings",
-            "spotId": "322",
-            "lat": 42.0526114,
-            "lng": -124.2839819
-        },
-        {
-            "href": "/Cannon-Beach-Surf-Report/313/",
-            "town": "Cannon Beach",
-            "spotId": "313",
-            "lat": 45.8917738,
-            "lng": -123.9615274
-        },
-        {
-            "href": "/Cape-Kiwanda-Surf-Report/560/",
-            "town": "Cape Kiwanda",
-            "spotId": "560",
-            "lat": 45.219065,
-            "lng": -123.9753912
-        },
-        {
-            "href": "/Cape-Lookout-Surf-Report/315/",
-            "town": "Cape Lookout",
-            "spotId": "315",
-            "lat": 45.355822,
-            "lng": -123.9714861
-        }
-    ],
-    "northern california": [
-        {
-            "href": "/Black-Point-Beach-Surf-Report/4629/",
-            "town": "Black Point Beach",
-            "spotId": "4629",
-            "lat": 38.6790791,
-            "lng": -123.4319533
-        },
-        {
-            "href": "/Bolinas-Surf-Report/4221/",
-            "town": "Bolinas",
-            "spotId": "4221",
-            "lat": 37.9093702,
-            "lng": -122.6863733
-        },
-        {
-            "href": "/Bolinas-Jetty-Surf-Report/4215/",
-            "town": "Bolinas Jetty",
-            "spotId": "4215",
-            "FAILED": true
-        },
-        {
-            "href": "/Caspar-Beach-Surf-Report/4630/",
-            "town": "Caspar Beach",
-            "spotId": "4630",
-            "lat": 39.3591974,
-            "lng": -123.815657
-        }
-    ],
-    "orange county": [
-        {
-            "href": "/13th-Street-Surf-Report/2599/",
-            "town": "13th Street",
-            "spotId": "2599",
-            "lat": 33.7556032,
-            "lng": -117.9902348
-        },
-        {
-            "href": "/204s-Surf-Report/2591/",
-            "town": "204s",
-            "spotId": "2591",
-            "lat": 33.7591717,
-            "lng": -118.1309632
-        },
-        {
-            "href": "/36th-St-Newport-Surf-Report/4683/",
-            "town": "36th St Newport",
-            "spotId": "4683",
-            "lat": 33.6177789,
-            "lng": -117.9329641
-        },
-        {
-            "href": "/64th-Place-Surf-Report/2597/",
-            "town": "64th Place",
-            "spotId": "2597",
-            "lat": 33.7479423,
-            "lng": -118.1216071
-        }
-    ],
-    "los angeles county": [
-        {
-            "href": "/Manhattan-Beach-Surf-Report/281/",
-            "town": " Manhattan Beach ",
-            "spotId": "281",
-            "lat": 33.8847361,
-            "lng": -118.4109089
-        },
-        {
-            "href": "/Bay-Street-Surf-Report/2613/",
-            "town": "Bay Street",
-            "spotId": "2613",
-            "lat": 34.0314566,
-            "lng": -118.2341463
-        },
-        {
-            "href": "/Cabrillo-Point-Surf-Report/284/",
-            "town": "Cabrillo Point",
-            "spotId": "284",
-            "lat": 33.7110102,
-            "lng": -118.283293
-        },
-        {
-            "href": "/Chart-House-Rights-Surf-Report/4205/",
-            "town": "Chart House Rights",
-            "spotId": "4205",
-            "lat": 33.9786922,
-            "lng": -118.4533319
-        }
-    ],
-    "san diego county": [
-        {
-            "href": "/Beacons-Surf-Report/4562/",
-            "town": "Beacons",
-            "spotId": "4562",
-            "lat": 33.0651901,
-            "lng": -117.3047174
-        },
-        {
-            "href": "/Birdrock-Surf-Report/4209/",
-            "town": "Birdrock",
-            "spotId": "4209",
-            "lat": 32.811564,
-            "lng": -117.2661419
-        },
-        {
-            "href": "/Cardiff-Reef-Surf-Report/4663/",
-            "town": "Cardiff Reef",
-            "spotId": "4663",
-            "lat": 33.0098231,
-            "lng": -117.27963
-        },
-        {
-            "href": "/Carlsbad-Surf-Report/292/",
-            "town": "Carlsbad",
-            "spotId": "292",
-            "lat": 33.1580933,
-            "lng": -117.3505939
-        }
-    ],
-    "ventura county": [
-        {
-            "href": "/California-Street-C-Street-Surf-Report/275/",
-            "town": "California Street (C Street)",
-            "spotId": "275",
-            "lat": 34.397529,
-            "lng": -118.927691
-        },
-        {
-            "href": "/County-Line-Yerba-Buena-Beach-Surf-Report/277/",
-            "town": "County Line/Yerba Buena Beach",
-            "spotId": "277",
-            "lat": 34.0516745,
-            "lng": -118.9606526
-        },
-        {
-            "href": "/Emma-Wood-Surf-Report/2646/",
-            "town": "Emma Wood",
-            "spotId": "2646",
-            "lat": 34.2932299,
-            "lng": -119.3398523
-        },
-        {
-            "href": "/Faria-Beach-Surf-Report/2645/",
-            "town": "Faria Beach",
-            "spotId": "2645",
-            "FAILED": true
-        }
-    ],
-    "santa barbara county": [
-        {
-            "href": "/Beavers-Hazards-Surf-Report/267/",
-            "town": "Beavers/Hazards",
-            "spotId": "267",
-            "FAILED": true
-        },
-        {
-            "href": "/Campus-Point-Surf-Report/269/",
-            "town": "Campus Point",
-            "spotId": "269",
-            "lat": 34.4044408,
-            "lng": -119.844027
-        },
-        {
-            "href": "/Devereux-Surf-Report/4251/",
-            "town": "Devereux",
-            "spotId": "4251",
-            "lat": 34.4119325,
-            "lng": -119.8737967
-        },
-        {
-            "href": "/Hammonds-Reef-Surf-Report/271/",
-            "town": "Hammonds Reef",
-            "spotId": "271",
-            "lat": 34.4184715,
-            "lng": -119.6340511
+            "href": "/Punta-Blanca-K16-Surf-Report/224/",
+            "town": "Punta Blanca - K16",
+            "spotId": "224",
+            "lat": 28.2129,
+            "lng": -16.8391,
+            "timeZone": "Atlantic/Canary",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         }
     ],
     "new jersey": [
         {
+            "href": "/14th-Street-Surf-Report/9055/",
+            "town": "14th Street",
+            "spotId": "9055",
+            "lat": 39.2709,
+            "lng": -74.5804,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/18th-St-Surf-Report/9056/",
+            "town": "18th St.",
+            "spotId": "9056",
+            "lat": 39.267,
+            "lng": -74.5858,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/30th-St-Surf-Report/9057/",
+            "town": "30th St.",
+            "spotId": "9057",
+            "lat": 39.2543,
+            "lng": -74.6029,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/34th-Street-Surf-Report/9058/",
+            "town": "34th Street",
+            "spotId": "9058",
+            "lat": 39.5831,
+            "lng": -74.2217,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/56th-St-Surf-Report/9059/",
+            "town": "56th St.",
+            "spotId": "9059",
+            "lat": 39.2227,
+            "lng": -74.6343,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/7th-St-Surf-Report/7918/",
+            "town": "7th St",
+            "spotId": "7918",
+            "lat": 39.2751,
+            "lng": -74.5662,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
             "href": "/Asbury-Park-Surf-Report/857/",
             "town": "Asbury Park",
             "spotId": "857",
-            "lat": 40.2203907,
-            "lng": -74.0120817
+            "lat": 40.2195,
+            "lng": -73.9981,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
             "href": "/Avalon-Surf-Report/821/",
             "town": "Avalon",
             "spotId": "821",
-            "lat": 39.101225,
-            "lng": -74.71766219999999
+            "lat": 39.0925,
+            "lng": -74.716,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
             "href": "/Avon-Surf-Report/4050/",
             "town": "Avon",
             "spotId": "4050",
-            "lat": 40.1923357,
-            "lng": -74.01597029999999
+            "lat": 40.1916,
+            "lng": -74.0093,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Barnegat-Light-Surf-Report/7940/",
+            "town": "Barnegat Light",
+            "spotId": "7940",
+            "lat": 39.7506,
+            "lng": -74.1005,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Bay-Head-Surf-Report/4951/",
+            "town": "Bay Head",
+            "spotId": "4951",
+            "lat": 40.0699,
+            "lng": -74.0415,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Beach-Haven-Surf-Report/7939/",
+            "town": "Beach Haven",
+            "spotId": "7939",
+            "lat": 39.5601,
+            "lng": -74.236,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
             "href": "/Belmar-Surf-Report/3683/",
             "town": "Belmar",
             "spotId": "3683",
-            "lat": 40.1784471,
-            "lng": -74.02180369999999
+            "lat": 40.1779,
+            "lng": -74.0099,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
-        {  "href": "/Deal-Surf-Report/822/",
+        {
+            "href": "/Boardwalk-Surf-Report/9183/",
+            "town": "Boardwalk",
+            "spotId": "9183",
+            "lat": 40.2235,
+            "lng": -73.997,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Bradley-Beach-Surf-Report/7944/",
+            "town": "Bradley Beach",
+            "spotId": "7944",
+            "lat": 40.202,
+            "lng": -74.0054,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Brigantine-Surf-Report/4747/",
+            "town": "Brigantine",
+            "spotId": "4747",
+            "lat": 39.3735,
+            "lng": -74.3985,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Brigantine-Seawall-Surf-Report/4942/",
+            "town": "Brigantine Seawall",
+            "spotId": "4942",
+            "lat": 39.4135,
+            "lng": -74.3548,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Casino-Surf-Report/9175/",
+            "town": "Casino",
+            "spotId": "9175",
+            "lat": 40.2173,
+            "lng": -73.9991,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Casino-Pier-Surf-Report/387/",
+            "town": "Casino Pier",
+            "spotId": "387",
+            "lat": 39.9424,
+            "lng": -74.0677,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Crystals-Surf-Report/4943/",
+            "town": "Crystals",
+            "spotId": "4943",
+            "lat": 39.3639,
+            "lng": -74.4082,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Deal-Surf-Report/822/",
             "town": "Deal",
             "spotId": "822",
-            "lat": 40.243168,
-            "lng": -74.0006927
+            "lat": 40.241,
+            "lng": -73.9922,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
-        { 
+        {
+            "href": "/Diamond-Beach-Surf-Report/9061/",
+            "town": "Diamond Beach",
+            "spotId": "9061",
+            "lat": 38.9548,
+            "lng": -74.8474,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Dog-Park-Surf-Report/9174/",
+            "town": "Dog Park",
+            "spotId": "9174",
+            "lat": 40.2279,
+            "lng": -73.9958,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Harvey-Cedars-Surf-Report/7938/",
+            "town": "Harvey Cedars",
+            "spotId": "7938",
+            "lat": 39.7046,
+            "lng": -74.1316,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
             "href": "/Holyoke-Surf-Report/389/",
-            "town": "Beach Haven, Holyoke",
+            "town": "Holyoke",
             "spotId": "389",
-            "lat": 39.5592848,
-            "lng": -74.2431963
+            "lat": 39.5306,
+            "lng": -74.2624,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
-        { 
+        {
+            "href": "/Hudson-Ave-Surf-Report/9062/",
+            "town": "Hudson Ave",
+            "spotId": "9062",
+            "lat": 39.6508,
+            "lng": -74.1715,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Island-Beach-State-Park-Surf-Report/4052/",
+            "town": "Island Beach State Park",
+            "spotId": "4052",
+            "lat": 39.8367,
+            "lng": -74.0827,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
             "href": "/Jenkinsons-Surf-Report/4053/",
-            "town": "Point Pleasant, Jenks",
+            "town": "Jenkinsons",
             "spotId": "4053",
-            "lat": 40.0912268,
-            "lng": -74.0479146
+            "lat": 40.0999,
+            "lng": -74.0319,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
-        { 
-            "href": "/Casino-Pier-Surf-Report/387/",
-            "town": "Seaside Heights, Casino Pier",
-            "spotId": "387",
-            "lat": 39.944285,
-            "lng": -74.0729139
+        {
+            "href": "/Lavenia-Ave-Surf-Report/9060/",
+            "town": "Lavenia Ave.",
+            "spotId": "9060",
+            "lat": 39.6114,
+            "lng": -74.1996,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Long-Branch-Surf-Report/7946/",
+            "town": "Long Branch",
+            "spotId": "7946",
+            "lat": 40.3048,
+            "lng": -73.9767,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Long-Branch-Surf-Report/7947/",
+            "town": "Long Branch",
+            "spotId": "7947",
+            "lat": 40.3048,
+            "lng": -73.9767,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Longport-32nd-St-Surf-Report/1158/",
+            "town": "Longport, 32nd St.",
+            "spotId": "1158",
+            "lat": 39.316,
+            "lng": -74.5148,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Manasquan-Surf-Report/386/",
+            "town": "Manasquan",
+            "spotId": "386",
+            "lat": 40.1033,
+            "lng": -74.0312,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Mantoloking-Surf-Report/9063/",
+            "town": "Mantoloking",
+            "spotId": "9063",
+            "lat": 40.0284,
+            "lng": -74.0484,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Margate-Pier-Surf-Report/4054/",
+            "town": "Margate Pier",
+            "spotId": "4054",
+            "lat": 39.3271,
+            "lng": -74.4948,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Monmouth-Beach-Surf-Report/4055/",
+            "town": "Monmouth Beach",
+            "spotId": "4055",
+            "lat": 40.3283,
+            "lng": -73.9737,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/New-Jersey-Hurricane-Surf-Report/1094/",
+            "town": "New Jersey Hurricane",
+            "spotId": "1094",
+            "lat": 39.6142,
+            "lng": -74.1083,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/North-Street-Surf-Report/4946/",
+            "town": "North Street",
+            "spotId": "4946",
+            "lat": 39.2838,
+            "lng": -74.556,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Nuns-Beach-Surf-Report/7948/",
+            "town": "Nun's Beach",
+            "spotId": "7948",
+            "lat": 39.0399,
+            "lng": -74.7642,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Ocean-City-NJ-Surf-Report/391/",
+            "town": "Ocean City, NJ",
+            "spotId": "391",
+            "lat": 39.2766,
+            "lng": -74.5623,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Ocean-Grove-Surf-Report/7945/",
+            "town": "Ocean Grove",
+            "spotId": "7945",
+            "lat": 40.213,
+            "lng": -74.0009,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Ortley-Beach-Surf-Report/9064/",
+            "town": "Ortley Beach",
+            "spotId": "9064",
+            "lat": 39.9575,
+            "lng": -74.0674,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Point-Pleasant-Surf-Report/7942/",
+            "town": "Point Pleasant",
+            "spotId": "7942",
+            "lat": 40.0874,
+            "lng": -74.0375,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Poverty-Beach-Surf-Report/4056/",
+            "town": "Poverty Beach",
+            "spotId": "4056",
+            "lat": 38.9383,
+            "lng": -74.89,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Sea-Girt-Surf-Report/7943/",
+            "town": "Sea Girt",
+            "spotId": "7943",
+            "lat": 40.1311,
+            "lng": -74.0268,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Sea-Isle-City-Surf-Report/1281/",
+            "town": "Sea Isle City",
+            "spotId": "1281",
+            "lat": 39.1592,
+            "lng": -74.6838,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Ship-Bottom-Surf-Report/9065/",
+            "town": "Ship Bottom",
+            "spotId": "9065",
+            "lat": 39.6375,
+            "lng": -74.1814,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/South-Carolina-Ave-Surf-Report/4944/",
+            "town": "South Carolina Ave",
+            "spotId": "4944",
+            "lat": 39.356,
+            "lng": -74.4216,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Spray-Beach-Surf-Report/9066/",
+            "town": "Spray Beach",
+            "spotId": "9066",
+            "lat": 39.5768,
+            "lng": -74.2247,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Spring-Lake-Surf-Report/7941/",
+            "town": "Spring Lake",
+            "spotId": "7941",
+            "lat": 40.1522,
+            "lng": -74.0208,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/St-James-Surf-Report/7917/",
+            "town": "St. James",
+            "spotId": "7917",
+            "lat": 39.3554,
+            "lng": -74.4247,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/States-Avenue-Surf-Report/390/",
+            "town": "States Avenue",
+            "spotId": "390",
+            "lat": 39.3585,
+            "lng": -74.4169,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Stockton-Surf-Report/393/",
+            "town": "Stockton",
+            "spotId": "393",
+            "lat": 38.9288,
+            "lng": -74.9175,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Stone-Harbor-Surf-Report/7920/",
+            "town": "Stone Harbor",
+            "spotId": "7920",
+            "lat": 39.044,
+            "lng": -74.7607,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Strathmere-Surf-Report/7919/",
+            "town": "Strathmere",
+            "spotId": "7919",
+            "lat": 39.1969,
+            "lng": -74.6536,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Surf-City-Surf-Report/388/",
+            "town": "Surf City",
+            "spotId": "388",
+            "lat": 39.649,
+            "lng": -74.1724,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/The-Cove-Surf-Report/385/",
+            "town": "The Cove",
+            "spotId": "385",
+            "lat": 40.4696,
+            "lng": -73.9934,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/The-Cove-Surf-Report/7921/",
+            "town": "The Cove",
+            "spotId": "7921",
+            "lat": 38.9284,
+            "lng": -74.9346,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Ventnor-Pier-Surf-Report/4945/",
+            "town": "Ventnor Pier",
+            "spotId": "4945",
+            "lat": 39.3362,
+            "lng": -74.4778,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Wildwood-Surf-Report/392/",
+            "town": "Wildwood",
+            "spotId": "392",
+            "lat": 38.9713,
+            "lng": -74.8229,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         }
     ],
     "new york": [
         {
+            "href": "/Asharoken-Beach-Surf-Report/7957/",
+            "town": "Asharoken Beach",
+            "spotId": "7957",
+            "lat": 40.9346,
+            "lng": -73.3708,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
             "href": "/Atlantic-Terrace-Surf-Report/2160/",
             "town": "Atlantic Terrace",
             "spotId": "2160",
-            "lat": 41.034333,
-            "lng": -71.937524
+            "lat": 41.0331,
+            "lng": -71.9364,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Atlantique-Beach-Surf-Report/9186/",
+            "town": "Atlantique Beach",
+            "spotId": "9186",
+            "lat": 40.6404,
+            "lng": -73.1711,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Breezy-Point-Surf-Report/4867/",
+            "town": "Breezy Point",
+            "spotId": "4867",
+            "lat": 40.5432,
+            "lng": -73.9344,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Cedar-Grove-Beach-Surf-Report/8970/",
+            "town": "Cedar Grove Beach",
+            "spotId": "8970",
+            "lat": 40.5554,
+            "lng": -74.1009,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Centre-Island-Beach-Surf-Report/7650/",
+            "town": "Centre Island Beach",
+            "spotId": "7650",
+            "lat": 40.9102,
+            "lng": -73.5481,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Compo-Beach-Surf-Report/7965/",
+            "town": "Compo Beach",
+            "spotId": "7965",
+            "lat": 41.1052,
+            "lng": -73.3515,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Coopers-Beach-Surf-Report/4875/",
+            "town": "Coopers Beach",
+            "spotId": "4875",
+            "lat": 40.863,
+            "lng": -72.4058,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Crab-Meadow-Beach-Surf-Report/7649/",
+            "town": "Crab Meadow Beach",
+            "spotId": "7649",
+            "lat": 40.9299,
+            "lng": -73.3276,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
             "href": "/Cupsogue-Surf-Report/4224/",
             "town": "Cupsogue",
             "spotId": "4224",
-            "lat": 40.7709354,
-            "lng": -72.73522799999999
+            "lat": 40.7656,
+            "lng": -72.7428,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Davis-Park-Surf-Report/4872/",
+            "town": "Davis Park",
+            "spotId": "4872",
+            "lat": 40.683,
+            "lng": -73.0025,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
             "href": "/Ditch-Plains-Surf-Report/2159/",
             "town": "Ditch Plains",
             "spotId": "2159",
-            "lat": 41.0406577,
-            "lng": -71.9178462
+            "lat": 41.0384,
+            "lng": -71.9134,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Fair-Harbor-Surf-Report/4871/",
+            "town": "Fair Harbor",
+            "spotId": "4871",
+            "lat": 40.6372,
+            "lng": -73.182,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
             "href": "/Fire-Island-Surf-Report/380/",
-            "town": "Fire Island, Democrat Point",
+            "town": "Fire Island",
             "spotId": "380",
-            "lat": 40.62343389999999,
-            "lng": -73.3040086
+            "lat": 40.7296,
+            "lng": -72.864,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Flies-Surf-Report/4225/",
+            "town": "Flies",
+            "spotId": "4225",
+            "lat": 40.8397,
+            "lng": -72.4656,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Fortress-Surf-Report/379/",
+            "town": "Fortress",
+            "spotId": "379",
+            "lat": 41.0347,
+            "lng": -71.9286,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Georgica-East-Hampton-Surf-Report/4226/",
+            "town": "Georgica (East Hampton)",
+            "spotId": "4226",
+            "lat": 40.9322,
+            "lng": -72.2191,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Gulf-Beach-Surf-Report/7640/",
+            "town": "Gulf Beach",
+            "spotId": "7640",
+            "lat": 41.2082,
+            "lng": -73.0451,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Historic-Park-Fishing-Beach-Surf-Report/7956/",
+            "town": "Historic Park Fishing Beach",
+            "spotId": "7956",
+            "lat": 40.9409,
+            "lng": -73.4745,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Hither-Hills-State-Park-Surf-Report/4877/",
+            "town": "Hither Hills State Park",
+            "spotId": "4877",
+            "lat": 41.0076,
+            "lng": -72.0103,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Huntington-Bay-Surf-Report/7958/",
+            "town": "Huntington Bay",
+            "spotId": "7958",
+            "lat": 40.9062,
+            "lng": -73.4161,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Indian-Wells-Beach-Surf-Report/9155/",
+            "town": "Indian Wells Beach",
+            "spotId": "9155",
+            "lat": 40.9622,
+            "lng": -72.1365,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Jennings-Beach-Surf-Report/7643/",
+            "town": "Jennings Beach",
+            "spotId": "7643",
+            "lat": 41.1397,
+            "lng": -73.2373,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Jones-Beach-State-Park-Surf-Report/2162/",
+            "town": "Jones Beach State Park",
+            "spotId": "2162",
+            "lat": 40.6257,
+            "lng": -73.348,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/K-Road-Surf-Report/4874/",
+            "town": "K Road",
+            "spotId": "4874",
+            "lat": 40.8332,
+            "lng": -72.5039,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Laurelton-Blvd-Surf-Report/4868/",
+            "town": "Laurelton Blvd",
+            "spotId": "4868",
+            "lat": 40.5824,
+            "lng": -73.6725,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Lido-Beach-Surf-Report/382/",
+            "town": "Lido Beach",
+            "spotId": "382",
+            "lat": 40.5844,
+            "lng": -73.6169,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
             "href": "/Long-Beach-Surf-Report/383/",
             "town": "Long Beach",
             "spotId": "383",
-            "lat": 40.5884374,
-            "lng": -73.657908
+            "lat": 40.5809,
+            "lng": -73.654,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Long-Beach-West-End-Surf-Report/9067/",
+            "town": "Long Beach (West End)",
+            "spotId": "9067",
+            "lat": 40.5832,
+            "lng": -73.6918,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Main-Beach-Surf-Report/4876/",
+            "town": "Main Beach",
+            "spotId": "4876",
+            "lat": 40.9425,
+            "lng": -72.1937,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Mastic-Beach-Surf-Report/870/",
+            "town": "Mastic Beach",
+            "spotId": "870",
+            "lat": 40.7374,
+            "lng": -72.8448,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Matinecock-Point-Surf-Report/7954/",
+            "town": "Matinecock Point",
+            "spotId": "7954",
+            "lat": 40.9027,
+            "lng": -73.6329,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Meudon-Beach-Surf-Report/7955/",
+            "town": "Meudon Beach",
+            "spotId": "7955",
+            "lat": 40.902,
+            "lng": -73.6034,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Mount-Sinai-Harbor-Surf-Report/7653/",
+            "town": "Mount Sinai Harbor",
+            "spotId": "7653",
+            "lat": 40.9608,
+            "lng": -73.0312,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Napeague-Bay-Surf-Report/7646/",
+            "town": "Napeague Bay",
+            "spotId": "7646",
+            "lat": 41.0214,
+            "lng": -72.0271,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Napeague-Beach-Surf-Report/7916/",
+            "town": "Napeague Beach",
+            "spotId": "7916",
+            "lat": 40.9931,
+            "lng": -72.0484,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Niantic-Beach-Surf-Report/7961/",
+            "town": "Niantic Beach",
+            "spotId": "7961",
+            "lat": 41.3237,
+            "lng": -72.1823,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/North-Bar-Surf-Report/378/",
+            "town": "North Bar",
+            "spotId": "378",
+            "lat": 41.0748,
+            "lng": -71.8596,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Ocean-Beach-Park-Surf-Report/7642/",
+            "town": "Ocean Beach Park",
+            "spotId": "7642",
+            "lat": 41.307,
+            "lng": -72.0996,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Old-Field-Beach-Surf-Report/7959/",
+            "town": "Old Field Beach",
+            "spotId": "7959",
+            "lat": 40.9732,
+            "lng": -73.1124,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Orient-Point-Surf-Report/7652/",
+            "town": "Orient Point",
+            "spotId": "7652",
+            "lat": 41.16,
+            "lng": -72.235,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Pacific-Blvd-Surf-Report/4869/",
+            "town": "Pacific Blvd",
+            "spotId": "4869",
+            "lat": 40.5816,
+            "lng": -73.6406,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Park-Line-Surf-Report/4878/",
+            "town": "Park Line",
+            "spotId": "4878",
+            "lat": 41.0111,
+            "lng": -71.9998,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Pluff-Point-Beach-Surf-Report/7962/",
+            "town": "Pluff Point Beach",
+            "spotId": "7962",
+            "lat": 41.3164,
+            "lng": -72.0374,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Point-O%26rsquo%3B-Woods-Surf-Report/9185/",
+            "town": "Point Oâ�� Woods",
+            "spotId": "9185",
+            "lat": 40.6494,
+            "lng": -73.1278,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Reeves-Beach-Surf-Report/9190/",
+            "town": "Reeves Beach",
+            "spotId": "9190",
+            "lat": 40.9769,
+            "lng": -72.7123,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
             "href": "/Robert-Moses-State-Park-Surf-Report/381/",
-            "town": "Robert Moses",
+            "town": "Robert Moses State Park",
             "spotId": "381",
-            "lat": 40.6233545,
-            "lng": -73.2611703
+            "lat": 40.6211,
+            "lng": -73.2614,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
             "href": "/Rockaway-Surf-Report/384/",
-            "town": "Rockaway, 90th Street",
+            "town": "Rockaway",
             "spotId": "384",
-            "lat": 40.5846394,
-            "lng": -73.8108278
-        }
-    ],
-    "delaware": [
-        {
-            "href": "/Fenwick-Surf-Report/4117/",
-            "town": "Fenwick",
-            "spotId": "4117",
-            "lat": 38.4623346,
-            "lng": -75.05129219999999
-        },
-        {
-            "href": "/Indian-River-Surf-Report/394/",
-            "town": "Indian River",
-            "spotId": "394",
-            "lat": 38.6128174,
-            "lng": -75.0716849
-        }
-    ],
-    "maryland": [
-        {
-            "href": "/Ocean-City-MD-Surf-Report/395/",
-            "town": "Ocean City, MD",
-            "spotId": "395",
-            "lat": 38.3365032,
-            "lng": -75.0849058
-        }
-    ],
-    "virginia": [
-        {
-            "href": "/Chincoteague-Surf-Report/4116/",
-            "town": "Chincoteague",
-            "spotId": "4116",
-            "lat": 37.933179,
-            "lng": -75.3788086
-        },
-        {
-            "href": "/Virginia-Beach-Surf-Report/396/",
-            "town": "Virginia Beach",
-            "spotId": "396",
-            "lat": 36.8529263,
-            "lng": -75.97798499999999
-        }
-    ],
-    "south carolina": [
-        {
-            "href": "/27th-Ave-North-Myrtle-Surf-Report/2152/",
-            "town": "27th Ave/North Myrtle",
-            "spotId": "2152",
-            "lat": 33.8492585,
-            "lng": -78.64383529999999
-        },
-        {
-            "href": "/Burkes-Beach-Surf-Report/3708/",
-            "town": "Burkes Beach",
-            "spotId": "3708",
-            "lat": 32.1940526,
-            "lng": -80.6976655
-        },
-        {
-            "href": "/Cherry-Grove-Pier-Surf-Report/2087/",
-            "town": "Cherry Grove Pier",
-            "spotId": "2087",
-            "lat": 33.8303054,
-            "lng": -78.6333937
-        },
-        {
-            "href": "/Dunes-Cove-Surf-Report/404/",
-            "town": "Dunes Cove",
-            "spotId": "404",
-            "lat": 33.771839,
-            "lng": -78.7964107
-        }
-    ],
-    "georgia": [
-        {
-            "href": "/17th-Street-Boardwalk-Surf-Report/2153/",
-            "town": "17th Street Boardwalk",
-            "spotId": "2153",
-            "lat": 31.990305,
-            "lng": -80.847473
-        },
-        {
-            "href": "/2nd-Street-Tybee-Island-Surf-Report/643/",
-            "town": "2nd Street (Tybee Island)",
-            "spotId": "643",
-            "lat": 32.0113639,
-            "lng": -80.84311799999999
-        },
-        {
-            "href": "/Comfort-Inn-Jekyll-Island-Surf-Report/408/",
-            "town": "Comfort Inn/Jekyll Island",
-            "spotId": "408",
-            "lat": 31.067714,
-            "lng": -81.40566199999999
-        },
-        {
-            "href": "/North-Jetty-Surf-Report/2155/",
-            "town": "North Jetty",
-            "spotId": "2155",
-            "lat": 34.6735627,
-            "lng": -84.6148346
-        }
-    ],
-    "costa rica": [
-        {
-            "href": "/Avellana-Surf-Report/920/",
-            "town": "Avellana",
-            "spotId": "920",
-            "lat": 10.2392766,
-            "lng": -85.8432649
-        },
-        {
-            "href": "/Backwash-Golfo-Dulce-Surf-Report/2459/",
-            "town": "Backwash (Golfo Dulce)",
-            "spotId": "2459",
-            "FAILED": true
-        },
-        {
-            "href": "/Barco-Quebrado-Surf-Report/2490/",
-            "town": "Barco Quebrado",
-            "spotId": "2490",
-            "lat": 9.9016102,
-            "lng": -85.588864
-        },
-        {
-            "href": "/Boca-Barranca-Surf-Report/3239/",
-            "town": "Boca Barranca",
-            "spotId": "3239",
-            "lat": 9.966667,
-            "lng": -84.733333
-        }
-    ],
-    "panama": [
-        {
-            "href": "/Bluff-Surf-Report/2507/",
-            "town": "Bluff",
-            "spotId": "2507",
-            "lat": 9.4032932,
-            "lng": -82.2478043
-        },
-        {
-            "href": "/Careneros-Surf-Report/913/",
-            "town": "Careneros",
-            "spotId": "913",
-            "lat": 9.3459106,
-            "lng": -82.23195679999999
-        },
-        {
-            "href": "/Chame-Banks-Surf-Report/4622/",
-            "town": "Chame Banks",
-            "spotId": "4622",
-            "FAILED": true
-        },
-        {
-            "href": "/Emilys-Morro-Negrito-Surf-Report/449/",
-            "town": "Emily's (Morro Negrito)",
-            "spotId": "449",
-            "lat": 8.045188,
-            "lng": -81.712426
-        }
-    ],
-    "nicaragua": [
-        {
-            "href": "/Casares-Surf-Report/3242/",
-            "town": "Casares",
-            "spotId": "3242",
-            "lat": 11.6476079,
-            "lng": -86.35731849999999
-        },
-        {
-            "href": "/El-Astillero-Surf-Report/1101/",
-            "town": "El Astillero",
-            "spotId": "1101",
-            "lat": 11.5124324,
-            "lng": -86.1637306
-        },
-        {
-            "href": "/El-Coco-Surf-Report/3240/",
-            "town": "El Coco",
-            "spotId": "3240",
-            "lat": 11.1586647,
-            "lng": -85.801897
-        },
-        {
-            "href": "/El-Penon-Surf-Report/1102/",
-            "town": "El Penon",
-            "spotId": "1102",
-            "lat": 11.5575023,
-            "lng": -84.8157301
-        }
-    ],
-    "ecuador": [
-        {
-            "href": "/Atacames-Surf-Report/2189/",
-            "town": "Atacames",
-            "spotId": "2189",
-            "lat": 0.8680071,
-            "lng": -79.84648039999999
-        },
-        {
-            "href": "/Bocana-del-Cojimies-Surf-Report/2193/",
-            "town": "Bocana del Cojimies",
-            "spotId": "2193",
-            "lat": 0.3678192,
-            "lng": -80.0372964
-        },
-        {
-            "href": "/Cabo-Pasado-Surf-Report/2191/",
-            "town": "Cabo Pasado",
-            "spotId": "2191",
-            "lat": -0.369414,
-            "lng": -80.4726219
-        },
-        {
-            "href": "/Canoa-Surf-Report/493/",
-            "town": "Canoa",
-            "spotId": "493",
-            "lat": -0.4637768999999999,
-            "lng": -80.4535121
-        }
-    ],
-    "galapagos": [
-        {
-            "href": "/Barahona-Surf-Report/4017/",
-            "town": "Barahona",
-            "spotId": "4017",
-            "FAILED": true
-        },
-        {
-            "href": "/Cerro-Gallina-Surf-Report/708/",
-            "town": "Cerro Gallina",
-            "spotId": "708",
-            "FAILED": true
-        },
-        {
-            "href": "/El-Faro-Surf-Report/4020/",
-            "town": "El Faro",
-            "spotId": "4020",
-            "lat": -0.9563026,
-            "lng": -90.96626479999999
-        },
-        {
-            "href": "/La-Loberia-Surf-Report/4019/",
-            "town": "La Loberia",
-            "spotId": "4019",
-            "lat": -0.9250063999999999,
-            "lng": -89.6139027
-        }
-    ],
-    "north peru": [
-        {
-            "href": "/Baterias-Surf-Report/3299/",
-            "town": "Baterias",
-            "spotId": "3299",
-            "lat": 37.2986507,
-            "lng": -6.2958313
-        },
-        {
-            "href": "/Bermejo-Surf-Report/3290/",
-            "town": "Bermejo",
-            "spotId": "3290",
-            "lat": -10.5486111,
-            "lng": -77.9063889
-        },
-        {
-            "href": "/Cabo-Blanco-Surf-Report/413/",
-            "town": "Cabo Blanco",
-            "spotId": "413",
-            "lat": -4.250603799999999,
-            "lng": -81.2332956
-        },
-        {
-            "href": "/Cabo-Blanquillo-Surf-Report/2196/",
-            "town": "Cabo Blanquillo",
-            "spotId": "2196",
-            "FAILED": true
-        }
-    ],
-    "south peru": [
-        {
-            "href": "/Ala-Moana-Surf-Report/2266/",
-            "town": "Ala Moana",
-            "spotId": "2266",
-            "FAILED": true
-        },
-        {
-            "href": "/Barranquito-Surf-Report/2268/",
-            "town": "Barranquito",
-            "spotId": "2268",
-            "lat": -12.1449441,
-            "lng": -77.0257828
-        },
-        {
-            "href": "/Boca-del-Rio-Surf-Report/3281/",
-            "town": "Boca del Rio",
-            "spotId": "3281",
-            "lat": -18.1537195,
-            "lng": -70.6826483
-        },
-        {
-            "href": "/Caballeros-Surf-Report/2263/",
-            "town": "Caballeros",
-            "spotId": "2263",
-            "lat": -25.6930019,
-            "lng": -56.8632485
-        }
-    ],
-    "north chile": [
-        {
-            "href": "/Andromeda-Surf-Report/2293/",
-            "town": "AndrÃ³meda",
-            "spotId": "2293",
-            "FAILED": true
-        },
-        {
-            "href": "/Arenillas-Negras-Surf-Report/2283/",
-            "town": "Arenillas Negras",
-            "spotId": "2283",
-            "lat": -18.5026655,
-            "lng": -70.3210723
-        },
-        {
-            "href": "/Budeo-Surf-Report/2297/",
-            "town": "Budeo",
-            "spotId": "2297",
-            "lat": 43.1197047,
-            "lng": -77.80466849999999
-        },
-        {
-            "href": "/Caldera-Surf-Report/4559/",
-            "town": "Caldera",
-            "spotId": "4559",
-            "lat": -27.0667,
-            "lng": -70.8178142
-        }
-    ],
-    "south chile": [
-        {
-            "href": "/Agua-Dulce-Surf-Report/3358/",
-            "town": "Agua Dulce",
-            "spotId": "3358",
-            "lat": -28.95,
-            "lng": -71.4833
-        },
-        {
-            "href": "/Algarrobo-Surf-Report/2989/",
-            "town": "Algarrobo",
-            "spotId": "2989",
-            "lat": -33.3647762,
-            "lng": -71.67055340000002
-        },
-        {
-            "href": "/Barrancas-Surf-Report/4696/",
-            "town": "Barrancas",
-            "spotId": "4696",
-            "lat": -34.4962446,
-            "lng": -71.98427389999999
-        },
-        {
-            "href": "/Buchupureo-Surf-Report/3378/",
-            "town": "Buchupureo",
-            "spotId": "3378",
-            "lat": -36.07239,
-            "lng": -72.7788511
-        }
-    ],
-    "fernando de noronha": [
-        {
-            "href": "/Abras-Surf-Report/2435/",
-            "town": "Abras",
-            "spotId": "2435",
-            "lat": -3.8447976,
-            "lng": -32.4268917
-        },
-        {
-            "href": "/Baia-da-Rata-Surf-Report/2437/",
-            "town": "Baia da Rata",
-            "spotId": "2437",
-            "lat": -3.8447976,
-            "lng": -32.4268917
-        },
-        {
-            "href": "/Boboca-Surf-Report/2434/",
-            "town": "Boboca",
-            "spotId": "2434",
-            "lat": -22.5282821,
-            "lng": -41.9571774
-        },
-        {
-            "href": "/Boldro-Surf-Report/438/",
-            "town": "BoldrÃ³",
-            "spotId": "438",
-            "FAILED": true
-        }
-    ],
-    "northeast brazil": [
-        {
-            "href": "/Aracaji-Surf-Report/2995/",
-            "town": "Aracaji",
-            "spotId": "2995",
-            "lat": -10.9472468,
-            "lng": -37.0730823
-        },
-        {
-            "href": "/Atalaia-Surf-Report/3233/",
-            "town": "Atalaia",
-            "spotId": "3233",
-            "lat": -10.9880742,
-            "lng": -37.0534508
-        },
-        {
-            "href": "/Barra-do-Ceara-Surf-Report/2725/",
-            "town": "Barra do Ceara",
-            "spotId": "2725",
-            "lat": -3.7041034,
-            "lng": -38.5790508
-        },
-        {
-            "href": "/Barravento-Surf-Report/3898/",
-            "town": "Barravento",
-            "spotId": "3898",
-            "lat": -13.0095625,
-            "lng": -38.5253768
-        }
-    ],
-    "guadeloupe": [
-        {
-            "href": "/Alize-Surf-Report/2549/",
-            "town": "Alize",
-            "spotId": "2549",
-            "lat": 16.266837,
-            "lng": -61.29075
-        },
-        {
-            "href": "/Anse-Betrand-Surf-Report/2553/",
-            "town": "Anse Betrand",
-            "spotId": "2553",
-            "lat": 16.4683045,
-            "lng": -61.504845
-        },
-        {
-            "href": "/Anse-Salabouelle-Surf-Report/2554/",
-            "town": "Anse Salabouelle",
-            "spotId": "2554",
-            "lat": 16.3286429,
-            "lng": -61.3042538
-        },
-        {
-            "href": "/Hotel-Novotel-Surf-Report/2555/",
-            "town": "Hotel Novotel",
-            "spotId": "2555",
-            "lat": 16.213736,
-            "lng": -61.52214799999999
-        }
-    ],
-    "barbados": [
-        {
-            "href": "/Batts-Rock-Surf-Report/1181/",
-            "town": "Batts Rock",
-            "spotId": "1181",
-            "lat": 13.135868,
-            "lng": -59.63564099999999
-        },
-        {
-            "href": "/Brandons-Surf-Report/2213/",
-            "town": "Brandons",
-            "spotId": "2213",
-            "lat": 13.1155576,
-            "lng": -59.6273557
-        },
-        {
-            "href": "/Conset-Point-Surf-Report/2216/",
-            "town": "Conset Point",
-            "spotId": "2216",
-            "lat": 13.327312,
-            "lng": -59.634413
-        },
-        {
-            "href": "/Crane-Bay-Surf-Report/4013/",
-            "town": "Crane Bay",
-            "spotId": "4013",
-            "lat": 13.1036809,
-            "lng": -59.4446573
-        }
-    ],
-    "martinique": [
-        {
-            "href": "/Anse-Couleuvre-Surf-Report/486/",
-            "town": "Anse Couleuvre",
-            "spotId": "486",
-            "lat": 14.842299,
-            "lng": -61.2200798
-        },
-        {
-            "href": "/Bagasse-Surf-Report/2696/",
-            "town": "Bagasse",
-            "spotId": "2696",
-            "lat": 14.8737566,
-            "lng": -61.1777689
-        },
-        {
-            "href": "/Ceron-Surf-Report/2693/",
-            "town": "Ceron",
-            "spotId": "2693",
-            "lat": 14.8334721,
-            "lng": -61.22381189999999
-        },
-        {
-            "href": "/Charlot-Surf-Report/2695/",
-            "town": "Charlot",
-            "spotId": "2695",
-            "lat": 14.7088574,
-            "lng": -61.1807464
-        }
-    ],
-    "puerto rico": [
-        {
-            "href": "/BCs-Surf-Report/2542/",
-            "town": "BCs",
-            "spotId": "2542",
-            "lat": 18.42458,
-            "lng": -66.052347
-        },
-        {
-            "href": "/Crash-Boat-Surf-Report/451/",
-            "town": "Crash Boat",
-            "spotId": "451",
-            "lat": 18.458337,
-            "lng": -67.1637537
-        },
-        {
-            "href": "/Dunes-Puerto-Rico-Surf-Report/452/",
-            "town": "Dunes (Puerto Rico)",
-            "spotId": "452",
-            "lat": 31.4986548,
-            "lng": -110.9887472
-        },
-        {
-            "href": "/Little-Malibu-Rincon-Surf-Report/450/",
-            "town": "Little Malibu (Rincon)",
-            "spotId": "450",
-            "lat": 34.038986,
-            "lng": -118.670436
-        }
-    ],
-    "british virgin islands": [
-        {
-            "href": "/Brewers-Bay-Surf-Report/4085/",
-            "town": "Brewers Bay",
-            "spotId": "4085",
-            "lat": 18.4458411,
-            "lng": -64.6525355
-        },
-        {
-            "href": "/Cane-Garden-Bay-Surf-Report/480/",
-            "town": "Cane Garden Bay",
-            "spotId": "480",
-            "lat": 18.4251273,
-            "lng": -64.6575177
-        },
-        {
-            "href": "/Capoons-Bay-Surf-Report/2224/",
-            "town": "Capoon's Bay",
-            "spotId": "2224",
-            "lat": 18.4334704,
-            "lng": -64.63327819999999
-        },
-        {
-            "href": "/Josiahs-Bay-Surf-Report/481/",
-            "town": "Josiah's Bay",
-            "spotId": "481",
-            "lat": 18.4487832,
-            "lng": -64.5910645
-        }
-    ],
-    "anguilla": [
-        {
-            "href": "/Cupecoy-Surf-Report/484/",
-            "town": "Cupecoy",
-            "spotId": "484",
-            "FAILED": true
-        },
-        {
-            "href": "/The-Ledge-Surf-Report/485/",
-            "town": "The Ledge",
-            "spotId": "485",
-            "FAILED": true
-        },
-        {
-            "href": "/Wilderness-Surf-Report/483/",
-            "town": "Wilderness",
-            "spotId": "483",
-            "FAILED": true
-        }
-    ],
-    "us virgin islands": [
-        {
-            "href": "/Cinnamon-Bay-Surf-Report/4084/",
-            "town": "Cinnamon Bay",
-            "spotId": "4084",
-            "lat": 18.353217,
-            "lng": -64.75522699999999
-        },
-        {
-            "href": "/Grassy-Point-Surf-Report/4668/",
-            "town": "Grassy Point",
-            "spotId": "4668",
-            "lat": 17.7245968,
-            "lng": -64.83479919999999
-        },
-        {
-            "href": "/Hull-Bay-Surf-Report/1260/",
-            "town": "Hull Bay",
-            "spotId": "1260",
-            "lat": 18.3706082,
-            "lng": -64.9541423
-        }
-    ],
-    "bahamas": [
-        {
-            "href": "/Egg-Island-Surf-Report/474/",
-            "town": "Egg Island",
-            "spotId": "474",
-            "lat": 25.4966477,
-            "lng": -76.8821849
-        },
-        {
-            "href": "/Four-Rocks-Surf-Report/2580/",
-            "town": "Four Rocks",
-            "spotId": "2580",
-            "lat": 28.0373109,
-            "lng": -97.02978929999999
-        },
-        {
-            "href": "/Garbanzo-Surf-Report/2582/",
-            "town": "Garbanzo",
-            "spotId": "2582",
-            "lat": 26.5106719,
-            "lng": -76.9718671
-        },
-        {
-            "href": "/Hidden-Beach-Surf-Report/2586/",
-            "town": "Hidden Beach",
-            "spotId": "2586",
-            "lat": 25.0712551,
-            "lng": -77.352357
-        }
-    ],
-    "dominican republic": [
-        {
-            "href": "/Encuentro-Surf-Report/478/",
-            "town": "Encuentro",
-            "spotId": "478",
-            "lat": 19.7834465,
-            "lng": -70.45165209999999
-        },
-        {
-            "href": "/La-Bahia-Surf-Report/477/",
-            "town": "La Bahia",
-            "spotId": "477",
-            "lat": 18.435669,
-            "lng": -69.190156
-        },
-        {
-            "href": "/La-Preciosa-Surf-Report/479/",
-            "town": "La Preciosa",
-            "spotId": "479",
-            "lat": 19.6779941,
-            "lng": -70.00034939999999
-        },
-        {
-            "href": "/Puerto-Plata-Surf-Report/476/",
-            "town": "Puerto Plata",
-            "spotId": "476",
-            "lat": 19.7807686,
-            "lng": -70.6871091
-        }
-    ],
-    "cuba": [
-        {
-            "href": "/Cabo-de-San-Antonio-Surf-Report/802/",
-            "town": "Cabo de San Antonio",
-            "spotId": "802",
-            "lat": 21.8630556,
-            "lng": -84.9508333
-        },
-        {
-            "href": "/Cayo-Coco-Surf-Report/3101/",
-            "town": "Cayo Coco",
-            "spotId": "3101",
-            "lat": 22.5090128,
-            "lng": -78.4069732
-        },
-        {
-            "href": "/El-Bajo-Malecon-Surf-Report/1210/",
-            "town": "El Bajo (Malecon)",
-            "spotId": "1210",
-            "FAILED": true
-        },
-        {
-            "href": "/El-Cayo-Surf-Report/1189/",
-            "town": "El Cayo",
-            "spotId": "1189",
-            "lat": 22.5090128,
-            "lng": -78.4069732
-        }
-    ],
-    "jamaica": [
-        {
-            "href": "/Boston-Bay-Surf-Report/826/",
-            "town": "Boston Bay",
-            "spotId": "826",
-            "lat": 18.1289887,
-            "lng": -76.3434679
-        },
-        {
-            "href": "/Bull-Bay-Surf-Report/827/",
-            "town": "Bull Bay",
-            "spotId": "827",
-            "lat": 17.9429207,
-            "lng": -76.6672602
-        },
-        {
-            "href": "/Peeny-Wallys-Surf-Report/3099/",
-            "town": "Peeny Wally's",
-            "spotId": "3099",
-            "FAILED": true
-        },
-        {
-            "href": "/Rozelle-Beach-Surf-Report/3098/",
-            "town": "Rozelle Beach",
-            "spotId": "3098",
-            "FAILED": true
-        }
-    ],
-    "haiti": [
-        {
-            "href": "/Caracol-Surf-Report/3106/",
-            "town": "Caracol",
-            "spotId": "3106",
-            "lat": 19.6925744,
-            "lng": -72.01792700000001
-        },
-        {
-            "href": "/Ginsu-Surf-Report/3107/",
-            "town": "Ginsu",
-            "spotId": "3107",
-            "FAILED": true
-        },
-        {
-            "href": "/Le-Borgne-Surf-Report/3108/",
-            "town": "Le Borgne",
-            "spotId": "3108",
-            "lat": 19.8444424,
-            "lng": -72.52270109999999
-        },
-        {
-            "href": "/Pistons-Surf-Report/3110/",
-            "town": "Pistons",
-            "spotId": "3110",
-            "FAILED": true
-        }
-    ],
-    "venezuela": [
-        {
-            "href": "/Anare-Surf-Report/2744/",
-            "town": "Anare",
-            "spotId": "2744",
-            "lat": 10.6209497,
-            "lng": -66.64964859999999
-        },
-        {
-            "href": "/Carmen-DUria-Surf-Report/3175/",
-            "town": "Carmen D'Uria",
-            "spotId": "3175",
-            "lat": 10.595824,
-            "lng": -66.795723
-        },
-        {
-            "href": "/Carupano-Surf-Report/2748/",
-            "town": "CarÃºpano",
-            "spotId": "2748",
-            "FAILED": true
-        },
-        {
-            "href": "/Cazon-Buchuaco-Surf-Report/1258/",
-            "town": "Cazon (Buchuaco)",
-            "spotId": "1258",
-            "lat": 11.9916716,
-            "lng": -69.82112599999999
-        }
-    ],
-    "trinidad": [
-        {
-            "href": "/Airports-Tobago-Surf-Report/3078/",
-            "town": "Airports - Tobago",
-            "spotId": "3078",
-            "lat": 10.5976964,
-            "lng": -61.339527
-        },
-        {
-            "href": "/Balandra-Surf-Report/794/",
-            "town": "Balandra",
-            "spotId": "794",
-            "lat": 10.7127803,
-            "lng": -60.9918338
-        },
-        {
-            "href": "/Blanchisseuse-Surf-Report/3071/",
-            "town": "Blanchisseuse",
-            "spotId": "3071",
-            "lat": 10.7712793,
-            "lng": -61.24521799999999
-        },
-        {
-            "href": "/Grande-Riviere-Surf-Report/2415/",
-            "town": "Grande Riviere",
-            "spotId": "2415",
-            "lat": 10.826784,
-            "lng": -61.04931879999999
-        }
-    ],
-    "tobago": [
-        {
-            "href": "/Crazys-Surf-Report/2416/",
-            "town": "Crazy's",
-            "spotId": "2416",
-            "FAILED": true
-        },
-        {
-            "href": "/Mount-Irvine-Surf-Report/3171/",
-            "town": "Mount Irvine",
-            "spotId": "3171",
-            "lat": 11.1856205,
-            "lng": -60.7948026
-        },
-        {
-            "href": "/South-Coast-Surf-Report/796/",
-            "town": "South Coast",
-            "spotId": "796",
-            "lat": 33.5182714,
-            "lng": -117.6818318
-        }
-    ],
-    "curaã§ao": [
-        {
-            "href": "/Boca-Pistol-Surf-Report/3793/",
-            "town": "Boca Pistol",
-            "spotId": "3793",
-            "FAILED": true
-        },
-        {
-            "href": "/Boca-Sint-Joris-Surf-Report/3791/",
-            "town": "Boca Sint Joris",
-            "spotId": "3791",
-            "FAILED": true
-        },
-        {
-            "href": "/Klein-Surf-Report/3792/",
-            "town": "Klein",
-            "spotId": "3792",
-            "lat": 11.9913365,
-            "lng": -68.6424645
-        },
-        {
-            "href": "/Playa-Kanoa-Surf-Report/3790/",
-            "town": "Playa Kanoa",
-            "spotId": "3790",
-            "lat": 12.1747788,
-            "lng": -68.8661224
-        }
-    ],
-    "aruba": [
-        {
-            "href": "/Andicuri-Surf-Report/4271/",
-            "town": "Andicuri",
-            "spotId": "4271",
-            "lat": 12.5373812,
-            "lng": -69.9559644
-        },
-        {
-            "href": "/Dos-Playas-Surf-Report/4266/",
-            "town": "Dos Playas",
-            "spotId": "4266",
-            "lat": 12.5055137,
-            "lng": -69.91874200000001
-        },
-        {
-            "href": "/Druif-Surf-Report/4269/",
-            "town": "Druif",
-            "spotId": "4269",
-            "lat": 12.6061269,
-            "lng": -70.0305892
-        },
-        {
-            "href": "/Dunes-Dooms-Surf-Report/4270/",
-            "town": "Dunes/Dooms",
-            "spotId": "4270",
-            "FAILED": true
-        }
-    ],
-    "south west australia": [
-        {
-            "href": "/Avalon-Point-Surf-Report/4139/",
-            "town": "Avalon Point",
-            "spotId": "4139",
-            "lat": -32.5933864,
-            "lng": 115.6364088
-        },
-        {
-            "href": "/Blue-Holes-Surf-Report/2872/",
-            "town": "Blue Holes",
-            "spotId": "2872",
-            "lat": -27.7184504,
-            "lng": 114.1560211
-        },
-        {
-            "href": "/Bowes-River-Surf-Report/513/",
-            "town": "Bowes River",
-            "spotId": "513",
-            "lat": -28.404568,
-            "lng": 114.4627018
-        },
-        {
-            "href": "/Coronation-Surf-Report/2869/",
-            "town": "Coronation",
-            "spotId": "2869",
-            "lat": -28.5544105,
-            "lng": 114.5637063
-        }
-    ],
-    "south australia": [
-        {
-            "href": "/Bullies-Surf-Report/749/",
-            "town": "Bullies",
-            "spotId": "749",
-            "lat": -32.9084095,
-            "lng": 138.6013157
-        },
-        {
-            "href": "/Cactus-Surf-Report/2882/",
-            "town": "Cactus",
-            "spotId": "2882",
-            "lat": -32.0835003,
-            "lng": 132.982204
-        },
-        {
-            "href": "/Cape-Kersaint-Surf-Report/534/",
-            "town": "Cape Kersaint",
-            "spotId": "534",
-            "lat": -36.0333333,
-            "lng": 137.1
-        },
-        {
-            "href": "/Caves-Surf-Report/2885/",
-            "town": "Caves",
-            "spotId": "2885",
-            "lat": -37.0904131,
-            "lng": 140.8297912
-        }
-    ],
-    "victoria": [
-        {
-            "href": "/Anglesea-Surf-Report/523/",
-            "town": "Anglesea",
-            "spotId": "523",
-            "lat": -38.4096639,
-            "lng": 144.1825171
-        },
-        {
-            "href": "/Apollo-Bay-Surf-Report/521/",
-            "town": "Apollo Bay",
-            "spotId": "521",
-            "lat": -38.75,
-            "lng": 143.65
-        },
-        {
-            "href": "/Bells-Beach-Surf-Report/524/",
-            "town": "Bells Beach",
-            "spotId": "524",
-            "lat": -38.366944,
-            "lng": 144.284722
-        },
-        {
-            "href": "/Cape-Conran-Surf-Report/1050/",
-            "town": "Cape Conran",
-            "spotId": "1050",
-            "lat": -37.798087,
-            "lng": 148.737931
-        }
-    ],
-    "new south wales": [
-        {
-            "href": "/Angourie-Point-Surf-Report/761/",
-            "town": "Angourie Point ",
-            "spotId": "761",
-            "lat": -29.4840463,
-            "lng": 153.3681745
-        },
-        {
-            "href": "/Anna-Bay-Surf-Report/1032/",
-            "town": "Anna Bay",
-            "spotId": "1032",
-            "lat": -32.766667,
-            "lng": 152.083333
-        },
-        {
-            "href": "/Arrawarra-Surf-Report/1022/",
-            "town": "Arrawarra",
-            "spotId": "1022",
-            "lat": -30.0529297,
-            "lng": 153.1911721
-        },
-        {
-            "href": "/Austinmer-Beach-Surf-Report/855/",
-            "town": "Austinmer Beach",
-            "spotId": "855",
-            "lat": -34.3065099,
-            "lng": 150.9353703
-        }
-    ],
-    "queensland": [
-        {
-            "href": "/Agnes-Water-Surf-Report/1001/",
-            "town": "Agnes Water",
-            "spotId": "1001",
-            "lat": -24.2125,
-            "lng": 151.903333
-        },
-        {
-            "href": "/Alexandria-Bay-Noosa-Surf-Report/1003/",
-            "town": "Alexandria Bay (Noosa)",
-            "spotId": "1003",
-            "lat": -26.3872949,
-            "lng": 153.1151032
-        },
-        {
-            "href": "/Boiling-Pot-Surf-Report/2253/",
-            "town": "Boiling Pot",
-            "spotId": "2253",
-            "lat": -26.3794647,
-            "lng": 153.1010381
-        },
-        {
-            "href": "/Broadbeach-Surf-Report/2247/",
-            "town": "Broadbeach",
-            "spotId": "2247",
-            "lat": -28.030833,
-            "lng": 153.431944
-        }
-    ],
-    "tasmania": [
-        {
-            "href": "/Bicheno-Surf-Report/735/",
-            "town": "Bicheno",
-            "spotId": "735",
-            "lat": -41.8522419,
-            "lng": 148.2596683
-        },
-        {
-            "href": "/Boat-Harbour-Beach-Surf-Report/4097/",
-            "town": "Boat Harbour Beach",
-            "spotId": "4097",
-            "lat": -40.9282925,
-            "lng": 145.6150877
-        },
-        {
-            "href": "/Cape-Sorell-Surf-Report/3681/",
-            "town": "Cape Sorell",
-            "spotId": "3681",
-            "lat": -42.2,
-            "lng": 145.1666667
-        },
-        {
-            "href": "/Clifton-Beach-Surf-Report/539/",
-            "town": "Clifton Beach",
-            "spotId": "539",
-            "lat": -42.989444,
-            "lng": 147.521667
-        }
-    ],
-    "oahu": [
-        {
-            "href": "/Ala-Moana-Surf-Report/661/",
-            "town": "Ala Moana",
-            "spotId": "661",
-            "lat": 21.2911038,
-            "lng": -157.8434622
-        },
-        {
-            "href": "/Backyards-Surf-Report/2232/",
-            "town": "Backyards",
-            "spotId": "2232",
-            "lat": 21.4389123,
-            "lng": -158.0000565
-        },
-        {
-            "href": "/Barbers-Point-Surf-Report/3082/",
-            "town": "Barbers Point",
-            "spotId": "3082",
-            "lat": 21.3209005,
-            "lng": -158.0812864
-        },
-        {
-            "href": "/Diamond-Head-Surf-Report/4697/",
-            "town": "Diamond Head",
-            "spotId": "4697",
-            "lat": 21.2637984,
-            "lng": -157.8040943
-        }
-    ],
-    "maui": [
-        {
-            "href": "/Aluhi-Bay-Surf-Report/3668/",
-            "town": "Aluhi Bay",
-            "spotId": "3668",
-            "FAILED": true
-        },
-        {
-            "href": "/Honokohau-Surf-Report/2782/",
-            "town": "Honokohau",
-            "spotId": "2782",
-            "lat": 21.0018847,
-            "lng": -156.633732
-        },
-        {
-            "href": "/Honolua-Surf-Report/697/",
-            "town": "Honolua",
-            "spotId": "697",
-            "lat": 21.0139323,
-            "lng": -156.6383817
-        },
-        {
-            "href": "/Hookipa-Surf-Report/1244/",
-            "town": "Hookipa",
-            "spotId": "1244",
-            "lat": 20.9331087,
-            "lng": -156.3585959
-        }
-    ],
-    "big island": [
-        {
-            "href": "/Banyans-Surf-Report/2784/",
-            "town": "Banyans",
-            "spotId": "2784",
-            "lat": 19.7072801,
-            "lng": -155.9852134
-        },
-        {
-            "href": "/Hapuna-Pt-Surf-Report/1246/",
-            "town": "Hapuna Pt",
-            "spotId": "1246",
-            "lat": 19.9913871,
-            "lng": -155.8250247
-        },
-        {
-            "href": "/Honolii-Surf-Report/3815/",
-            "town": "Honoli'i",
-            "spotId": "3815",
-            "lat": 19.7544931,
-            "lng": -155.0911922
-        },
-        {
-            "href": "/Kahaluu-Surf-Report/1247/",
-            "town": "Kahaluu",
-            "spotId": "1247",
-            "lat": 19.5833333,
-            "lng": -155.9711111
-        }
-    ],
-    "kauai": [
-        {
-            "href": "/Hanalei-Bay-Surf-Report/3051/",
-            "town": "Hanalei Bay",
-            "spotId": "3051",
-            "lat": 22.2090776,
-            "lng": -159.5067583
-        },
-        {
-            "href": "/Polihale-Surf-Report/3080/",
-            "town": "Polihale",
-            "spotId": "3080",
-            "lat": 22.0794916,
-            "lng": -159.7636907
-        }
-    ],
-    "norway": [
-        {
-            "href": "/Alnes-Fyr-Surf-Report/4660/",
-            "town": "Alnes Fyr",
-            "spotId": "4660",
-            "lat": 62.4899605,
-            "lng": 5.9673739
-        },
-        {
-            "href": "/Bore-Surf-Report/1886/",
-            "town": "Bore",
-            "spotId": "1886",
-            "lat": 58.7907509,
-            "lng": 5.585192500000001
-        },
-        {
-            "href": "/Brusand-Surf-Report/553/",
-            "town": "Brusand",
-            "spotId": "553",
-            "lat": 58.5406298,
-            "lng": 5.7466997
-        },
-        {
-            "href": "/Byberg-Surf-Report/1888/",
-            "town": "Byberg",
-            "spotId": "1888",
-            "lat": 58.8611258,
-            "lng": 5.559965399999999
-        }
-    ],
-    "oman": [
-        {
-            "href": "/Al-Ashkharah-Surf-Report/557/",
-            "town": "Al Ashkharah",
-            "spotId": "557",
-            "lat": 21.851454,
-            "lng": 59.5671176
-        },
-        {
-            "href": "/Masirah-Island-Surf-Report/899/",
-            "town": "Masirah Island",
-            "spotId": "899",
-            "lat": 20.3173398,
-            "lng": 58.6915912
-        },
-        {
-            "href": "/Salalah-Surf-Report/558/",
-            "town": "Salalah",
-            "spotId": "558",
-            "lat": 17.0506675,
-            "lng": 54.1065864
-        }
-    ],
-    "sri lanka": [
-        {
-            "href": "/Arugam-Bay-Surf-Report/562/",
-            "town": "Arugam Bay",
-            "spotId": "562",
-            "lat": 6.840407799999999,
-            "lng": 81.8368478
-        },
-        {
-            "href": "/Crocodile-Rock-Surf-Report/2731/",
-            "town": "Crocodile Rock",
-            "spotId": "2731",
-            "lat": 6.7579473,
-            "lng": 81.7841175
-        },
-        {
-            "href": "/Galle-Surf-Report/2733/",
-            "town": "GallÃ©",
-            "spotId": "2733",
-            "FAILED": true
-        },
-        {
-            "href": "/Lazy-Left-Midigama-Surf-Report/4590/",
-            "town": "Lazy Left - Midigama",
-            "spotId": "4590",
-            "lat": 5.96321,
-            "lng": 80.39103449999999
-        }
-    ],
-    "maldives": [
-        {
-            "href": "/Adonis-Surf-Report/3425/",
-            "town": "Adonis",
-            "spotId": "3425",
-            "FAILED": true
-        },
-        {
-            "href": "/Air-Equator-Lefts-Surf-Report/3435/",
-            "town": "Air Equator Lefts",
-            "spotId": "3435",
-            "FAILED": true
-        },
-        {
-            "href": "/Airports-Surf-Report/3407/",
-            "town": "Airports",
-            "spotId": "3407",
-            "lat": 6.7464922,
-            "lng": 73.16917339999999
-        },
-        {
-            "href": "/Antiques-Surf-Report/3411/",
-            "town": "Antiques",
-            "spotId": "3411",
-            "FAILED": true
-        }
-    ],
-    "mauritius": [
-        {
-            "href": "/Ilot-Sancho-Surf-Report/2759/",
-            "town": " IlÃ´t Sancho",
-            "spotId": "2759",
-            "FAILED": true
-        },
-        {
-            "href": "/Black-Rocks-Mauritius-Surf-Report/2760/",
-            "town": "Black Rocks (Mauritius)",
-            "spotId": "2760",
-            "lat": -20.3358806,
-            "lng": 57.37620119999999
-        },
-        {
-            "href": "/Darne-Surf-Report/4294/",
-            "town": "Darne",
-            "spotId": "4294",
-            "lat": -20.3132029,
-            "lng": 57.51701130000001
-        },
-        {
-            "href": "/Graveyards-Mauritius-Surf-Report/2758/",
-            "town": "Graveyards (Mauritius)",
-            "spotId": "2758",
-            "lat": -20.2386168,
-            "lng": 57.5824387
-        }
-    ],
-    "rã©union": [
-        {
-            "href": "/La-Jetee-Surf-Report/2767/",
-            "town": " La Jetee",
-            "spotId": "2767",
-            "lat": -21.346895,
-            "lng": 55.48068199999999
-        },
-        {
-            "href": "/Aigrettes-Surf-Report/2764/",
-            "town": "Aigrettes",
-            "spotId": "2764",
-            "lat": -21.0502429,
-            "lng": 55.2296109
-        },
-        {
-            "href": "/Boucan-Surf-Report/589/",
-            "town": "Boucan",
-            "spotId": "589",
-            "lat": -21.0272603,
-            "lng": 55.22652489999999
-        },
-        {
-            "href": "/Cap-Requin-Surf-Report/2763/",
-            "town": "Cap Requin",
-            "spotId": "2763",
-            "FAILED": true
-        }
-    ],
-    "rodrigues": [
-        {
-            "href": "/La-Ferme-Surf-Report/596/",
-            "town": "La Ferme",
-            "spotId": "596",
-            "lat": -19.7236538,
-            "lng": 63.37856720000001
-        },
-        {
-            "href": "/Passe-Jimmy-Surf-Report/3917/",
-            "town": "Passe Jimmy.",
-            "spotId": "3917",
-            "FAILED": true
-        }
-    ],
-    "ghana": [
-        {
-            "href": "/Accra-Surf-Report/580/",
-            "town": "Accra",
-            "spotId": "580",
-            "lat": 5.6037168,
-            "lng": -0.1869644
-        },
-        {
-            "href": "/Anecho-Surf-Report/3027/",
-            "town": "Anecho",
-            "spotId": "3027",
-            "lat": 5.6501396,
-            "lng": -0.1432558
-        },
-        {
-            "href": "/Bettys-Surf-Report/4088/",
-            "town": "Bettys",
-            "spotId": "4088",
-            "lat": 5.628949299999999,
-            "lng": -0.0164942
-        },
-        {
-            "href": "/Bouches-du-Roi-Surf-Report/3016/",
-            "town": "Bouches du Roi",
-            "spotId": "3016",
-            "FAILED": true
-        }
-    ],
-    "ivory coast": [
-        {
-            "href": "/Assini-Surf-Report/584/",
-            "town": "Assini",
-            "spotId": "584",
-            "lat": 5.1398055,
-            "lng": -3.3237824
-        },
-        {
-            "href": "/Assinie-Surf-Report/1241/",
-            "town": "Assinie",
-            "spotId": "1241",
-            "lat": 5.1398055,
-            "lng": -3.3237824
-        },
-        {
-            "href": "/Cassava-Surf-Report/3014/",
-            "town": "Cassava",
-            "spotId": "3014",
-            "lat": 7.499999999999999,
-            "lng": -8.583333
-        },
-        {
-            "href": "/Cotton-Trees-Surf-Report/3033/",
-            "town": "Cotton Trees",
-            "spotId": "3033",
-            "FAILED": true
-        }
-    ],
-    "okinawa prefecture": [
-        {
-            "href": "/Aha-Point-Surf-Report/606/",
-            "town": "Aha Point",
-            "spotId": "606",
-            "FAILED": true
-        },
-        {
-            "href": "/Aja-Surf-Report/2776/",
-            "town": "Aja",
-            "spotId": "2776",
-            "lat": 26.23551,
-            "lng": 127.6912845
-        },
-        {
-            "href": "/Bowls-Surf-Report/2775/",
-            "town": "Bowls",
-            "spotId": "2775",
-            "lat": 26.3393934,
-            "lng": 127.7760712
-        },
-        {
-            "href": "/Buma-Surf-Report/611/",
-            "town": "Buma",
-            "spotId": "611",
-            "FAILED": true
-        }
-    ],
-    "miyazaki prefecture": [
-        {
-            "href": "/Cape-Toi-Surf-Report/3394/",
-            "town": "Cape Toi",
-            "spotId": "3394",
-            "lat": 31.3673844,
-            "lng": 131.3457807
-        },
-        {
-            "href": "/Ishinamigawa-Surf-Report/613/",
-            "town": "Ishinamigawa",
-            "spotId": "613",
-            "FAILED": true
-        },
-        {
-            "href": "/Kisakihama-Surf-Report/614/",
-            "town": "Kisakihama",
-            "spotId": "614",
-            "FAILED": true
-        },
-        {
-            "href": "/Nagata-Surf-Report/3395/",
-            "town": "Nagata",
-            "spotId": "3395",
-            "lat": 31.735974,
-            "lng": 131.1480859
-        }
-    ],
-    "kochi prefecture": [
-        {
-            "href": "/Hirano-beach-Surf-Report/3989/",
-            "town": "Hirano beach",
-            "spotId": "3989",
-            "lat": 32.9551977,
-            "lng": 132.9933463
-        },
-        {
-            "href": "/Ikumihama-Surf-Report/604/",
-            "town": "Ikumihama",
-            "spotId": "604",
-            "FAILED": true
-        },
-        {
-            "href": "/Kaifu-River-Surf-Report/603/",
-            "town": "Kaifu River",
-            "spotId": "603",
-            "lat": 33.6238354,
-            "lng": 134.3343095
-        },
-        {
-            "href": "/Monobe-Surf-Report/2791/",
-            "town": "Monobe",
-            "spotId": "2791",
-            "lat": 33.5652339,
-            "lng": 133.6764153
-        }
-    ],
-    "chiba prefecture": [
-        {
-            "href": "/Choshi-Surf-Report/597/",
-            "town": "Choshi",
-            "spotId": "597",
-            "lat": 35.7346813,
-            "lng": 140.8266406
-        },
-        {
-            "href": "/Hebara-Surf-Report/599/",
-            "town": "Hebara",
-            "spotId": "599",
-            "lat": 35.1652427,
-            "lng": 140.3326949
-        },
-        {
-            "href": "/Kamogawa-Big-Ben-Surf-Report/600/",
-            "town": "Kamogawa (Big Ben)",
-            "spotId": "600",
-            "FAILED": true
-        },
-        {
-            "href": "/Kashima-Ibaraki-Surf-Report/4014/",
-            "town": "Kashima, Ibaraki",
-            "spotId": "4014",
-            "lat": 35.969017,
-            "lng": 140.631234
-        }
-    ],
-    "aichi prefecture": [
-        {
-            "href": "/Irago-Surf-Report/810/",
-            "town": "Irago",
-            "spotId": "810",
-            "lat": 34.587094,
-            "lng": 137.0244705
-        },
-        {
-            "href": "/Mutsure-Surf-Report/4004/",
-            "town": "Mutsure",
-            "spotId": "4004",
-            "lat": 34.6466121,
-            "lng": 137.3171021
-        }
-    ],
-    "shizouka prefecture": [
-        {
-            "href": "/Hamamatsu-Surf-Report/809/",
-            "town": "Hamamatsu",
-            "spotId": "809",
-            "lat": 34.7108344,
-            "lng": 137.7261258
-        },
-        {
-            "href": "/Omaezaki-Surf-Report/808/",
-            "town": "Omaezaki",
-            "spotId": "808",
-            "lat": 34.6379866,
-            "lng": 138.1281269
-        },
-        {
-            "href": "/Shirahama-Surf-Report/807/",
-            "town": "Shirahama",
-            "spotId": "807",
-            "lat": 34.6919771,
-            "lng": 138.9718251
-        }
-    ],
-    "kanagawa prefecture": [
-        {
-            "href": "/Kugenuma-Kaigan-Surf-Report/1291/",
-            "town": "Kugenuma Kaigan ",
-            "spotId": "1291",
-            "lat": 35.320689,
-            "lng": 139.471222
-        },
-        {
-            "href": "/Shonan-Surf-Report/806/",
-            "town": "Shonan",
-            "spotId": "806",
-            "lat": 35.352376,
-            "lng": 139.383201
-        }
-    ],
-    "kagoshima prefecture": [
-        {
-            "href": "/Azakou-Surf-Report/2539/",
-            "town": "Azakou",
-            "spotId": "2539",
-            "FAILED": true
-        },
-        {
-            "href": "/Beach-Rock-Surf-Report/4637/",
-            "town": "Beach Rock",
-            "spotId": "4637",
-            "FAILED": true
-        },
-        {
-            "href": "/China-Port-Surf-Report/4636/",
-            "town": "China Port",
-            "spotId": "4636",
-            "FAILED": true
-        },
-        {
-            "href": "/Eguchi-hama-Surf-Report/815/",
-            "town": "Eguchi-hama ",
-            "spotId": "815",
-            "FAILED": true
-        }
-    ],
-    "east java": [
-        {
-            "href": "/20-20s-Surf-Report/2736/",
-            "town": "20/20's",
-            "spotId": "2736",
-            "lat": -7.217774599999999,
-            "lng": 112.763222
-        },
-        {
-            "href": "/G-Land-Surf-Report/563/",
-            "town": "G-Land",
-            "spotId": "563",
-            "lat": -8.7258456,
-            "lng": 114.3626062
-        },
-        {
-            "href": "/Pacitan-Surf-Report/833/",
-            "town": "Pacitan",
-            "spotId": "833",
-            "lat": -8.126331,
-            "lng": 111.1414226
-        },
-        {
-            "href": "/Parangtritis-Surf-Report/4029/",
-            "town": "Parangtritis",
-            "spotId": "4029",
-            "lat": -7.989228399999999,
-            "lng": 110.3053553
-        }
-    ],
-    "west java": [
-        {
-            "href": "/Batu-Karas-Surf-Report/2965/",
-            "town": "Batu Karas",
-            "spotId": "2965",
-            "lat": -7.749971100000001,
-            "lng": 108.5023543
-        },
-        {
-            "href": "/Cimaja-Surf-Report/632/",
-            "town": "Cimaja",
-            "spotId": "632",
-            "lat": -6.930603199999999,
-            "lng": 106.4906526
-        },
-        {
-            "href": "/Ombak-Tujuh-Surf-Report/633/",
-            "town": "Ombak Tujuh",
-            "spotId": "633",
-            "lat": -7.2769925,
-            "lng": 106.3741551
-        },
-        {
-            "href": "/One-Palm-Point-Surf-Report/634/",
-            "town": "One Palm Point",
-            "spotId": "634",
-            "lat": -6.5131475,
-            "lng": 106.7864198
-        }
-    ],
-    "siargao": [
-        {
-            "href": "/Barrio-Surf-Report/2329/",
-            "town": "Barrio",
-            "spotId": "2329",
-            "lat": 9.8481883,
-            "lng": 126.0458437
-        },
-        {
-            "href": "/Caridad-Surf-Report/2332/",
-            "town": "Caridad",
-            "spotId": "2332",
-            "lat": 9.848189999999999,
-            "lng": 126.046
-        },
-        {
-            "href": "/Cloud-9-Surf-Report/637/",
-            "town": "Cloud 9",
-            "spotId": "637",
-            "lat": 9.8122619,
-            "lng": 126.1634847
-        },
-        {
-            "href": "/Horseshoe-Surf-Report/2327/",
-            "town": "Horseshoe",
-            "spotId": "2327",
-            "lat": 9.8481883,
-            "lng": 126.0458437
-        }
-    ],
-    "luzon": [
-        {
-            "href": "/Badoc-Island-Lefts-Surf-Report/2335/",
-            "town": "Badoc Island Lefts",
-            "spotId": "2335",
-            "lat": 17.9198933,
-            "lng": 120.4144488
-        },
-        {
-            "href": "/Badoc-Point-Surf-Report/638/",
-            "town": "Badoc Point",
-            "spotId": "638",
-            "lat": 14.4287989,
-            "lng": 121.0259886
-        },
-        {
-            "href": "/Bagasbas-Beach-Surf-Report/2092/",
-            "town": "Bagasbas Beach",
-            "spotId": "2092",
-            "lat": 14.1339654,
-            "lng": 122.9849599
-        },
-        {
-            "href": "/Baler-Luzon-Surf-Report/3705/",
-            "town": "Baler, Luzon",
-            "spotId": "3705",
-            "lat": 15.733607,
-            "lng": 121.57125
-        }
-    ],
-    "catanduanes": [
-        {
-            "href": "/Gubat-Sorsogon-Surf-Report/4090/",
-            "town": "Gubat Sorsogon ",
-            "spotId": "4090",
-            "FAILED": true
-        },
-        {
-            "href": "/Puraran-Majestic-Surf-Report/4089/",
-            "town": "Puraran Majestic",
-            "spotId": "4089",
-            "lat": 13.6891569,
-            "lng": 124.3958437
-        },
-        {
-            "href": "/Virac-Harbour-Surf-Report/3350/",
-            "town": "Virac Harbour",
-            "spotId": "3350",
-            "FAILED": true
-        }
-    ],
-    "mindanao": [
-        {
-            "href": "/Auqui-Left-Surf-Report/3088/",
-            "town": "Auqui Left",
-            "spotId": "3088",
-            "FAILED": true
-        },
-        {
-            "href": "/Badjang-Surf-Report/3090/",
-            "town": "Badjang",
-            "spotId": "3090",
-            "FAILED": true
-        },
-        {
-            "href": "/Cauit-Point-Surf-Report/3089/",
-            "town": "Cauit Point",
-            "spotId": "3089",
-            "lat": 7.525555599999999,
-            "lng": 122.0769444
-        },
-        {
-            "href": "/Dahican-Surf-Report/4692/",
-            "town": "Dahican",
-            "spotId": "4692",
-            "lat": 6.929380800000001,
-            "lng": 126.2807086
-        }
-    ],
-    "azores": [
-        {
-            "href": "/Agua-de-Alto-Surf-Report/3842/",
-            "town": "Agua de Alto",
-            "spotId": "3842",
-            "lat": 37.7174684,
-            "lng": -25.4644919
-        },
-        {
-            "href": "/Contendas-Surf-Report/3817/",
-            "town": "Contendas",
-            "spotId": "3817",
-            "lat": 38.6449513,
-            "lng": -27.0802529
-        },
-        {
-            "href": "/Direita-do-Passe-Surf-Report/3846/",
-            "town": "Direita do Passe",
-            "spotId": "3846",
-            "FAILED": true
-        },
-        {
-            "href": "/Esquerda-da-Igreja-Surf-Report/3844/",
-            "town": "Esquerda da Igreja",
-            "spotId": "3844",
-            "FAILED": true
-        }
-    ],
-    "pohnpei": [
-        {
-            "href": "/Nahlap-Surf-Report/3182/",
-            "town": "Nahlap",
-            "spotId": "3182",
-            "lat": 6.7878911,
-            "lng": 158.1545234
-        },
-        {
-            "href": "/Nahpali-Surf-Report/3180/",
-            "town": "Nahpali",
-            "spotId": "3180",
-            "FAILED": true
-        },
-        {
-            "href": "/Nan-Madol-Surf-Report/3181/",
-            "town": "Nan Madol",
-            "spotId": "3181",
-            "lat": 6.844570399999999,
-            "lng": 158.3356402
-        },
-        {
-            "href": "/Pohnpei-Palikir-Pass-Surf-Report/640/",
-            "town": "Pohnpei (Palikir-Pass)",
-            "spotId": "640",
-            "lat": 6.9178004,
-            "lng": 158.1578794
-        }
-    ],
-    "guam": [
-        {
-            "href": "/Talafofo-Bay-Surf-Report/3786/",
-            "town": "Talafofo Bay",
-            "spotId": "3786",
-            "lat": 13.3373068,
-            "lng": 144.766609
-        }
-    ],
-    "senegal": [
-        {
-            "href": "/Baie-des-Carpes-Surf-Report/2351/",
-            "town": "Baie des Carpes",
-            "spotId": "2351",
-            "lat": 14.7467047,
-            "lng": -17.5383425
-        },
-        {
-            "href": "/Club-Med-Surf-Report/2355/",
-            "town": "Club Med",
-            "spotId": "2355",
-            "lat": 12.383787,
-            "lng": -16.740288
-        },
-        {
-            "href": "/Corniche-Ouest-Surf-Report/2346/",
-            "town": "Corniche Ouest",
-            "spotId": "2346",
-            "lat": 14.6789339,
-            "lng": -17.4594145
-        },
-        {
-            "href": "/Dakar-Surf-Report/645/",
-            "town": "Dakar",
-            "spotId": "645",
-            "lat": 14.7645042,
-            "lng": -17.3660286
-        }
-    ],
-    "cape verde": [
-        {
-            "href": "/Monte-Leao-Surf-Report/2370/",
-            "town": " Monte LeÃ£o",
-            "spotId": "2370",
-            "lat": 16.6986825,
-            "lng": -22.9815102
-        },
-        {
-            "href": "/Alibaba-Surf-Report/2371/",
-            "town": "Alibaba",
-            "spotId": "2371",
-            "FAILED": true
-        },
-        {
-            "href": "/Boa-Vista-Bahia-Surf-Report/4037/",
-            "town": "Boa Vista Bahia",
-            "spotId": "4037",
-            "lat": 16.0950108,
-            "lng": -22.8078335
-        },
-        {
-            "href": "/Curral-Joul-Surf-Report/2372/",
-            "town": "Curral Joul",
-            "spotId": "2372",
-            "FAILED": true
-        }
-    ],
-    "liberia": [
-        {
-            "href": "/Fishermans-Point-Surf-Report/3012/",
-            "town": "Fishermans Point",
-            "spotId": "3012",
-            "lat": 6.755133499999999,
-            "lng": -11.3762629
-        }
-    ],
-    "sierra leone": [
-        {
-            "href": "/Bureh-Beach-Surf-Report/4570/",
-            "town": "Bureh Beach",
-            "spotId": "4570",
-            "lat": 8.211392199999999,
-            "lng": -13.1554723
-        }
-    ],
-    "bermuda": [
-        {
-            "href": "/Grape-bay-Surf-Report/3928/",
-            "town": "Grape bay",
-            "spotId": "3928",
-            "lat": 32.2813,
-            "lng": -64.7693
-        },
-        {
-            "href": "/Hamilton-Surf-Report/648/",
-            "town": "Hamilton",
-            "spotId": "648",
-            "lat": 32.2945837,
-            "lng": -64.7858887
-        },
-        {
-            "href": "/Hungry-bay-Surf-Report/3929/",
-            "town": "Hungry bay",
-            "spotId": "3929",
-            "lat": 32.2904862,
-            "lng": -64.758843
-        },
-        {
-            "href": "/Southlands-Surf-Report/3930/",
-            "town": "Southlands",
-            "spotId": "3930",
-            "lat": 32.2633783,
-            "lng": -64.8006248
-        }
-    ],
-    "thailand": [
-        {
-            "href": "/Airport-Reef-Phuket-Surf-Report/2373/",
-            "town": "Airport Reef - Phuket",
-            "spotId": "2373",
-            "lat": 7.996543599999999,
-            "lng": 98.2930289
-        },
-        {
-            "href": "/Bang-Tao-Surf-Report/2375/",
-            "town": "Bang Tao",
-            "spotId": "2375",
-            "lat": 13.7417842,
-            "lng": 100.5075329
-        },
-        {
-            "href": "/Kalim-Surf-Report/2379/",
-            "town": "Kalim",
-            "spotId": "2379",
-            "lat": 7.9130356,
-            "lng": 98.29391729999999
-        },
-        {
-            "href": "/Kamala-Beach-Surf-Report/2378/",
-            "town": "Kamala Beach",
-            "spotId": "2378",
-            "lat": 7.956922100000001,
-            "lng": 98.28309829999999
-        }
-    ],
-    "burma": [
-        {
-            "href": "/Central-Burma-Surf-Report/805/",
-            "town": "Central Burma",
-            "spotId": "805",
-            "lat": 16.0166541,
-            "lng": 97.7413266
-        },
-        {
-            "href": "/Chaungtha-Surf-Report/3491/",
-            "town": "Chaungtha",
-            "spotId": "3491",
-            "lat": 16.9556238,
-            "lng": 94.4413632
-        },
-        {
-            "href": "/Gottaung-Beach-Surf-Report/3492/",
-            "town": "Gottaung Beach",
-            "spotId": "3492",
-            "FAILED": true
-        },
-        {
-            "href": "/Gwa-Surf-Report/3924/",
-            "town": "Gwa",
-            "spotId": "3924",
-            "lat": 17.6010695,
-            "lng": 94.58565899999999
-        }
-    ],
-    "malaysia": [
-        {
-            "href": "/Baluk-Beach-Surf-Report/3480/",
-            "town": "Baluk Beach",
-            "spotId": "3480",
-            "lat": 3.928378,
-            "lng": 103.3726651
-        },
-        {
-            "href": "/Batu-Buruk-KT-Surf-Report/4111/",
-            "town": "Batu Buruk, KT",
-            "spotId": "4111",
-            "lat": 5.311917999999999,
-            "lng": 103.1538504
-        },
-        {
-            "href": "/Chempedak-Bay-Surf-Report/4113/",
-            "town": "Chempedak Bay",
-            "spotId": "4113",
-            "lat": 3.8119576,
-            "lng": 103.3725871
-        },
-        {
-            "href": "/Chendor-Beach-Surf-Report/2509/",
-            "town": "Chendor Beach",
-            "spotId": "2509",
-            "lat": 4.176671,
-            "lng": 103.421851
-        }
-    ],
-    "vietnam": [
-        {
-            "href": "/Bai-Dai-Surf-Report/4513/",
-            "town": "Bai Dai",
-            "spotId": "4513",
-            "lat": 20.9833517,
-            "lng": 105.4738887
-        },
-        {
-            "href": "/Binh-An-Surf-Report/3473/",
-            "town": "Binh An",
-            "spotId": "3473",
-            "lat": 10.9067396,
-            "lng": 106.8019613
-        },
-        {
-            "href": "/China-Beach-Surf-Report/3470/",
-            "town": "China Beach",
-            "spotId": "3470",
-            "lat": 16.0639056,
-            "lng": 108.2466932
-        },
-        {
-            "href": "/Cue-Dai-Beach-Surf-Report/3471/",
-            "town": "Cue Dai Beach",
-            "spotId": "3471",
-            "lat": 15.8847,
-            "lng": 108.384
-        }
-    ],
-    "iceland": [
-        {
-            "href": "/Breidavik-Surf-Report/3988/",
-            "town": "Breidavik",
-            "spotId": "3988",
-            "lat": 65.543007,
-            "lng": -24.366249
-        },
-        {
-            "href": "/Faroe-Islands-Surf-Report/4262/",
-            "town": "Faroe Islands",
-            "spotId": "4262",
-            "lat": 62.0089826,
-            "lng": -6.7697024
-        },
-        {
-            "href": "/Gardur-Surf-Report/2998/",
-            "town": "Gardur",
-            "spotId": "2998",
-            "lat": 64.0647084,
-            "lng": -22.6380943
-        },
-        {
-            "href": "/Grindavik-Surf-Report/871/",
-            "town": "Grindavik",
-            "spotId": "871",
-            "lat": 63.8441808,
-            "lng": -22.4383818
-        }
-    ],
-    "china": [
-        {
-            "href": "/Abalone-Farm-Surf-Report/3463/",
-            "town": "Abalone Farm",
-            "spotId": "3463",
-            "FAILED": true
-        },
-        {
-            "href": "/Buddha-Beach-Surf-Report/3456/",
-            "town": "Buddha Beach",
-            "spotId": "3456",
-            "lat": 34.8237608,
-            "lng": -111.7974103
-        },
-        {
-            "href": "/Da-He-Beach-Surf-Report/4231/",
-            "town": "Da He Beach",
-            "spotId": "4231",
-            "lat": 30.70490599999999,
-            "lng": 121.343994
-        },
-        {
-            "href": "/Da-Hua-Jiao-Surf-Report/3438/",
-            "town": "Da Hua Jiao",
-            "spotId": "3438",
-            "lat": 42.92827219999999,
-            "lng": 119.0307101
-        }
-    ],
-    "hong kong": [
-        {
-            "href": "/88-Surf-Report/3466/",
-            "town": "88",
-            "spotId": "3466",
-            "lat": 22.279148,
-            "lng": 114.1868295
-        },
-        {
-            "href": "/Big-Wave-Bay-HK-Surf-Report/1163/",
-            "town": "Big Wave Bay HK",
-            "spotId": "1163",
-            "lat": 22.2453604,
-            "lng": 114.2501946
-        },
-        {
-            "href": "/Cherry-Point-Surf-Report/3465/",
-            "town": "Cherry Point",
-            "spotId": "3465",
-            "lat": 34.883318,
-            "lng": -76.9062
-        },
-        {
-            "href": "/Cheung-Sha-Surf-Report/1164/",
-            "town": "Cheung Sha",
-            "spotId": "1164",
-            "lat": 22.3358055,
-            "lng": 114.1494892
-        }
-    ],
-    "goa": [
-        {
-            "href": "/Agonda-Beach-Surf-Report/4669/",
-            "town": "Agonda Beach",
-            "spotId": "4669",
-            "lat": 15.0455814,
-            "lng": 73.9888797
-        },
-        {
-            "href": "/Arambol-Beach-Surf-Report/4293/",
-            "town": "Arambol Beach",
-            "spotId": "4293",
-            "lat": 15.6846886,
-            "lng": 73.70328359999999
-        },
-        {
-            "href": "/Baga-and-Calungute-Surf-Report/3993/",
-            "town": "Baga and Calungute",
-            "spotId": "3993",
-            "lat": 15.5555797,
-            "lng": 73.7526723
-        },
-        {
-            "href": "/Baga-Beach-Surf-Report/789/",
-            "town": "Baga Beach",
-            "spotId": "789",
-            "lat": 15.5570495,
-            "lng": 73.75485139999999
-        }
-    ],
-    "kerala": [
-        {
-            "href": "/Cheray-Beach-Surf-Report/4237/",
-            "town": "Cheray Beach",
-            "spotId": "4237",
-            "lat": 10.1415953,
-            "lng": 76.17828329999999
-        },
-        {
-            "href": "/Hawas-Beach-Surf-Report/2457/",
-            "town": "Hawa's Beach",
-            "spotId": "2457",
-            "lat": 8.3883147,
-            "lng": 76.9765123
-        },
-        {
-            "href": "/Kovalam-Surf-Report/839/",
-            "town": "Kovalam",
-            "spotId": "839",
-            "lat": 8.4003984,
-            "lng": 76.97870759999999
-        },
-        {
-            "href": "/Lighthouse-Beach-Kerala-Surf-Report/2454/",
-            "town": "Lighthouse Beach - Kerala",
-            "spotId": "2454",
-            "lat": 8.385489699999999,
-            "lng": 76.9787513
-        }
-    ],
-    "orissa": [
-        {
-            "href": "/Puri-Surf-Report/4032/",
-            "town": "Puri",
-            "spotId": "4032",
-            "lat": 19.8133822,
-            "lng": 85.8314655
-        },
-        {
-            "href": "/Puri-Beach-Surf-Report/840/",
-            "town": "Puri Beach",
-            "spotId": "840",
-            "lat": 19.794749,
-            "lng": 85.8252882
-        }
-    ],
-    "andhra pradesh": [
-        {
-            "href": "/Chintapalli-Surf-Report/4243/",
-            "town": "Chintapalli",
-            "spotId": "4243",
-            "lat": 17.8713171,
-            "lng": 82.3533266
-        },
-        {
-            "href": "/Chippada-Surf-Report/4242/",
-            "town": "Chippada",
-            "spotId": "4242",
-            "lat": 17.9332102,
-            "lng": 83.4566857
-        },
-        {
-            "href": "/Harbour-Jetties-Visakhapatnam-Surf-Report/2465/",
-            "town": "Harbour Jetties - Visakhapatnam",
-            "spotId": "2465",
-            "lat": 17.6955976,
-            "lng": 83.302769
-        },
-        {
-            "href": "/Jodugullapullam-Surf-Report/2475/",
-            "town": "Jodugullapullam",
-            "spotId": "2475",
-            "FAILED": true
-        }
-    ],
-    "karnataka": [
-        {
-            "href": "/Bhatkal-Surf-Report/3997/",
-            "town": "Bhatkal",
-            "spotId": "3997",
-            "lat": 13.9977623,
-            "lng": 74.54046939999999
-        },
-        {
-            "href": "/Gokarna-Surf-Report/3994/",
-            "town": "Gokarna",
-            "spotId": "3994",
-            "lat": 14.5478586,
-            "lng": 74.31884099999999
-        },
-        {
-            "href": "/Kapu-Beach-Lighthouse-Surf-Report/3995/",
-            "town": "Kapu Beach Lighthouse",
-            "spotId": "3995",
-            "lat": 13.2216597,
-            "lng": 74.73827899999999
-        },
-        {
-            "href": "/Kumta-Surf-Report/950/",
-            "town": "Kumta",
-            "spotId": "950",
-            "lat": 14.4275482,
-            "lng": 74.4190929
-        }
-    ],
-    "tamil nadu": [
-        {
-            "href": "/Auroville-Surf-Report/4030/",
-            "town": "Auroville",
-            "spotId": "4030",
-            "lat": 12.0052821,
-            "lng": 79.8128649
-        },
-        {
-            "href": "/Big-Rock-Fishermans-Cove-Surf-Report/4031/",
-            "town": "Big Rock - Fisherman's Cove",
-            "spotId": "4031",
-            "lat": 12.797568,
-            "lng": 80.24816899999999
-        },
-        {
-            "href": "/Kovalam-Covelong-Surf-Report/3799/",
-            "town": "Kovalam / Covelong",
-            "spotId": "3799",
-            "lat": 12.7870019,
-            "lng": 80.2504447
-        },
-        {
-            "href": "/Mahabalipuram-Shore-Temple-Surf-Report/951/",
-            "town": "Mahabalipuram Shore Temple",
-            "spotId": "951",
-            "lat": 12.6164515,
-            "lng": 80.19933209999999
-        }
-    ],
-    "netherlands": [
-        {
-            "href": "/Ameland-Surf-Report/1105/",
-            "town": "Ameland",
-            "spotId": "1105",
-            "lat": 53.44056399999999,
-            "lng": 5.6587659
-        },
-        {
-            "href": "/Bergen-Aan-Zee-Surf-Report/147/",
-            "town": "Bergen Aan Zee",
-            "spotId": "147",
-            "lat": 52.6610417,
-            "lng": 4.6318186
-        },
-        {
-            "href": "/Blokken-Surf-Report/1830/",
-            "town": "Blokken",
-            "spotId": "1830",
-            "lat": 53.1282803,
-            "lng": 5.427083
-        },
-        {
-            "href": "/Callantsoog-Surf-Report/1108/",
-            "town": "Callantsoog",
-            "spotId": "1108",
-            "lat": 52.835097,
-            "lng": 4.694376500000001
-        }
-    ],
-    "belgium": [
-        {
-            "href": "/Blankenberge-Surf-Report/1114/",
-            "town": "Blankenberge",
-            "spotId": "1114",
-            "lat": 51.31237429999999,
-            "lng": 3.1327685
-        },
-        {
-            "href": "/Bredene-Surf-Report/1833/",
-            "town": "Bredene",
-            "spotId": "1833",
-            "lat": 51.2345015,
-            "lng": 2.9728359
-        },
-        {
-            "href": "/De-Panne-Surf-Report/4048/",
-            "town": "De Panne",
-            "spotId": "4048",
-            "lat": 51.0962794,
-            "lng": 2.5905629
-        },
-        {
-            "href": "/Mariakerke-Surf-Report/1834/",
-            "town": "Mariakerke",
-            "spotId": "1834",
-            "lat": 51.0736204,
-            "lng": 3.680642
-        }
-    ],
-    "lake michigan": [
-        {
-            "href": "/Chicago-North-Avenue-Beach-Surf-Report/960/",
-            "town": "Chicago (North Avenue Beach)",
-            "spotId": "960",
-            "lat": 41.9148113,
-            "lng": -87.62510850000001
-        },
-        {
-            "href": "/Elbow-Sheboygan-Surf-Report/1220/",
-            "town": "Elbow (Sheboygan)",
-            "spotId": "1220",
-            "lat": 43.7585894,
-            "lng": -87.7263231
-        },
-        {
-            "href": "/Empire-Public-Beach-Surf-Report/3753/",
-            "town": "Empire Public Beach",
-            "spotId": "3753",
-            "lat": 44.81370219999999,
-            "lng": -86.06729759999999
-        },
-        {
-            "href": "/Milwaukee-Surf-Report/962/",
-            "town": "Milwaukee",
-            "spotId": "962",
-            "lat": 43.0389025,
-            "lng": -87.9064736
-        }
-    ],
-    "lake superior": [
-        {
-            "href": "/The-Zoo-Surf-Report/1083/",
-            "town": "The Zoo",
-            "spotId": "1083",
-            "lat": 46.725798,
-            "lng": -92.190494
-        }
-    ],
-    "lake erie": [
-        {
-            "href": "/Luna-Pier-Surf-Report/1084/",
-            "town": "Luna Pier",
-            "spotId": "1084",
-            "lat": 41.8069907,
-            "lng": -83.442433
-        },
-        {
-            "href": "/Point-Abino-Surf-Report/4701/",
-            "town": "Point Abino",
-            "spotId": "4701",
-            "lat": 42.843582,
-            "lng": -79.088047
-        },
-        {
-            "href": "/Port-Maitland-Surf-Report/4702/",
-            "town": "Port Maitland",
-            "spotId": "4702",
-            "lat": 42.866043,
-            "lng": -79.565662
-        },
-        {
-            "href": "/Reebs-Bay-Surf-Report/4700/",
-            "town": "Reebs Bay",
-            "spotId": "4700",
-            "lat": 42.8771548,
-            "lng": -79.3011824
-        }
-    ],
-    "lake huron": [
-        {
-            "href": "/Bay-City-Surf-Report/4060/",
-            "town": "Bay City",
-            "spotId": "4060",
-            "lat": 43.5944677,
-            "lng": -83.8888647
-        },
-        {
-            "href": "/Forester-Sanilac-Surf-Report/4061/",
-            "town": "Forester/Sanilac",
-            "spotId": "4061",
-            "lat": 43.4984448,
-            "lng": -82.5683918
-        },
-        {
-            "href": "/Lakeport-Surf-Report/3802/",
-            "town": "Lakeport",
-            "spotId": "3802",
-            "lat": 43.1240772,
-            "lng": -82.4967775
-        },
-        {
-            "href": "/Lexington-Surf-Report/3801/",
-            "town": "Lexington",
-            "spotId": "3801",
-            "lat": 43.268082,
-            "lng": -82.53075749999999
-        }
-    ],
-    "lake ontario": [
-        {
-            "href": "/Ashbridges-Bay-Surf-Report/4431/",
-            "town": "Ashbridges Bay",
-            "spotId": "4431",
-            "lat": 43.6603169,
-            "lng": -79.3151711
-        },
-        {
-            "href": "/Bluffers-Park-Surf-Report/4432/",
-            "town": "Bluffers Park",
-            "spotId": "4432",
-            "lat": 43.706517,
-            "lng": -79.23168079999999
-        },
-        {
-            "href": "/Frenchmans-Bay-Surf-Report/4433/",
-            "town": "Frenchmans Bay",
-            "spotId": "4433",
-            "lat": 43.8136778,
-            "lng": -79.08176189999999
-        },
-        {
-            "href": "/Jack-Darling-Park-Surf-Report/4430/",
-            "town": "Jack Darling Park",
-            "spotId": "4430",
-            "lat": 43.5266114,
-            "lng": -79.6055097
-        }
-    ],
-    "ternate": [
-        {
-            "href": "/Atoll-Reefs-Surf-Report/3069/",
-            "town": "Atoll Reefs",
-            "spotId": "3069",
-            "FAILED": true
-        },
-        {
-            "href": "/Coconut-Swing-Surf-Report/3152/",
-            "town": "Coconut Swing",
-            "spotId": "3152",
-            "FAILED": true
-        },
-        {
-            "href": "/Double-Dome-Surf-Report/3153/",
-            "town": "Double Dome",
-            "spotId": "3153",
-            "FAILED": true
-        },
-        {
-            "href": "/Heavys-Surf-Report/3154/",
-            "town": "Heavy's",
-            "spotId": "3154",
-            "FAILED": true
-        }
-    ],
-    "western sahara": [
-        {
-            "href": "/Al-Marsa-Surf-Report/2974/",
-            "town": "Al Marsa",
-            "spotId": "2974",
-            "lat": 27.0599878,
-            "lng": -13.4222797
-        },
-        {
-            "href": "/Cap-Blanc-Surf-Report/2987/",
-            "town": "Cap Blanc",
-            "spotId": "2987",
-            "lat": 21.0169087,
-            "lng": -17.0421324
-        },
-        {
-            "href": "/Dakhla-Surf-Report/3132/",
-            "town": "Dakhla",
-            "spotId": "3132",
-            "lat": 23.7221111,
-            "lng": -15.9347384
-        },
-        {
-            "href": "/Foum-El-Bouir-Surf-Report/2985/",
-            "town": "Foum El Bouir",
-            "spotId": "2985",
-            "lat": 23.7674537,
-            "lng": -15.9196859
-        }
-    ],
-    "angola": [
-        {
-            "href": "/Cabo-Ledo-Surf-Report/3920/",
-            "town": "Cabo Ledo",
-            "spotId": "3920",
-            "lat": -9.651103599999999,
-            "lng": 13.2576906
-        },
-        {
-            "href": "/Chicala-Surf-Report/3674/",
-            "town": "Chicala",
-            "spotId": "3674",
-            "lat": -12.80601,
-            "lng": 17.06181
-        },
-        {
-            "href": "/Shipwreck-Surf-Report/3675/",
-            "town": "Shipwreck",
-            "spotId": "3675",
-            "FAILED": true
-        }
-    ],
-    "sã£o tomã©": [
-        {
-            "href": "/Ecolodge-Surf-Report/3677/",
-            "town": "Ecolodge",
-            "spotId": "3677",
-            "lat": 0.0395197,
-            "lng": 6.5129131
-        },
-        {
-            "href": "/Lavadouro-Surf-Report/3676/",
-            "town": "Lavadouro",
-            "spotId": "3676",
-            "FAILED": true
-        },
-        {
-            "href": "/Porto-Alegre-Surf-Report/4680/",
-            "town": "Porto Alegre",
-            "spotId": "4680",
-            "lat": 0.0341798,
-            "lng": 6.5336443
-        },
-        {
-            "href": "/Santana-Surf-Report/4681/",
-            "town": "Santana",
-            "spotId": "4681",
-            "lat": 0.2532003,
-            "lng": 6.7413706
-        }
-    ],
-    "republic of the congo": [
-        {
-            "href": "/Djeno-Point-Surf-Report/3402/",
-            "town": "Djeno Point",
-            "spotId": "3402",
-            "FAILED": true
-        },
-        {
-            "href": "/La-Plage-Sportive-Surf-Report/3400/",
-            "town": "La Plage Sportive",
-            "spotId": "3400",
-            "FAILED": true
-        },
-        {
-            "href": "/La-Pyramide-Surf-Report/3401/",
-            "town": "La Pyramide",
-            "spotId": "3401",
-            "lat": -4.8065028,
-            "lng": 11.8416863
-        },
-        {
-            "href": "/MVassa-Surf-Report/3403/",
-            "town": "M'Vassa",
-            "spotId": "3403",
-            "lat": -4.7975311,
-            "lng": 11.8351319
-        }
-    ],
-    "colombia": [
-        {
-            "href": "/Arrecifes-Surf-Report/3260/",
-            "town": "Arrecifes",
-            "spotId": "3260",
-            "lat": 11.31484,
-            "lng": -73.949
-        },
-        {
-            "href": "/Buritaca-Surf-Report/3255/",
-            "town": "Buritaca",
-            "spotId": "3255",
-            "lat": 11.26191,
-            "lng": -73.76871
-        },
-        {
-            "href": "/Casa-Grande-Surf-Report/3243/",
-            "town": "Casa Grande",
-            "spotId": "3243",
-            "lat": 11.2775861,
-            "lng": -73.8651653
-        },
-        {
-            "href": "/Derecha-Secreta-Surf-Report/3336/",
-            "town": "Derecha Secreta",
-            "spotId": "3336",
-            "FAILED": true
-        }
-    ],
-    "taiwan": [
-        {
-            "href": "/Baishawan-Surf-Report/3767/",
-            "town": "Baishawan",
-            "spotId": "3767",
-            "lat": 25.2843158,
-            "lng": 121.5172017
-        },
-        {
-            "href": "/Bashien-Dong-Surf-Report/3450/",
-            "town": "Bashien Dong",
-            "spotId": "3450",
-            "FAILED": true
-        },
-        {
-            "href": "/Cheng-Gong-Surf-Report/3452/",
-            "town": "Cheng Gong",
-            "spotId": "3452",
-            "lat": 23.1261527,
-            "lng": 121.3655989
-        },
-        {
-            "href": "/Chu-Nan-Surf-Report/3451/",
-            "town": "Chu Nan",
-            "spotId": "3451",
-            "lat": 24.134804,
-            "lng": 120.608314
-        }
-    ],
-    "mainland italy": [
-        {
-            "href": "/Acquabella-Surf-Report/3594/",
-            "town": "Acquabella",
-            "spotId": "3594",
-            "FAILED": true
-        },
-        {
-            "href": "/Adria-Surf-Report/3576/",
-            "town": "Adria",
-            "spotId": "3576",
-            "FAILED": true
-        },
-        {
-            "href": "/Alimini-La-Nave-Surf-Report/3608/",
-            "town": "Alimini - La Nave",
-            "spotId": "3608",
-            "FAILED": true
-        },
-        {
-            "href": "/Ansedonia-La-Sinistra-Surf-Report/3586/",
-            "town": "Ansedonia - La Sinistra",
-            "spotId": "3586",
-            "FAILED": true
-        }
-    ],
-    "sardinia": [
-        {
-            "href": "/Buggerru-Il-Molo-Surf-Report/3631/",
-            "town": "Buggerru - Il Molo",
-            "spotId": "3631",
-            "FAILED": true
-        },
-        {
-            "href": "/Capo-Mannu-Surf-Report/3628/",
-            "town": "Capo Mannu",
-            "spotId": "3628",
-            "lat": 40.0378524,
-            "lng": 8.393753199999999
-        },
-        {
-            "href": "/Chia-Il-Pontile-Surf-Report/3635/",
-            "town": "Chia - Il Pontile",
-            "spotId": "3635",
-            "FAILED": true
-        },
-        {
-            "href": "/Goroneddu-Surf-Report/3632/",
-            "town": "Goroneddu",
-            "spotId": "3632",
-            "FAILED": true
-        }
-    ],
-    "sicily": [
-        {
-            "href": "/Baia-Arcile-Surf-Report/4511/",
-            "town": "Baia Arcile",
-            "spotId": "4511",
-            "lat": 37.2887667,
-            "lng": 15.163425
-        },
-        {
-            "href": "/Bova-Surf-Report/3654/",
-            "town": "Bova",
-            "spotId": "3654",
-            "lat": 37.9960549,
-            "lng": 13.6548272
-        },
-        {
-            "href": "/Catania-La-Playa-Surf-Report/3650/",
-            "town": "Catania - La Playa",
-            "spotId": "3650",
-            "lat": 37.4837388,
-            "lng": 15.0839841
-        },
-        {
-            "href": "/Ciammarita-Surf-Report/3645/",
-            "town": "Ciammarita",
-            "spotId": "3645",
-            "lat": 37.6327938,
-            "lng": 13.6386711
-        }
-    ],
-    "israel": [
-        {
-            "href": "/Ashdod-Surf-Report/4219/",
-            "town": "Ashdod",
-            "spotId": "4219",
-            "lat": 31.804381,
-            "lng": 34.655314
-        },
-        {
-            "href": "/Ashqelon-Surf-Report/3811/",
-            "town": "Ashqelon",
-            "spotId": "3811",
-            "lat": 31.6687885,
-            "lng": 34.5742523
-        },
-        {
-            "href": "/Backdoor-Haifa-Surf-Report/3987/",
-            "town": "Backdoor Haifa",
-            "spotId": "3987",
-            "FAILED": true
-        },
-        {
-            "href": "/Bat-Yam-Surf-Report/3662/",
-            "town": "Bat Yam",
-            "spotId": "3662",
-            "lat": 32.013186,
-            "lng": 34.748019
-        }
-    ],
-    "seychelles": [
-        {
-            "href": "/Anse-aux-Poules-Bleues-Surf-Report/3695/",
-            "town": "Anse aux Poules Bleues",
-            "spotId": "3695",
-            "lat": -4.7401959,
-            "lng": 55.4686239
-        },
-        {
-            "href": "/Anse-Bougainville-Surf-Report/3690/",
-            "town": "Anse Bougainville",
-            "spotId": "3690",
-            "lat": -4.6826693,
-            "lng": 55.480396
-        },
-        {
-            "href": "/Anse-Gaulette-Surf-Report/3687/",
-            "town": "Anse Gaulette",
-            "spotId": "3687",
-            "lat": -4.338879700000001,
-            "lng": 55.8377658
-        },
-        {
-            "href": "/Anse-Intendance-Surf-Report/3699/",
-            "town": "Anse Intendance",
-            "spotId": "3699",
-            "lat": -4.7870839,
-            "lng": 55.4984034
-        }
-    ],
-    "uruguay": [
-        {
-            "href": "/Bajos-Del-Polonio-Surf-Report/3724/",
-            "town": "Bajos Del Polonio",
-            "spotId": "3724",
-            "FAILED": true
-        },
-        {
-            "href": "/Barra-de-Balizas-Surf-Report/4140/",
-            "town": "Barra de Balizas",
-            "spotId": "4140",
-            "lat": -34.3366684,
-            "lng": -53.793882
-        },
-        {
-            "href": "/Barra-del-Chuy-Surf-Report/3729/",
-            "town": "Barra del Chuy",
-            "spotId": "3729",
-            "lat": -33.7635641,
-            "lng": -53.4041053
-        },
-        {
-            "href": "/El-Desplayado-Surf-Report/3723/",
-            "town": "El Desplayado",
-            "spotId": "3723",
-            "FAILED": true
-        }
-    ],
-    "equatorial guinea": [
-        {
-            "href": "/Caracas-Surf-Report/3746/",
-            "town": "Caracas",
-            "spotId": "3746",
-            "lat": 10.4896761,
-            "lng": -66.8469954
-        },
-        {
-            "href": "/Nacho-Surf-Report/3748/",
-            "town": "Nacho",
-            "spotId": "3748",
-            "FAILED": true
-        }
-    ],
-    "antarctic peninsula": [
-        {
-            "href": "/Deception-Island-Surf-Report/3810/",
-            "town": "Deception Island",
-            "spotId": "3810",
-            "lat": -62.9409297,
-            "lng": -60.55537510000001
-        }
-    ],
-    "greece": [
-        {
-            "href": "/Agios-DImitrios-Surf-Report/4643/",
-            "town": "Agios DImitrios",
-            "spotId": "4643",
-            "lat": 37.9356939,
-            "lng": 23.7294558
-        },
-        {
-            "href": "/Agios-Nicholas-Surf-Report/4608/",
-            "town": "Agios Nicholas",
-            "spotId": "4608",
-            "lat": 35.1899597,
-            "lng": 25.7164166
-        },
-        {
-            "href": "/Agios-Theologis-Surf-Report/4610/",
-            "town": "Agios Theologis",
-            "spotId": "4610",
-            "lat": 36.71406,
-            "lng": 26.922341
-        },
-        {
-            "href": "/Agrili-Surf-Report/4496/",
-            "town": "Agrili",
-            "spotId": "4496",
-            "lat": 40.151259,
-            "lng": 23.733097
-        }
-    ],
-    "bangladesh": [
-        {
-            "href": "/Inani-Point-Surf-Report/4228/",
-            "town": "Inani Point",
-            "spotId": "4228",
-            "lat": 21.2833212,
-            "lng": 92.0771563
-        },
-        {
-            "href": "/Kolatoli-Point-Surf-Report/4229/",
-            "town": "Kolatoli Point",
-            "spotId": "4229",
-            "lat": 21.4160322,
-            "lng": 91.9843619
-        },
-        {
-            "href": "/St-Martins-Surf-Report/4230/",
-            "town": "St. Martins",
-            "spotId": "4230",
-            "lat": 20.6237016,
-            "lng": 92.3233948
-        }
-    ],
-    "united arab emirates": [
-        {
-            "href": "/Sunset-Beach-Surf-Report/4252/",
-            "town": "Sunset Beach",
-            "spotId": "4252",
-            "lat": 25.1483286,
-            "lng": 55.1945091
-        }
-    ],
-    "south korea": [
-        {
-            "href": "/Busan-Surf-Report/4542/",
-            "town": "Busan",
-            "spotId": "4542",
-            "lat": 35.1795543,
-            "lng": 129.0756416
-        },
-        {
-            "href": "/Jeju-Island-Surf-Report/4541/",
-            "town": "Jeju Island",
-            "spotId": "4541",
-            "lat": 33.4890113,
-            "lng": 126.4983023
-        },
-        {
-            "href": "/Jukdo-Surf-Report/4543/",
-            "town": "Jukdo",
-            "spotId": "4543",
-            "lat": 36.0318476,
-            "lng": 129.3640905
-        }
-    ],
-    
-    "iran": [
-        {
-            "href": "/Beris-Surf-Report/4604/",
-            "town": "Beris",
-            "spotId": "4604",
-            "lat": 38.24866979999999,
-            "lng": 48.6015142
-        },
-        {
-            "href": "/Bod-Surf-Report/4602/",
-            "town": "Bod",
-            "spotId": "4602",
-            "lat": 35.805021,
-            "lng": 51.419891
-        },
-        {
-            "href": "/Darya-Bozorg-Surf-Report/4596/",
-            "town": "Darya Bozorg",
-            "spotId": "4596",
-            "FAILED": true
-        },
-        {
-            "href": "/Kabab-Surf-Report/4600/",
-            "town": "Kabab",
-            "spotId": "4600",
-            "lat": 36.2975868,
-            "lng": 59.5433342
-        }
-    ],
-    "england": [
-        {
-            "href": "/Bacton-Surf-Report/1398/",
-            "town": "Bacton",
-            "spotId": "1398",
-            "lat": 52.8492739,
-            "lng": 1.4645665
-        },
-        {
-            "href": "/Bamburgh-Surf-Report/1377/",
-            "town": "Bamburgh",
-            "spotId": "1377",
-            "lat": 55.6076431,
-            "lng": -1.7148211
-        },
-        {
-            "href": "/Bantham-Surf-Report/10/",
-            "town": "Bantham",
-            "spotId": "10",
-            "lat": 50.278039,
-            "lng": -3.868563
-        },
-        {
-            "href": "/Beadnell-Bay-Surf-Report/992/",
-            "town": "Beadnell Bay",
-            "spotId": "992",
-            "lat": 55.5611445,
-            "lng": -1.6359109
-        }
-    ],
-    "scotland": [
-        {
-            "href": "/Aberdeen-Beach-Surf-Report/41/",
-            "town": "Aberdeen - Beach",
-            "spotId": "41",
-            "lat": 57.151267,
-            "lng": -2.08471
-        },
-        {
-            "href": "/Arbroath-Surf-Report/1437/",
-            "town": "Arbroath",
-            "spotId": "1437",
-            "lat": 56.559107,
-            "lng": -2.591543
-        },
-        {
-            "href": "/Ardnave-Bay-Surf-Report/1418/",
-            "town": "Ardnave Bay",
-            "spotId": "1418",
-            "FAILED": true
-        },
-        {
-            "href": "/Armadale-Bay-Surf-Report/3907/",
-            "town": "Armadale Bay",
-            "spotId": "3907",
-            "lat": 58.55676909999999,
-            "lng": -4.0765614
-        }
-    ],
-    "wales": [
-        {
-            "href": "/Aberavon-Surf-Report/30/",
-            "town": "Aberavon",
-            "spotId": "30",
-            "lat": 51.6034701,
-            "lng": -3.804523699999999
-        },
-        {
-            "href": "/Aberdaron-Surf-Report/1474/",
-            "town": "Aberdaron",
-            "spotId": "1474",
-            "lat": 52.80472899999999,
-            "lng": -4.711514999999999
-        },
-        {
-            "href": "/Abereiddy-Surf-Report/1477/",
-            "town": "Abereiddy",
-            "spotId": "1477",
-            "lat": 51.935016,
-            "lng": -5.2026574
-        },
-        {
-            "href": "/Anglesey-Ynys-Mon-Surf-Report/37/",
-            "town": "Anglesey (Ynys MÃ´n)",
-            "spotId": "37",
-            "lat": 53.265325,
-            "lng": -4.429140299999999
-        }
-    ],
-    "ireland": [
-        {
-            "href": "/Achill-Island-Surf-Report/685/",
-            "town": "Achill Island",
-            "spotId": "685",
-            "lat": 53.9619505,
-            "lng": -10.015335
-        },
-        {
-            "href": "/Annestown-Bay-Surf-Report/1489/",
-            "town": "Annestown Bay",
-            "spotId": "1489",
-            "FAILED": true
-        },
-        {
-            "href": "/Ballybunion-Surf-Report/3701/",
-            "town": "Ballybunion ",
-            "spotId": "3701",
-            "lat": 52.51108,
-            "lng": -9.670969999999999
-        },
-        {
-            "href": "/Banna-Beach-Surf-Report/1283/",
-            "town": "Banna Beach ",
-            "spotId": "1283",
-            "lat": 52.34111110000001,
-            "lng": -9.840277799999999
-        }
-    ],
-    "northern ireland": [
-        {
-            "href": "/Benone-Strand-Surf-Report/3747/",
-            "town": "Benone Strand",
-            "spotId": "3747",
-            "lat": 55.1636,
-            "lng": -6.88031
-        },
-        {
-            "href": "/Newcastle-Surf-Report/1133/",
-            "town": "Newcastle",
-            "spotId": "1133",
-            "lat": 54.21614,
-            "lng": -5.8920445
-        },
-        {
-            "href": "/Portrush-Surf-Report/56/",
-            "town": "Portrush",
-            "spotId": "56",
-            "lat": 55.2041945,
-            "lng": -6.652670899999999
-        }
-    ],
-    "guernsey": [
-        {
-            "href": "/Fort-Le-Marchant-Guernsey-Surf-Report/1902/",
-            "town": "Fort Le Marchant - Guernsey",
-            "spotId": "1902",
-            "lat": 49.5088657,
-            "lng": -2.5187012
-        },
-        {
-            "href": "/LAncresse-Bay-Guernsey-Surf-Report/1901/",
-            "town": "L'Ancresse Bay - Guernsey",
-            "spotId": "1901",
-            "lat": 49.5016135,
-            "lng": -2.5254142
-        },
-        {
-            "href": "/Perelle-Bay-Dom-Hue-Guernsey-Surf-Report/1897/",
-            "town": "Perelle Bay - Dom Hue - Guernsey",
-            "spotId": "1897",
-            "lat": 49.458969,
-            "lng": -2.634927
-        },
-        {
-            "href": "/Portinfer-Guernsey-Surf-Report/1900/",
-            "town": "Portinfer - Guernsey",
-            "spotId": "1900",
-            "lat": 49.49100079999999,
-            "lng": -2.5724455
-        }
-    ],
-    "jersey": [
-        {
-            "href": "/Greve-de-Lecq-Jersey-Surf-Report/1193/",
-            "town": "Greve de Lecq - Jersey",
-            "spotId": "1193",
-            "lat": 49.2480556,
-            "lng": -2.2013889
-        },
-        {
-            "href": "/Jersey-Surf-Report/120/",
-            "town": "Jersey",
-            "spotId": "120",
-            "lat": 49.214439,
-            "lng": -2.13125
-        },
-        {
-            "href": "/La-Rocco-Jersey-Surf-Report/1906/",
-            "town": "La Rocco - Jersey",
-            "spotId": "1906",
-            "lat": 49.188655,
-            "lng": -2.2287343
-        },
-        {
-            "href": "/Les-Brayes-Jersey-Surf-Report/1905/",
-            "town": "Les Brayes - Jersey",
-            "spotId": "1905",
-            "lat": 49.2336111,
-            "lng": -2.0205556
-        }
-    ],
-    "isle of man": [
-        {
-            "href": "/Barrel-Rock-Surf-Report/1155/",
-            "town": "Barrel Rock",
-            "spotId": "1155",
-            "lat": 54.1477885,
-            "lng": -4.5021381
-        },
-        {
-            "href": "/drivers-Surf-Report/1152/",
-            "town": "drivers",
-            "spotId": "1152",
-            "lat": 54.1637254,
-            "lng": -4.479576
-        },
-        {
-            "href": "/Isle-of-Man-Surf-Report/943/",
-            "town": "Isle of Man",
-            "spotId": "943",
-            "lat": 54.236107,
-            "lng": -4.548056
-        },
-        {
-            "href": "/S%2A%2A%2A-Pipe-Surf-Report/1150/",
-            "town": "S*** Pipe",
-            "spotId": "1150",
-            "FAILED": true
-        }
-    ],
-    "baja california": [
-        {
-            "href": "/Bahia-Chileno-Surf-Report/779/",
-            "town": "Bahia Chileno",
-            "spotId": "779",
-            "lat": 22.9500123,
-            "lng": -109.8071235
-        },
-        {
-            "href": "/Bahia-Tortugas-Surf-Report/4143/",
-            "town": "Bahia Tortugas",
-            "spotId": "4143",
-            "lat": 27.6936418,
-            "lng": -114.8966932
-        },
-        {
-            "href": "/Cabo-Colonet-Surf-Report/4144/",
-            "town": "Cabo Colonet",
-            "spotId": "4144",
-            "lat": 31.0677525,
-            "lng": -116.2083121
-        },
-        {
-            "href": "/Calafia-Surf-Report/4145/",
-            "town": "Calafia",
-            "spotId": "4145",
-            "lat": 32.2686729,
-            "lng": -117.0214095
-        }
-    ],
-    "pacific coast mexico": [
-        {
-            "href": "/Acapulco-Surf-Report/339/",
-            "town": "Acapulco",
-            "spotId": "339",
-            "lat": 33.762188,
-            "lng": -118.116546
-        },
-        {
-            "href": "/Aticama-Surf-Report/2063/",
-            "town": "Aticama",
-            "spotId": "2063",
-            "lat": 20.672201,
-            "lng": -105.251131
-        },
-        {
-            "href": "/Barra-De-La-Cruz-Surf-Report/4686/",
-            "town": "Barra De La Cruz",
-            "spotId": "4686",
-            "FAILED": true
-        },
-        {
-            "href": "/Barra-de-Potosi-Surf-Report/2073/",
-            "town": "Barra de Potosi",
-            "spotId": "2073",
-            "lat": 17.5484318,
-            "lng": -101.4385459
-        }
-    ],
-    "florida - east coast": [
-        {
-            "href": "/Amelia-Pier-Surf-Report/4194/",
-            "town": "Amelia Pier",
-            "spotId": "4194",
-            "FAILED": true
-        },
-        {
-            "href": "/Bethune-Surf-Report/3771/",
-            "town": "Bethune",
-            "spotId": "3771",
-            "FAILED": true
-        },
-        {
-            "href": "/Boynton-Inlet-Surf-Report/1167/",
-            "town": "Boynton Inlet",
-            "spotId": "1167",
-            "lat": 26.5456827,
-            "lng": -80.04449819999999
-        },
-        {
-            "href": "/Canova-Beach-Surf-Report/4197/",
-            "town": "Canova Beach",
-            "spotId": "4197",
-            "lat": 28.13866,
-            "lng": -80.5802544
-        }
-    ],
-    "maine": [
-        {
-            "href": "/Fortunes-Rocks-Surf-Report/363/",
-            "town": "Fortunes Rocks",
-            "spotId": "363",
-            "lat": 43.4242526,
-            "lng": -70.377827
-        },
-        {
-            "href": "/Higgins-Beach-Surf-Report/362/",
-            "town": "Higgins Beach",
-            "spotId": "362",
-            "lat": 43.561816,
-            "lng": -70.275256
-        },
-        {
-            "href": "/Kennebunk-Beach-Surf-Report/364/",
-            "town": "Kennebunk Beach",
-            "spotId": "364",
-            "lat": 43.34508599999999,
-            "lng": -70.5022743
-        },
-        {
-            "href": "/Long-Sands-Surf-Report/367/",
-            "town": "Long Sands",
-            "spotId": "367",
-            "lat": 43.1632328,
-            "lng": -70.6188189
-        }
-    ],
-    "new hampshire": [
-        {
-            "href": "/Costellos-Surf-Report/2077/",
-            "town": "Costellos",
-            "spotId": "2077",
-            "lat": 42.9825819,
-            "lng": -70.94006
-        },
-        {
-            "href": "/Hampton-Beach-Surf-Report/2074/",
-            "town": "Hampton Beach",
-            "spotId": "2074",
-            "lat": 42.9113098,
-            "lng": -70.81348179999999
-        },
-        {
-            "href": "/Jenness-Beach-Surf-Report/881/",
-            "town": "Jenness Beach",
-            "spotId": "881",
-            "lat": 42.9857828,
-            "lng": -70.7622864
-        },
-        {
-            "href": "/Linkys-Surf-Report/2075/",
-            "town": "Linkys",
-            "spotId": "2075",
-            "FAILED": true
-        }
-    ],
-    "massachusetts": [
-        {
-            "href": "/Abels-Hill-Surf-Report/978/",
-            "town": "Abels Hill",
-            "spotId": "978",
-            "lat": 41.3501137,
-            "lng": -70.7119721
-        },
-        {
-            "href": "/Cape-Ann-Surf-Report/370/",
-            "town": "Cape Ann",
-            "spotId": "370",
-            "lat": 42.648611,
-            "lng": -70.5930556
-        },
-        {
-            "href": "/Cape-Cod-Surf-Report/373/",
-            "town": "Cape Cod",
-            "spotId": "373",
-            "lat": 41.6687897,
-            "lng": -70.29624079999999
-        },
-        {
-            "href": "/Green-Harbor-Surf-Report/864/",
-            "town": "Green Harbor",
-            "spotId": "864",
-            "lat": 42.0766342,
-            "lng": -70.6627845
+            "lat": 40.5809,
+            "lng": -73.8163,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Rocky-Neck-Surf-Report/7960/",
+            "town": "Rocky Neck",
+            "spotId": "7960",
+            "lat": 41.2993,
+            "lng": -72.2393,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Sasco-Beach-Surf-Report/7963/",
+            "town": "Sasco Beach",
+            "spotId": "7963",
+            "lat": 41.127,
+            "lng": -73.2832,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Sherwood-Beach-Surf-Report/7964/",
+            "town": "Sherwood Beach",
+            "spotId": "7964",
+            "lat": 41.112,
+            "lng": -73.3274,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Short-Beach-Surf-Report/7641/",
+            "town": "Short Beach",
+            "spotId": "7641",
+            "lat": 41.1614,
+            "lng": -73.1095,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Smithtown-Bay-Surf-Report/7655/",
+            "town": "Smithtown Bay",
+            "spotId": "7655",
+            "lat": 40.9385,
+            "lng": -73.2114,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Stehli-Beach-Surf-Report/7651/",
+            "town": "Stehli Beach",
+            "spotId": "7651",
+            "lat": 40.9092,
+            "lng": -73.5884,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Stony-Brook-Harbor-Surf-Report/7654/",
+            "town": "Stony Brook Harbor",
+            "spotId": "7654",
+            "lat": 40.9308,
+            "lng": -73.1481,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Sunken-Meadow-Surf-Report/7648/",
+            "town": "Sunken Meadow",
+            "spotId": "7648",
+            "lat": 40.9135,
+            "lng": -73.2584,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Tobay-Beach-Surf-Report/1240/",
+            "town": "Tobay Beach",
+            "spotId": "1240",
+            "lat": 40.6096,
+            "lng": -73.4241,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Turtle-Cove-Surf-Report/2161/",
+            "town": "Turtle Cove",
+            "spotId": "2161",
+            "lat": 41.0722,
+            "lng": -71.8558,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/West-Dune-Rd-Surf-Report/4873/",
+            "town": "West Dune Rd. ",
+            "spotId": "4873",
+            "lat": 40.7744,
+            "lng": -72.7143,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/West-End-Surf-Report/4870/",
+            "town": "West End",
+            "spotId": "4870",
+            "lat": 40.5768,
+            "lng": -73.5593,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/West-Meadow-Beach-Surf-Report/7647/",
+            "town": "West Meadow Beach",
+            "spotId": "7647",
+            "lat": 40.9376,
+            "lng": -73.1463,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         }
     ],
     "rhode island": [
@@ -4263,1102 +3345,3067 @@ const data = {
             "href": "/1st-Beach-Eastons-Beach-Surf-Report/907/",
             "town": "1st Beach (Eastons Beach)",
             "spotId": "907",
-            "lat": 41.4878856,
-            "lng": -71.292681
+            "lat": 41.4867,
+            "lng": -71.2906,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
             "href": "/2nd-Beach-Sachuest-Beach-Surf-Report/846/",
             "town": "2nd Beach (Sachuest Beach)",
             "spotId": "846",
-            "lat": 41.4875239,
-            "lng": -71.2565946
+            "lat": 41.4871,
+            "lng": -71.257,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
             "href": "/Baileys-Beach-Surf-Report/2096/",
             "town": "Bailey's Beach",
             "spotId": "2096",
-            "lat": 41.4566202,
-            "lng": -71.3139612
+            "lat": 41.4557,
+            "lng": -71.313,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Black-Rock-Point-Surf-Report/9172/",
+            "town": "Black Rock Point",
+            "spotId": "9172",
+            "lat": 41.1458,
+            "lng": -71.5917,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
             "href": "/Block-Island-Surf-Report/4057/",
             "town": "Block Island",
             "spotId": "4057",
-            "lat": 41.1616556,
-            "lng": -71.5842643
+            "lat": 41.1463,
+            "lng": -71.5783,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Breachway-Surf-Report/784/",
+            "town": "Breachway",
+            "spotId": "784",
+            "lat": 41.3541,
+            "lng": -71.6393,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Deep-Hole-Surf-Report/5914/",
+            "town": "Deep Hole",
+            "spotId": "5914",
+            "lat": 41.3725,
+            "lng": -71.5351,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Dunes-Park-Beach-Surf-Report/7912/",
+            "town": "Dunes Park Beach",
+            "spotId": "7912",
+            "lat": 41.3287,
+            "lng": -71.765,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/East-Beach-Surf-Report/4059/",
+            "town": "East Beach",
+            "spotId": "4059",
+            "lat": 41.3447,
+            "lng": -71.681,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/East-State-Beach-Surf-Report/7909/",
+            "town": "East State Beach",
+            "spotId": "7909",
+            "lat": 41.3471,
+            "lng": -71.6733,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Elbow-Ledge-Surf-Report/574/",
+            "town": "Elbow Ledge",
+            "spotId": "574",
+            "lat": 41.42,
+            "lng": -71.31,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Green-Hill-Surf-Report/9150/",
+            "town": "Green Hill",
+            "spotId": "9150",
+            "lat": 41.3643,
+            "lng": -71.6011,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/K38-39-Surf-Report/785/",
+            "town": "K38/39",
+            "spotId": "785",
+            "lat": 41.367,
+            "lng": -71.4947,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Lighthouse-Point-Judith-Surf-Report/376/",
+            "town": "Lighthouse (Point Judith)",
+            "spotId": "376",
+            "lat": 41.3617,
+            "lng": -71.4797,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Mansion-Beach-Surf-Report/9173/",
+            "town": "Mansion Beach",
+            "spotId": "9173",
+            "lat": 41.2011,
+            "lng": -71.5609,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Matunuck-Surf-Report/377/",
+            "town": "Matunuck",
+            "spotId": "377",
+            "lat": 41.3714,
+            "lng": -71.5393,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Misquamicut-Surf-Report/783/",
+            "town": "Misquamicut",
+            "spotId": "783",
+            "lat": 41.3218,
+            "lng": -71.8037,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Monahans-Dock-Surf-Report/375/",
+            "town": "Monahan's Dock",
+            "spotId": "375",
+            "lat": 41.4216,
+            "lng": -71.4539,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Narragansett-Beach-Surf-Report/1103/",
+            "town": "Narragansett Beach",
+            "spotId": "1103",
+            "lat": 41.4354,
+            "lng": -71.4529,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Pilgrim-Surf-Report/4950/",
+            "town": "Pilgrim",
+            "spotId": "4950",
+            "lat": 41.3699,
+            "lng": -71.4823,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Ruggles-Surf-Report/374/",
+            "town": "Ruggles",
+            "spotId": "374",
+            "lat": 41.4693,
+            "lng": -71.2955,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Sakonnet-River-Surf-Report/8188/",
+            "town": "Sakonnet River",
+            "spotId": "8188",
+            "lat": 41.4736,
+            "lng": -71.2479,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Salty-Brine-State-Beach-Surf-Report/7910/",
+            "town": "Salty Brine State Beach",
+            "spotId": "7910",
+            "lat": 41.3751,
+            "lng": -71.5116,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Scarborough-State-Beach-Surf-Report/7911/",
+            "town": "Scarborough State Beach",
+            "spotId": "7911",
+            "lat": 41.389,
+            "lng": -71.4714,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/South-Shore-Beach-Surf-Report/2967/",
+            "town": "South Shore Beach",
+            "spotId": "2967",
+            "lat": 41.4929,
+            "lng": -71.1358,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Weekapaug-Surf-Report/4058/",
+            "town": "Weekapaug",
+            "spotId": "4058",
+            "lat": 41.3284,
+            "lng": -71.7617,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         }
     ],
-    "north carolina": [
+    "puerto rico": [
         {
-            "href": "/Atlantic-Beach-Surf-Report/706/",
+            "href": "/Antonios-Surf-Report/8164/",
+            "town": "Antonio's",
+            "spotId": "8164",
+            "lat": 18.3734,
+            "lng": -67.2528,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Aviones-Surf-Report/8158/",
+            "town": "Aviones",
+            "spotId": "8158",
+            "lat": 18.452,
+            "lng": -65.9579,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/BCs-Surf-Report/2542/",
+            "town": "BCs",
+            "spotId": "2542",
+            "lat": 18.3897,
+            "lng": -67.2046,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Bridges-Surf-Report/4856/",
+            "town": "Bridges",
+            "spotId": "4856",
+            "lat": 18.4262,
+            "lng": -67.1559,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Caza-y-Pesca-Surf-Report/8951/",
+            "town": "Caza y Pesca",
+            "spotId": "8951",
+            "lat": 18.481,
+            "lng": -66.6847,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Chatarra-Surf-Report/8157/",
+            "town": "Chatarra",
+            "spotId": "8157",
+            "lat": 18.4553,
+            "lng": -65.9667,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Cibuco-Surf-Report/6792/",
+            "town": "Cibuco",
+            "spotId": "6792",
+            "lat": 18.4909,
+            "lng": -66.3956,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Cochino-Surf-Report/8172/",
+            "town": "Cochino",
+            "spotId": "8172",
+            "lat": 18.4556,
+            "lng": -66.1799,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Crash-Boat-Surf-Report/451/",
+            "town": "Crash Boat",
+            "spotId": "451",
+            "lat": 18.4573,
+            "lng": -67.1645,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Cueva-del-Indio-Surf-Report/8187/",
+            "town": "Cueva del Indio",
+            "spotId": "8187",
+            "lat": 18.4905,
+            "lng": -66.6432,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Dogmans-Surf-Report/8166/",
+            "town": "Dogman's",
+            "spotId": "8166",
+            "lat": 18.3555,
+            "lng": -67.269,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Domes-Surf-Report/4853/",
+            "town": "Domes",
+            "spotId": "4853",
+            "lat": 18.3665,
+            "lng": -67.2712,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Dunes-Puerto-Rico-Surf-Report/452/",
+            "town": "Dunes (Puerto Rico)",
+            "spotId": "452",
+            "lat": 18.5148,
+            "lng": -67.0467,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/El-Cocal-Surf-Report/8168/",
+            "town": "El Cocal",
+            "spotId": "8168",
+            "lat": 18.0151,
+            "lng": -65.8462,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/El-Unico-Surf-Report/8174/",
+            "town": "El Unico",
+            "spotId": "8174",
+            "lat": 18.4689,
+            "lng": -66.2391,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Gas-Chambers-Surf-Report/4857/",
+            "town": "Gas Chambers",
+            "spotId": "4857",
+            "lat": 18.4605,
+            "lng": -67.1662,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Guajataca-Surf-Report/8162/",
+            "town": "Guajataca",
+            "spotId": "8162",
+            "lat": 18.4904,
+            "lng": -66.9558,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Hallows-Surf-Report/8169/",
+            "town": "Hallows",
+            "spotId": "8169",
+            "lat": 18.4914,
+            "lng": -66.6106,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Inches-Surf-Report/8112/",
+            "town": "Inches",
+            "spotId": "8112",
+            "lat": 17.9717,
+            "lng": -65.9615,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Indicators-Surf-Report/4852/",
+            "town": "Indicators",
+            "spotId": "4852",
+            "lat": 18.3607,
+            "lng": -67.271,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Jobos-Surf-Report/8089/",
+            "town": "Jobos",
+            "spotId": "8089",
+            "lat": 18.5151,
+            "lng": -67.0839,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Kikita-Beach-Surf-Report/8171/",
+            "town": "Kikita Beach",
+            "spotId": "8171",
+            "lat": 18.4775,
+            "lng": -66.2623,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/La-Bomba-Surf-Report/8173/",
+            "town": "La Bomba",
+            "spotId": "8173",
+            "lat": 18.4562,
+            "lng": -66.0636,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/La-Ocho-Surf-Report/8154/",
+            "town": "La Ocho",
+            "spotId": "8154",
+            "lat": 18.4672,
+            "lng": -66.0931,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/La-Pared-Surf-Report/8111/",
+            "town": "La Pared",
+            "spotId": "8111",
+            "lat": 18.3771,
+            "lng": -65.715,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/La-Selva-Surf-Report/8160/",
+            "town": "La Selva",
+            "spotId": "8160",
+            "lat": 18.3644,
+            "lng": -65.6718,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Las-Pasas-Surf-Report/8170/",
+            "town": "Las Pasas",
+            "spotId": "8170",
+            "lat": 18.4824,
+            "lng": -66.3416,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Little-Malibu-Rincon-Surf-Report/450/",
+            "town": "Little Malibu (Rincon)",
+            "spotId": "450",
+            "lat": 18.3437,
+            "lng": -67.2613,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Los-Tubos-Surf-Report/6791/",
+            "town": "Los Tubos",
+            "spotId": "6791",
+            "lat": 18.4712,
+            "lng": -66.4494,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Margara-Surf-Report/8153/",
+            "town": "Margara",
+            "spotId": "8153",
+            "lat": 18.4759,
+            "lng": -66.7309,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Marias-Surf-Report/8165/",
+            "town": "Maria's",
+            "spotId": "8165",
+            "lat": 18.3573,
+            "lng": -67.2711,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Middles-Surf-Report/8090/",
+            "town": "Middles",
+            "spotId": "8090",
+            "lat": 18.5136,
+            "lng": -67.0411,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Montones-Surf-Report/2537/",
+            "town": "Montones",
+            "spotId": "2537",
+            "lat": 18.5146,
+            "lng": -67.0666,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Parking-Lots-Surf-Report/4855/",
+            "town": "Parking Lots",
+            "spotId": "4855",
+            "lat": 18.3733,
+            "lng": -67.251,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Pine-Grove-Surf-Report/8156/",
+            "town": "Pine Grove",
+            "spotId": "8156",
+            "lat": 18.4446,
+            "lng": -66.0129,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Pools-Surf-Report/4854/",
+            "town": "Pools",
+            "spotId": "4854",
+            "lat": 18.3713,
+            "lng": -67.261,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Puntas-Surf-Report/8161/",
+            "town": "Puntas",
+            "spotId": "8161",
+            "lat": 18.3716,
+            "lng": -67.2594,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Ruins-Surf-Report/8163/",
+            "town": "Ruins",
+            "spotId": "8163",
+            "lat": 18.4888,
+            "lng": -67.1626,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/San-Juan-Surf-Report/8155/",
+            "town": "San Juan",
+            "spotId": "8155",
+            "lat": 18.46,
+            "lng": -66.0738,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Sandy-Beach-Puerto-Rico-Surf-Report/2530/",
+            "town": "Sandy Beach - Puerto Rico",
+            "spotId": "2530",
+            "lat": 18.3707,
+            "lng": -67.2582,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Steps-Beach-Surf-Report/8167/",
+            "town": "Steps Beach",
+            "spotId": "8167",
+            "lat": 18.3496,
+            "lng": -67.2643,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Surfers-Beach-Puerto-Rico-Surf-Report/2544/",
+            "town": "Surfers Beach (Puerto Rico)",
+            "spotId": "2544",
+            "lat": 18.5073,
+            "lng": -67.1411,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Table-Top-Surf-Report/4859/",
+            "town": "Table Top",
+            "spotId": "4859",
+            "lat": 18.5086,
+            "lng": -67.138,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Tocones-Surf-Report/8159/",
+            "town": "Tocones",
+            "spotId": "8159",
+            "lat": 18.4518,
+            "lng": -65.9564,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Tres-Palmas-Surf-Report/4851/",
+            "town": "Tres Palmas",
+            "spotId": "4851",
+            "lat": 18.349,
+            "lng": -67.2669,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Wilderness-Puerto-Rico-Surf-Report/2534/",
+            "town": "Wilderness (Puerto Rico)",
+            "spotId": "2534",
+            "lat": 18.4837,
+            "lng": -67.1677,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Wishing-Well-Surf-Report/4858/",
+            "town": "Wishing Well",
+            "spotId": "4858",
+            "lat": 18.4722,
+            "lng": -67.1692,
+            "timeZone": "America/Puerto_Rico",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        }
+    ],
+    "pacific coast mexico": [
+        {
+            "href": "/Acapulco-Surf-Report/339/",
+            "town": "Acapulco",
+            "spotId": "339",
+            "lat": 16.82,
+            "lng": -99.9,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Aticama-Surf-Report/2063/",
+            "town": "Aticama",
+            "spotId": "2063",
+            "lat": 21.4819,
+            "lng": -105.202,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Barra-De-La-Cruz-Surf-Report/4686/",
+            "town": "Barra De La Cruz",
+            "spotId": "4686",
+            "lat": 15.8205,
+            "lng": -95.9651,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Barra-de-Potosi-Surf-Report/2073/",
+            "town": "Barra de Potosi",
+            "spotId": "2073",
+            "lat": 17.5387,
+            "lng": -101.453,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Colotepec-Surf-Report/2070/",
+            "town": "Colotepec",
+            "spotId": "2070",
+            "lat": 15.8041,
+            "lng": -97.0144,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Cuyutlan-Surf-Report/2068/",
+            "town": "Cuyutlan",
+            "spotId": "2068",
+            "lat": 18.9168,
+            "lng": -104.073,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/El-Camaron-Surf-Report/4822/",
+            "town": "El Camaron",
+            "spotId": "4822",
+            "lat": 23.2395,
+            "lng": -106.4483,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/El-Faro-Guerrero-Surf-Report/2069/",
+            "town": "El Faro (Guerrero)",
+            "spotId": "2069",
+            "lat": 17.9215,
+            "lng": -102.167,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/El-Paraiso-Surf-Report/2067/",
+            "town": "El Paraiso",
+            "spotId": "2067",
+            "lat": 18.8732,
+            "lng": -103.99,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Escolleras-Surf-Report/2060/",
+            "town": "Escolleras",
+            "spotId": "2060",
+            "lat": 17.6627,
+            "lng": -101.62,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Hammerhead-Surf-Report/330/",
+            "town": "Hammerhead",
+            "spotId": "330",
+            "lat": 21.3155,
+            "lng": -106.226,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/La-Bocana-Surf-Report/341/",
+            "town": "La Bocana",
+            "spotId": "341",
+            "lat": 15.7868,
+            "lng": -96.0509,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/La-Lancha-Surf-Report/4533/",
+            "town": "La Lancha",
+            "spotId": "4533",
+            "lat": 20.7634,
+            "lng": -105.494,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/La-Punta-Playa-Zicatela-Surf-Report/2057/",
+            "town": "La Punta - Playa Zicatela",
+            "spotId": "2057",
+            "lat": 15.8299,
+            "lng": -97.0486,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/La-Saladita-Surf-Report/838/",
+            "town": "La Saladita",
+            "spotId": "838",
+            "lat": 17.8359,
+            "lng": -101.774,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/La-Ticla-Surf-Report/8025/",
+            "town": "La Ticla",
+            "spotId": "8025",
+            "lat": 18.5081,
+            "lng": -103.5862,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/La-Ventosa-Surf-Report/2072/",
+            "town": "La Ventosa",
+            "spotId": "2072",
+            "lat": 16.1865,
+            "lng": -95.1482,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Las-Gatas-Surf-Report/337/",
+            "town": "Las Gatas",
+            "spotId": "337",
+            "lat": 17.6221,
+            "lng": -101.554,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Las-Islitas-Surf-Report/331/",
+            "town": "Las Islitas",
+            "spotId": "331",
+            "lat": 21.5152,
+            "lng": -105.247,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Los-Pinos-Surf-Report/8322/",
+            "town": "Los Pinos",
+            "spotId": "8322",
+            "lat": 23.209,
+            "lng": -106.429,
+            "timeZone": "America/Mazatlan",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Manzanillo-Bay-Surf-Report/1059/",
+            "town": "Manzanillo  Bay",
+            "spotId": "1059",
+            "lat": 17.7944,
+            "lng": -101.748,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Ostiones-Surf-Report/2058/",
+            "town": "Ostiones",
+            "spotId": "2058",
+            "lat": 20.8822,
+            "lng": -105.43,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Pascuales-Surf-Report/333/",
+            "town": "Pascuales",
+            "spotId": "333",
+            "lat": 18.8561,
+            "lng": -103.964,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Petacalco-Surf-Report/335/",
+            "town": "Petacalco",
+            "spotId": "335",
+            "lat": 17.9803,
+            "lng": -102.101,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Playa-Boca-Chica-Surf-Report/338/",
+            "town": "Playa Boca Chica",
+            "spotId": "338",
+            "lat": 17.1309,
+            "lng": -100.65,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Playa-Bruha-Surf-Report/4821/",
+            "town": "Playa Bruha",
+            "spotId": "4821",
+            "lat": 23.3016,
+            "lng": -106.4906,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Playa-Escondida-Surf-Report/858/",
+            "town": "Playa Escondida",
+            "spotId": "858",
+            "lat": 23.3084,
+            "lng": -106.4919,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Playa-Linda-Surf-Report/2061/",
+            "town": "Playa Linda",
+            "spotId": "2061",
+            "lat": 17.695,
+            "lng": -101.649,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Playa-Novillero-Surf-Report/8175/",
+            "town": "Playa Novillero",
+            "spotId": "8175",
+            "lat": 22.3777,
+            "lng": -105.6859,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Puerto-Escondido-Surf-Report/340/",
+            "town": "Puerto Escondido",
+            "spotId": "340",
+            "lat": 15.8431,
+            "lng": -97.0531,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Punta-Chivo-Surf-Report/2071/",
+            "town": "Punta Chivo",
+            "spotId": "2071",
+            "lat": 16.1078,
+            "lng": -95.2745,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Punta-Conejo-Surf-Report/1087/",
+            "town": "Punta Conejo ",
+            "spotId": "1087",
+            "lat": 16.1355,
+            "lng": -95.2465,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Quimixto-Surf-Report/8085/",
+            "town": "Quimixto",
+            "spotId": "8085",
+            "lat": 20.5057,
+            "lng": -105.3635,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Rio-Nexpa-Surf-Report/334/",
+            "town": "Rio Nexpa",
+            "spotId": "334",
+            "lat": 18.0827,
+            "lng": -102.791,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/San-Augustin-Surf-Report/2066/",
+            "town": "San Augustin",
+            "spotId": "2066",
+            "lat": 15.6906,
+            "lng": -96.2347,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/San-Pancho-Surf-Report/2059/",
+            "town": "San Pancho",
+            "spotId": "2059",
+            "lat": 20.9011,
+            "lng": -105.417,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Santa-Cruz-Nayarit-Surf-Report/2064/",
+            "town": "Santa Cruz - Nayarit",
+            "spotId": "2064",
+            "lat": 21.4365,
+            "lng": -105.204,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Sayulita-Surf-Report/332/",
+            "town": "Sayulita",
+            "spotId": "332",
+            "lat": 20.8722,
+            "lng": -105.441,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Stoners-Point-Surf-Report/2062/",
+            "town": "Stoner's Point",
+            "spotId": "2062",
+            "lat": 21.5131,
+            "lng": -105.262,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/The-Ranch-Surf-Report/336/",
+            "town": "The Ranch",
+            "spotId": "336",
+            "lat": 17.9092,
+            "lng": -101.867,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Troncones-Surf-Report/2065/",
+            "town": "Troncones",
+            "spotId": "2065",
+            "lat": 17.78,
+            "lng": -101.727,
+            "timeZone": "America/Mexico_City",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        }
+    ],
+    "florida - east coast": [
+        {
+            "href": "/16th-St-South-Surf-Report/9024/",
+            "town": "16th St. South",
+            "spotId": "9024",
+            "lat": 28.2899,
+            "lng": -80.6063,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/18th-Street-Surf-Report/5490/",
+            "town": "18th Street",
+            "spotId": "5490",
+            "lat": 30.3469,
+            "lng": -81.3967,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/40th-Street-Surf-Report/4984/",
+            "town": "40th Street",
+            "spotId": "4984",
+            "lat": 25.8122,
+            "lng": -80.1211,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/A-St-Surf-Report/9023/",
+            "town": "A St.",
+            "spotId": "9023",
+            "lat": 29.8448,
+            "lng": -81.2614,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Amelia-Pier-Surf-Report/4194/",
+            "town": "Amelia Pier",
+            "spotId": "4194",
+            "lat": 30.621,
+            "lng": -81.4388,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/American-Beach-Surf-Report/5848/",
+            "town": "American Beach",
+            "spotId": "5848",
+            "lat": 30.5742,
+            "lng": -81.4423,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Apollo-Beach-Surf-Report/6070/",
+            "town": "Apollo Beach",
+            "spotId": "6070",
+            "lat": 28.933,
+            "lng": -80.825,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Atlantic-Beach-Surf-Report/4991/",
             "town": "Atlantic Beach",
-            "spotId": "706",
-            "lat": 34.6990505,
-            "lng": -76.7402108
+            "spotId": "4991",
+            "lat": 30.3246,
+            "lng": -81.3936,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/Bogue-Pier-Surf-Report/400/",
-            "town": "Bogue Pier",
-            "spotId": "400",
-            "lat": 34.6607217,
-            "lng": -77.03393299999999
+            "href": "/Bethune-Surf-Report/3771/",
+            "town": "Bethune",
+            "spotId": "3771",
+            "lat": 28.9508,
+            "lng": -80.8384,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/Camp-Lejeune-Surf-Report/3664/",
-            "town": "Camp Lejeune",
-            "spotId": "3664",
-            "lat": 34.6250544,
-            "lng": -77.4013403
+            "href": "/Boca-Raton-Inlet-Surf-Report/8203/",
+            "town": "Boca Raton Inlet",
+            "spotId": "8203",
+            "lat": 26.3365,
+            "lng": -80.0696,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
-            "href": "/Cape-Hatteras-Surf-Report/399/",
-            "town": "Cape Hatteras",
-            "spotId": "399",
-            "lat": 35.24804,
-            "lng": -75.5393155
+            "href": "/Boynton-Inlet-Surf-Report/1167/",
+            "town": "Boynton Inlet",
+            "spotId": "1167",
+            "lat": 26.544,
+            "lng": -80.044,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Canova-Beach-Surf-Report/4197/",
+            "town": "Canova Beach",
+            "spotId": "4197",
+            "lat": 28.1389,
+            "lng": -80.5792,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Central-Florida-Hurricane-Surf-Report/1092/",
+            "town": "Central Florida Hurricane",
+            "spotId": "1092",
+            "lat": 29.0484,
+            "lng": -80.857,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Cocoa-Beach-Surf-Report/350/",
+            "town": "Cocoa Beach",
+            "spotId": "350",
+            "lat": 28.3682,
+            "lng": -80.601,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Commercial-Pier-Surf-Report/4420/",
+            "town": "Commercial Pier",
+            "spotId": "4420",
+            "lat": 26.1893,
+            "lng": -80.0941,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Coral-Cove-Park-Surf-Report/4198/",
+            "town": "Coral Cove Park",
+            "spotId": "4198",
+            "lat": 26.9655,
+            "lng": -80.0783,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Crescent-Beach-Surf-Report/4989/",
+            "town": "Crescent Beach",
+            "spotId": "4989",
+            "lat": 29.7691,
+            "lng": -81.2504,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Dania-Beach-Pier-Surf-Report/4202/",
+            "town": "Dania Beach Pier",
+            "spotId": "4202",
+            "lat": 26.0582,
+            "lng": -80.1099,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Daytona-Beach-Surf-Report/670/",
+            "town": "Daytona Beach",
+            "spotId": "670",
+            "lat": 29.2269,
+            "lng": -81.0044,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Deerfield-Beach-Surf-Report/357/",
+            "town": "Deerfield Beach",
+            "spotId": "357",
+            "lat": 26.3158,
+            "lng": -80.0741,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Delray-Beach-Surf-Report/4199/",
+            "town": "Delray Beach",
+            "spotId": "4199",
+            "lat": 26.4598,
+            "lng": -80.0572,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Flagler-Ave-Surf-Report/9026/",
+            "town": "Flagler Ave.",
+            "spotId": "9026",
+            "lat": 29.0387,
+            "lng": -80.8933,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Flagler-Pier-Surf-Report/347/",
+            "town": "Flagler Pier",
+            "spotId": "347",
+            "lat": 29.4797,
+            "lng": -81.1258,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Fort-Lauderdale-Surf-Report/837/",
+            "town": "Fort Lauderdale",
+            "spotId": "837",
+            "lat": 26.1453,
+            "lng": -80.0999,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Fort-Pierce-Surf-Report/692/",
+            "town": "Fort Pierce",
+            "spotId": "692",
+            "lat": 27.4327,
+            "lng": -80.2785,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Fort-Pierce-North-Jetty-Surf-Report/3775/",
+            "town": "Fort Pierce North Jetty",
+            "spotId": "3775",
+            "lat": 27.4754,
+            "lng": -80.2893,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Haulover-Surf-Report/358/",
+            "town": "Haulover",
+            "spotId": "358",
+            "lat": 25.9135,
+            "lng": -80.1199,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Hightower-Beach-Surf-Report/9027/",
+            "town": "Hightower Beach",
+            "spotId": "9027",
+            "lat": 28.1945,
+            "lng": -80.5933,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Hillsboro-Inlet-Surf-Report/4421/",
+            "town": "Hillsboro Inlet",
+            "spotId": "4421",
+            "lat": 26.2589,
+            "lng": -80.0802,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Hobe-Sound-Surf-Report/3779/",
+            "town": "Hobe Sound",
+            "spotId": "3779",
+            "lat": 27.0902,
+            "lng": -80.1263,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Hooks-Surf-Report/7873/",
+            "town": "Hooks",
+            "spotId": "7873",
+            "lat": 30.6783,
+            "lng": -81.4285,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Jacksonville-Beach-Surf-Report/345/",
+            "town": "Jacksonville Beach",
+            "spotId": "345",
+            "lat": 30.2929,
+            "lng": -81.3878,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Jensen-Beach-Surf-Report/3770/",
+            "town": "Jensen Beach",
+            "spotId": "3770",
+            "lat": 27.2521,
+            "lng": -80.1945,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Jetty-Park-Surf-Report/1264/",
+            "town": "Jetty Park",
+            "spotId": "1264",
+            "lat": 28.4072,
+            "lng": -80.5891,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Juno-Beach-Surf-Report/849/",
+            "town": "Juno Beach",
+            "spotId": "849",
+            "lat": 26.8928,
+            "lng": -80.0564,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Juno-Pier-Surf-Report/3777/",
+            "town": "Juno Pier",
+            "spotId": "3777",
+            "lat": 26.8928,
+            "lng": -80.0552,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Jupiter-Inlet-Surf-Report/354/",
+            "town": "Jupiter Inlet",
+            "spotId": "354",
+            "lat": 26.94,
+            "lng": -80.07,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Lake-Worth-Pier-Surf-Report/835/",
+            "town": "Lake Worth Pier",
+            "spotId": "835",
+            "lat": 26.6129,
+            "lng": -80.0353,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Lantana-Surf-Report/4200/",
+            "town": "Lantana",
+            "spotId": "4200",
+            "lat": 26.5843,
+            "lng": -80.0368,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Little-Talbot-Island-Surf-Report/3774/",
+            "town": "Little Talbot Island",
+            "spotId": "3774",
+            "lat": 30.4584,
+            "lng": -81.4097,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Main-Beach-Surf-Report/344/",
+            "town": "Main Beach",
+            "spotId": "344",
+            "lat": 30.6697,
+            "lng": -81.4287,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Main-Street-Pier-Surf-Report/4990/",
+            "town": "Main Street Pier",
+            "spotId": "4990",
+            "lat": 29.2278,
+            "lng": -81.0047,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Matanzas-Inlet-Surf-Report/4993/",
+            "town": "Matanzas Inlet",
+            "spotId": "4993",
+            "lat": 29.7071,
+            "lng": -81.2227,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Mayport-Poles-Surf-Report/4195/",
+            "town": "Mayport Poles",
+            "spotId": "4195",
+            "lat": 30.3818,
+            "lng": -81.3959,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Melbourne-Beach-Surf-Report/351/",
+            "town": "Melbourne Beach",
+            "spotId": "351",
+            "lat": 28.0688,
+            "lng": -80.5566,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/NE-14th-Ct-Surf-Report/4983/",
+            "town": "NE 14th Ct.",
+            "spotId": "4983",
+            "lat": 26.1456,
+            "lng": -80.1012,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Neptune-Beach-Surf-Report/4987/",
+            "town": "Neptune Beach",
+            "spotId": "4987",
+            "lat": 30.3248,
+            "lng": -81.3939,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/North-Indialantic-Surf-Report/4986/",
+            "town": "North Indialantic",
+            "spotId": "4986",
+            "lat": 28.0931,
+            "lng": -80.565,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/North-Jetty-Florida-Surf-Report/3772/",
+            "town": "North Jetty (Florida)",
+            "spotId": "3772",
+            "lat": 30.4045,
+            "lng": -81.3957,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Ormond-Beach-Surf-Report/4203/",
+            "town": "Ormond Beach",
+            "spotId": "4203",
+            "lat": 29.2927,
+            "lng": -81.0379,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Palm-Beach-Surf-Report/356/",
+            "town": "Palm Beach",
+            "spotId": "356",
+            "lat": 26.6,
+            "lng": -80.03,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Palm-Beach-Jetties-Surf-Report/3778/",
+            "town": "Palm Beach Jetties",
+            "spotId": "3778",
+            "lat": 26.7056,
+            "lng": -80.0319,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Palmetto-Pavilion-Surf-Report/8204/",
+            "town": "Palmetto Pavilion",
+            "spotId": "8204",
+            "lat": 26.3506,
+            "lng": -80.0692,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Pelican-Beach-Park-Surf-Report/4985/",
+            "town": "Pelican Beach Park",
+            "spotId": "4985",
+            "lat": 28.1675,
+            "lng": -80.5867,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Peters-Point-Surf-Report/5849/",
+            "town": "Peters Point",
+            "spotId": "5849",
+            "lat": 30.5988,
+            "lng": -81.4408,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Playa-Linda-Surf-Report/349/",
+            "town": "Playa Linda",
+            "spotId": "349",
+            "lat": 28.6556,
+            "lng": -80.6296,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Pompano-Beach-Pier-Surf-Report/4865/",
+            "town": "Pompano Beach Pier",
+            "spotId": "4865",
+            "lat": 26.2348,
+            "lng": -80.0857,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Ponce-Inlet-Surf-Report/9028/",
+            "town": "Ponce Inlet",
+            "spotId": "9028",
+            "lat": 29.0826,
+            "lng": -80.9214,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Ponce-Inlet-New-Smyrna-Surf-Report/348/",
+            "town": "Ponce Inlet (New Smyrna)",
+            "spotId": "348",
+            "lat": 29.0705,
+            "lng": -80.9071,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Ponte-Vedra-Surf-Report/3773/",
+            "town": "Ponte Vedra",
+            "spotId": "3773",
+            "lat": 30.163,
+            "lng": -81.3552,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Reef-Road-Surf-Report/355/",
+            "town": "Reef Road",
+            "spotId": "355",
+            "lat": 26.76,
+            "lng": -80.03,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Satellite-Beach-Surf-Report/548/",
+            "town": "Satellite Beach",
+            "spotId": "548",
+            "lat": 28.1728,
+            "lng": -80.5878,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Sebastian-Inlet-Surf-Report/352/",
+            "town": "Sebastian Inlet",
+            "spotId": "352",
+            "lat": 27.8601,
+            "lng": -80.4408,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/South-Beach-Surf-Report/359/",
+            "town": "South Beach",
+            "spotId": "359",
+            "lat": 25.7952,
+            "lng": -80.1243,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Spanish-House-Surf-Report/4201/",
+            "town": "Spanish House",
+            "spotId": "4201",
+            "lat": 27.8766,
+            "lng": -80.4551,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Spoils-Surf-Report/4419/",
+            "town": "Spoils",
+            "spotId": "4419",
+            "lat": 26.0971,
+            "lng": -80.103,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/St-Augustine-Surf-Report/346/",
+            "town": "St. Augustine",
+            "spotId": "346",
+            "lat": 29.8866,
+            "lng": -81.2717,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Stuart-Beach-Surf-Report/353/",
+            "town": "Stuart Beach",
+            "spotId": "353",
+            "lat": 27.18,
+            "lng": -80.15,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Stuart-Public-Beach-Surf-Report/3776/",
+            "town": "Stuart Public Beach",
+            "spotId": "3776",
+            "lat": 27.2148,
+            "lng": -80.1724,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Sunglow-Pier-Surf-Report/4988/",
+            "town": "Sunglow Pier",
+            "spotId": "4988",
+            "lat": 29.1469,
+            "lng": -80.9634,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Vero-Beach-Surf-Report/727/",
+            "town": "Vero Beach",
+            "spotId": "727",
+            "lat": 27.6616,
+            "lng": -80.3581,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Vilano-Surf-Report/4196/",
+            "town": "Vilano",
+            "spotId": "4196",
+            "lat": 29.9414,
+            "lng": -81.3001,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Walton-Rocks-Surf-Report/1243/",
+            "town": "Walton Rocks",
+            "spotId": "1243",
+            "lat": 27.3381,
+            "lng": -80.2329,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Wilbur-by-the-Sea-Surf-Report/4992/",
+            "town": "Wilbur by the Sea",
+            "spotId": "4992",
+            "lat": 29.1321,
+            "lng": -80.9562,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        }
+    ],
+    "florida - west coast": [
+        {
+            "href": "/880-Surf-Report/4619/",
+            "town": "880",
+            "spotId": "4619",
+            "lat": 27.998,
+            "lng": -82.83,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Alabama-Point-Surf-Report/956/",
+            "town": "Alabama Point",
+            "spotId": "956",
+            "lat": 30.2714,
+            "lng": -87.561,
+            "timeZone": "America/Chicago",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Anna-Maria-Surf-Report/9029/",
+            "town": "Anna Maria",
+            "spotId": "9029",
+            "lat": 27.5249,
+            "lng": -82.7375,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Big-Hickory-Pass-Surf-Report/9187/",
+            "town": "Big Hickory Pass",
+            "spotId": "9187",
+            "lat": 26.3646,
+            "lng": -81.8633,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Chandeleur-Islands-Surf-Report/7104/",
+            "town": "Chandeleur Islands",
+            "spotId": "7104",
+            "lat": 29.9089,
+            "lng": -88.8215,
+            "timeZone": "America/Chicago",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Clearwater-Surf-Report/60/",
+            "town": "Clearwater",
+            "spotId": "60",
+            "lat": 27.9738,
+            "lng": -82.8336,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Dauphin-Island-Surf-Report/1125/",
+            "town": "Dauphin Island",
+            "spotId": "1125",
+            "lat": 30.2502,
+            "lng": -88.1522,
+            "timeZone": "America/Chicago",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Destin-Surf-Report/851/",
+            "town": "Destin",
+            "spotId": "851",
+            "lat": 30.3799,
+            "lng": -86.489,
+            "timeZone": "America/Chicago",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Englewood-Surf-Report/9025/",
+            "town": "Englewood",
+            "spotId": "9025",
+            "lat": 26.9101,
+            "lng": -82.3535,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Florida-Keys-Reef-Surf-Report/3741/",
+            "town": "Florida Keys Reef",
+            "spotId": "3741",
+            "lat": 24.4934,
+            "lng": -81.6754,
+            "timeZone": "America/Havana",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Fourchon-Surf-Report/7102/",
+            "town": "Fourchon",
+            "spotId": "7102",
+            "lat": 29.0865,
+            "lng": -90.2184,
+            "timeZone": "America/Chicago",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Grand-Isle-Surf-Report/7103/",
+            "town": "Grand Isle",
+            "spotId": "7103",
+            "lat": 29.2286,
+            "lng": -89.9966,
+            "timeZone": "America/Chicago",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Indian-Rocks-Surf-Report/1212/",
+            "town": "Indian Rocks ",
+            "spotId": "1212",
+            "lat": 27.8791,
+            "lng": -82.8575,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Lido-Beach-Surf-Report/4620/",
+            "town": "Lido Beach",
+            "spotId": "4620",
+            "lat": 27.3158,
+            "lng": -82.5833,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Maderia-Beach-Surf-Report/1187/",
+            "town": "Maderia Beach ",
+            "spotId": "1187",
+            "lat": 27.7954,
+            "lng": -82.7985,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Naples-Surf-Report/57/",
+            "town": "Naples",
+            "spotId": "57",
+            "lat": 26.1397,
+            "lng": -81.8073,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Navarre-Beach-Surf-Report/651/",
+            "town": "Navarre Beach",
+            "spotId": "651",
+            "lat": 30.38,
+            "lng": -86.86,
+            "timeZone": "America/Chicago",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Okaloosa-Pier-Surf-Report/954/",
+            "town": "Okaloosa Pier",
+            "spotId": "954",
+            "lat": 30.3931,
+            "lng": -86.5934,
+            "timeZone": "America/Chicago",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Panama-City-Beach-Surf-Report/1259/",
+            "town": "Panama City Beach",
+            "spotId": "1259",
+            "lat": 30.1712,
+            "lng": -85.806,
+            "timeZone": "America/Chicago",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Pass-A-Grille-Jetty-Surf-Report/1221/",
+            "town": "Pass-A-Grille Jetty",
+            "spotId": "1221",
+            "lat": 27.6833,
+            "lng": -82.7391,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Redington-Rocks-Surf-Report/1214/",
+            "town": "Redington Rocks",
+            "spotId": "1214",
+            "lat": 27.816,
+            "lng": -82.83,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Siesta-Beach-Surf-Report/5881/",
+            "town": "Siesta Beach",
+            "spotId": "5881",
+            "lat": 27.2648,
+            "lng": -82.5507,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/St-Pete-Beach-Surf-Report/1216/",
+            "town": "St Pete Beach",
+            "spotId": "1216",
+            "lat": 27.6981,
+            "lng": -82.7463,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Sunset-Beach-Surf-Report/1215/",
+            "town": "Sunset Beach",
+            "spotId": "1215",
+            "lat": 27.7501,
+            "lng": -82.7658,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/The-Cross-Pensacola-Beach-Surf-Report/955/",
+            "town": "The Cross (Pensacola Beach)",
+            "spotId": "955",
+            "lat": 30.3268,
+            "lng": -87.1596,
+            "timeZone": "America/Chicago",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Treasure-Island-Surf-Report/86/",
+            "town": "Treasure Island",
+            "spotId": "86",
+            "lat": 27.7674,
+            "lng": -82.7739,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Twin-Piers-Surf-Report/9030/",
+            "town": "Twin Piers",
+            "spotId": "9030",
+            "lat": 27.4608,
+            "lng": -82.6992,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Venice-Beach-Surf-Report/58/",
+            "town": "Venice Beach",
+            "spotId": "58",
+            "lat": 27.1,
+            "lng": -82.46,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        }
+    ],
+    "new hampshire": [
+        {
+            "href": "/Costellos-Surf-Report/2077/",
+            "town": "Costellos",
+            "spotId": "2077",
+            "lat": 42.956,
+            "lng": -70.7747,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Hampton-Beach-Surf-Report/2074/",
+            "town": "Hampton Beach",
+            "spotId": "2074",
+            "lat": 42.9133,
+            "lng": -70.8052,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Jenness-Beach-Surf-Report/881/",
+            "town": "Jenness Beach",
+            "spotId": "881",
+            "lat": 42.9857,
+            "lng": -70.7595,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Linkys-Surf-Report/2075/",
+            "town": "Linkys",
+            "spotId": "2075",
+            "lat": 42.9638,
+            "lng": -70.769,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Rye-Rocks-Surf-Report/368/",
+            "town": "Rye Rocks",
+            "spotId": "368",
+            "lat": 42.9688,
+            "lng": -70.7692,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Seabrook-Beach-Surf-Report/2078/",
+            "town": "Seabrook Beach",
+            "spotId": "2078",
+            "lat": 42.8876,
+            "lng": -70.8115,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/The-Wall-Surf-Report/369/",
+            "town": "The Wall",
+            "spotId": "369",
+            "lat": 42.9312,
+            "lng": -70.7958,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        }
+    ],
+    "maine": [
+        {
+            "href": "/Ash-Point-Surf-Report/7906/",
+            "town": "Ash Point",
+            "spotId": "7906",
+            "lat": 44.0444,
+            "lng": -69.0765,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Colony-Beach-Surf-Report/7899/",
+            "town": "Colony Beach",
+            "spotId": "7899",
+            "lat": 43.3465,
+            "lng": -70.4744,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Crescent-Beach-Surf-Report/7895/",
+            "town": "Crescent Beach",
+            "spotId": "7895",
+            "lat": 43.2938,
+            "lng": -70.5676,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Crescent-Beach-Surf-Report/7905/",
+            "town": "Crescent Beach",
+            "spotId": "7905",
+            "lat": 44.0671,
+            "lng": -69.0696,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Drakes-Island-Surf-Report/7896/",
+            "town": "Drakes Island",
+            "spotId": "7896",
+            "lat": 43.3213,
+            "lng": -70.5533,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Ferry-Beach-Surf-Report/7901/",
+            "town": "Ferry Beach",
+            "spotId": "7901",
+            "lat": 43.5432,
+            "lng": -70.3227,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Footbridge-Beach-Surf-Report/7893/",
+            "town": "Footbridge Beach",
+            "spotId": "7893",
+            "lat": 43.2629,
+            "lng": -70.5867,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Fortunes-Rocks-Surf-Report/363/",
+            "town": "Fortunes Rocks",
+            "spotId": "363",
+            "lat": 43.44,
+            "lng": -70.3517,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Fowler-Beach-Surf-Report/7902/",
+            "town": "Fowler Beach",
+            "spotId": "7902",
+            "lat": 43.6801,
+            "lng": -70.1698,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Goochs-Beach-Surf-Report/7898/",
+            "town": "Gooch's Beach",
+            "spotId": "7898",
+            "lat": 43.3469,
+            "lng": -70.4786,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Harbor-Beach-Surf-Report/7892/",
+            "town": "Harbor Beach",
+            "spotId": "7892",
+            "lat": 43.1322,
+            "lng": -70.6367,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Higgins-Beach-Surf-Report/362/",
+            "town": "Higgins Beach",
+            "spotId": "362",
+            "lat": 43.5575,
+            "lng": -70.2751,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Kennebunk-Beach-Surf-Report/364/",
+            "town": "Kennebunk Beach",
+            "spotId": "364",
+            "lat": 43.3464,
+            "lng": -70.4819,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Kettle-Kove-Surf-Report/8331/",
+            "town": "Kettle Kove",
+            "spotId": "8331",
+            "lat": 43.5611,
+            "lng": -70.2178,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Little-Hunters-Beach-Surf-Report/7907/",
+            "town": "Little Hunters Beach",
+            "spotId": "7907",
+            "lat": 44.2979,
+            "lng": -68.2116,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Long-Sands-Surf-Report/367/",
+            "town": "Long Sands",
+            "spotId": "367",
+            "lat": 43.1584,
+            "lng": -70.6182,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Moody-Beach-Surf-Report/7894/",
+            "town": "Moody Beach",
+            "spotId": "7894",
+            "lat": 43.2755,
+            "lng": -70.5798,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Mothers-Beach-Surf-Report/7897/",
+            "town": "Mother's Beach",
+            "spotId": "7897",
+            "lat": 43.3434,
+            "lng": -70.4984,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Ogunquit-River-Surf-Report/365/",
+            "town": "Ogunquit River",
+            "spotId": "365",
+            "lat": 43.2454,
+            "lng": -70.5884,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Old-Orchard-Beach-Surf-Report/852/",
+            "town": "Old Orchard Beach",
+            "spotId": "852",
+            "lat": 43.5141,
+            "lng": -70.3709,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Pine-Point-Beach-Surf-Report/7900/",
+            "town": "Pine Point Beach",
+            "spotId": "7900",
+            "lat": 43.5404,
+            "lng": -70.3331,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Popham-Beach-Surf-Report/3785/",
+            "town": "Popham Beach",
+            "spotId": "3785",
+            "lat": 43.7309,
+            "lng": -69.8033,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Reid-State-Park-Surf-Report/7545/",
+            "town": "Reid State Park",
+            "spotId": "7545",
+            "lat": 43.7776,
+            "lng": -69.7272,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Reid-State-Park-Surf-Report/7903/",
+            "town": "Reid State Park",
+            "spotId": "7903"
+        },
+        {
+            "href": "/Reid-State-Park-Surf-Report/7904/",
+            "town": "Reid State Park",
+            "spotId": "7904"
+        },
+        {
+            "href": "/Scarborough-Beach-Surf-Report/3710/",
+            "town": "Scarborough Beach",
+            "spotId": "3710",
+            "lat": 43.5429,
+            "lng": -70.3082,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Short-Sands-Surf-Report/366/",
+            "town": "Short Sands",
+            "spotId": "366",
+            "lat": 43.1761,
+            "lng": -70.606,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Wells-Beach-Surf-Report/4218/",
+            "town": "Wells Beach",
+            "spotId": "4218",
+            "lat": 43.313,
+            "lng": -70.5605,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Willard-Beach-Surf-Report/5858/",
+            "town": "Willard Beach",
+            "spotId": "5858",
+            "lat": 43.6426,
+            "lng": -70.2264,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        }
+    ],
+    "massachusetts": [
+        {
+            "href": "/Abels-Hill-Surf-Report/978/",
+            "town": "Abels Hill",
+            "spotId": "978",
+            "lat": 41.3422,
+            "lng": -70.7076,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Cahoon-Hollow-Beach-Surf-Report/9184/",
+            "town": "Cahoon Hollow Beach",
+            "spotId": "9184",
+            "lat": 41.9444,
+            "lng": -69.9839,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Cape-Ann-Surf-Report/370/",
+            "town": "Cape Ann",
+            "spotId": "370",
+            "lat": 42.6276,
+            "lng": -70.617,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Cape-Cod-Surf-Report/373/",
+            "town": "Cape Cod",
+            "spotId": "373",
+            "lat": 41.9003,
+            "lng": -69.963,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Chandys-Surf-Report/8004/",
+            "town": "Chandy's",
+            "spotId": "8004",
+            "lat": 41.495,
+            "lng": -71.04,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Cisco-Surf-Report/9152/",
+            "town": "Cisco",
+            "spotId": "9152",
+            "lat": 41.2517,
+            "lng": -70.1537,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Coskata-Beach-Surf-Report/5863/",
+            "town": "Coskata Beach",
+            "spotId": "5863",
+            "lat": 41.3585,
+            "lng": -70.0245,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Crane-Beach-Surf-Report/5864/",
+            "town": "Crane Beach",
+            "spotId": "5864",
+            "lat": 42.6862,
+            "lng": -70.7662,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Devereux-Surf-Report/4792/",
+            "town": "Devereux",
+            "spotId": "4792",
+            "lat": 42.4911,
+            "lng": -70.8569,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Green-Harbor-Surf-Report/864/",
+            "town": "Green Harbor",
+            "spotId": "864",
+            "lat": 42.0757,
+            "lng": -70.645,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Harding-Beach-Surf-Report/5865/",
+            "town": "Harding Beach",
+            "spotId": "5865",
+            "lat": 41.6662,
+            "lng": -69.9942,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Keyes-Memorial-Beach-Surf-Report/5866/",
+            "town": "Keyes Memorial Beach",
+            "spotId": "5866",
+            "lat": 41.6354,
+            "lng": -70.2911,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Long-Point-Surf-Report/9156/",
+            "town": "Long Point",
+            "spotId": "9156",
+            "lat": 41.3483,
+            "lng": -70.6327,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Long-Point-Surf-Report/975/",
+            "town": "Long Point",
+            "spotId": "975",
+            "lat": 41.3469,
+            "lng": -70.6455,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Lucy-Vincent-Surf-Report/9160/",
+            "town": "Lucy Vincent",
+            "spotId": "9160",
+            "lat": 41.339,
+            "lng": -70.7243,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Lucy-Vincent-Surf-Report/977/",
+            "town": "Lucy Vincent",
+            "spotId": "977",
+            "lat": 41.3383,
+            "lng": -70.7276,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Madaket-Surf-Report/9154/",
+            "town": "Madaket",
+            "spotId": "9154",
+            "lat": 41.2707,
+            "lng": -70.2047,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Madaquecham-Surf-Report/9151/",
+            "town": "Madaquecham",
+            "spotId": "9151",
+            "lat": 41.2427,
+            "lng": -70.0446,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Maguire-Landing-Beach-Surf-Report/5852/",
+            "town": "Maguire Landing Beach",
+            "spotId": "5852",
+            "lat": 41.9217,
+            "lng": -69.9733,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Marconi-Beach-Surf-Report/5867/",
+            "town": "Marconi Beach",
+            "spotId": "5867",
+            "lat": 41.8889,
+            "lng": -69.9592,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Miacomet-Rd-Surf-Report/5859/",
+            "town": "Miacomet Rd.",
+            "spotId": "5859",
+            "lat": 41.2399,
+            "lng": -70.1019,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Nahant-Surf-Report/1091/",
+            "town": "Nahant",
+            "spotId": "1091",
+            "lat": 42.442,
+            "lng": -70.9379,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Nantasket-Beach-Surf-Report/371/",
+            "town": "Nantasket Beach",
+            "spotId": "371",
+            "lat": 42.2746,
+            "lng": -70.8589,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Nantucket-Surf-Report/4819/",
+            "town": "Nantucket",
+            "spotId": "4819",
+            "lat": 41.2443,
+            "lng": -70.0762,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Nauset-Beach-Surf-Report/5868/",
+            "town": "Nauset Beach",
+            "spotId": "5868",
+            "lat": 41.8418,
+            "lng": -69.9453,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/New-England-Hurricane-Surf-Report/1095/",
+            "town": "New England Hurricane",
+            "spotId": "1095",
+            "lat": 41.6524,
+            "lng": -69.7961,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Nobadeer-Surf-Report/9153/",
+            "town": "Nobadeer",
+            "spotId": "9153",
+            "lat": 41.2438,
+            "lng": -70.0689,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Plymouth-Beach-Surf-Report/4525/",
+            "town": "Plymouth Beach",
+            "spotId": "4525",
+            "lat": 41.9435,
+            "lng": -70.6243,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Revere-Beach-Surf-Report/5857/",
+            "town": "Revere Beach",
+            "spotId": "5857",
+            "lat": 42.4202,
+            "lng": -70.9853,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Rexhame-Surf-Report/8179/",
+            "town": "Rexhame",
+            "spotId": "8179",
+            "lat": 42.1237,
+            "lng": -70.6777,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Salisbury-Surf-Report/1130/",
+            "town": "Salisbury",
+            "spotId": "1130",
+            "lat": 42.8421,
+            "lng": -70.8149,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Scituate-Surf-Report/372/",
+            "town": "Scituate",
+            "spotId": "372",
+            "lat": 42.1886,
+            "lng": -70.715,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/South-Beach-Surf-Report/976/",
+            "town": "South Beach",
+            "spotId": "976",
+            "lat": 41.3487,
+            "lng": -70.5317,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/South-Beach-State-Park-Surf-Report/9158/",
+            "town": "South Beach State Park",
+            "spotId": "9158",
+            "lat": 41.3495,
+            "lng": -70.5311,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Squibnocket-Surf-Report/9163/",
+            "town": "Squibnocket",
+            "spotId": "9163",
+            "lat": 41.315,
+            "lng": -70.7641,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Squibnocket-Surf-Report/974/",
+            "town": "Squibnocket",
+            "spotId": "974",
+            "lat": 41.3169,
+            "lng": -70.7619,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Wingaersheek-Beach-Surf-Report/5860/",
+            "town": "Wingaersheek Beach",
+            "spotId": "5860",
+            "lat": 42.6501,
+            "lng": -70.6842,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Wollaston-Beach-Surf-Report/5861/",
+            "town": "Wollaston Beach",
+            "spotId": "5861",
+            "lat": 42.2807,
+            "lng": -71.012,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Yirrell-Beach-Surf-Report/5862/",
+            "town": "Yirrell Beach",
+            "spotId": "5862",
+            "lat": 42.3626,
+            "lng": -70.9695,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         }
     ],
     "nova scotia": [
         {
+            "href": "/Broad-Cove-Surf-Report/5851/",
+            "town": "Broad Cove",
+            "spotId": "5851",
+            "lat": 44.1775,
+            "lng": -64.4743,
+            "timeZone": "America/Halifax",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Caldwells-Cove-Surf-Report/7676/",
+            "town": "Caldwells Cove",
+            "spotId": "7676",
+            "lat": 44.649,
+            "lng": -65.8518,
+            "timeZone": "America/Halifax",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Cherry-Hill-Surf-Report/5850/",
+            "town": "Cherry Hill",
+            "spotId": "5850",
+            "lat": 44.1426,
+            "lng": -64.5082,
+            "timeZone": "America/Halifax",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
             "href": "/Clam-Harbour-Beach-Surf-Report/4709/",
             "town": "Clam Harbour Beach",
             "spotId": "4709",
-            "lat": 44.7177757,
-            "lng": -62.8775092
+            "lat": 44.721,
+            "lng": -62.8856,
+            "timeZone": "America/Halifax",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
             "href": "/Cow-Bay-Surf-Report/787/",
             "town": "Cow Bay",
             "spotId": "787",
-            "lat": 44.6315136,
-            "lng": -63.43196
+            "lat": 44.6181,
+            "lng": -63.4163,
+            "timeZone": "America/Halifax",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Gullivers-Cove-Surf-Report/7675/",
+            "town": "Gullivers Cove",
+            "spotId": "7675",
+            "lat": 44.609,
+            "lng": -65.9215,
+            "timeZone": "America/Halifax",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
             "href": "/Lawrencetown-Surf-Report/342/",
             "town": "Lawrencetown",
             "spotId": "342",
-            "lat": 44.8835656,
-            "lng": -65.1647122
+            "lat": 44.6392,
+            "lng": -63.3262,
+            "timeZone": "America/Halifax",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         },
         {
             "href": "/Martinique-Beach-Surf-Report/814/",
             "town": "Martinique Beach",
             "spotId": "814",
-            "lat": 44.6897189,
-            "lng": -63.14706999999999
-        }
-    ],
-    "el salvador": [
-        {
-            "href": "/Cristo-de-Salinitas-Surf-Report/4516/",
-            "town": "Cristo de Salinitas",
-            "spotId": "4516",
-            "FAILED": true
-        },
-        {
-            "href": "/El-Cuco-Surf-Report/2443/",
-            "town": "El Cuco",
-            "spotId": "2443",
-            "lat": 13.1743298,
-            "lng": -88.1108325
-        },
-        {
-            "href": "/El-Espino-Surf-Report/2445/",
-            "town": "El Espino",
-            "spotId": "2445",
-            "lat": 13.1705619,
-            "lng": -88.2941597
-        },
-        {
-            "href": "/El-Palmarcito-Surf-Report/924/",
-            "town": "El Palmarcito",
-            "spotId": "924",
-            "lat": 13.4940534,
-            "lng": -89.421753
-        }
-    ],
-    "guatemala": [
-        {
-            "href": "/Barra-de-la-Gabina-Surf-Report/3271/",
-            "town": "Barra de la Gabina",
-            "spotId": "3271",
-            "lat": 13.7708481,
-            "lng": -90.18579299999999
-        },
-        {
-            "href": "/Champerico-Surf-Report/1245/",
-            "town": "Champerico",
-            "spotId": "1245",
-            "lat": 14.2974022,
-            "lng": -91.9087026
-        },
-        {
-            "href": "/Chulamar-Surf-Report/2221/",
-            "town": "Chulamar",
-            "spotId": "2221",
-            "lat": 13.9171175,
-            "lng": -90.8949293
-        },
-        {
-            "href": "/El-Paredon-Surf-Report/2223/",
-            "town": "El ParedÃ³n",
-            "spotId": "2223",
-            "FAILED": true
-        }
-    ],
-    "argentina": [
-        {
-            "href": "/Balneario-Orense-Surf-Report/4288/",
-            "town": "Balneario Orense",
-            "spotId": "4288",
-            "lat": -38.815712,
-            "lng": -59.7801933
-        },
-        {
-            "href": "/Biologia-Surf-Report/2704/",
-            "town": "Biologia",
-            "spotId": "2704",
-            "lat": -33.111396,
-            "lng": -64.298177
-        },
-        {
-            "href": "/Diva-Surf-Report/2710/",
-            "town": "Diva",
-            "spotId": "2710",
-            "lat": -34.496624,
-            "lng": -58.49532000000001
-        },
-        {
-            "href": "/El-Espigon-Surf-Report/4520/",
-            "town": "El Espigon",
-            "spotId": "4520",
-            "lat": -38.0006853,
-            "lng": -57.5390722
-        }
-    ],
-    "south brazil": [
-        {
-            "href": "/Arpoador-Surf-Report/1277/",
-            "town": "Arpoador",
-            "spotId": "1277",
-            "lat": -22.9886205,
-            "lng": -43.1930468
-        },
-        {
-            "href": "/Atlantida-Pier-Surf-Report/3202/",
-            "town": "AtlÃ¢ntida Pier",
-            "spotId": "3202",
-            "FAILED": true
-        },
-        {
-            "href": "/Balneario-Camboriu-Surf-Report/3856/",
-            "town": "BalneÃ¡rio CamboriÃº",
-            "spotId": "3856",
-            "FAILED": true
-        },
-        {
-            "href": "/Barra-Surf-Report/3877/",
-            "town": "Barra",
-            "spotId": "3877",
-            "lat": -11.0897577,
-            "lng": -43.1390524
-        }
-    ],
-    "east brazil": [
-        {
-            "href": "/Baduska-Surf-Report/507/",
-            "town": "Baduska",
-            "spotId": "507",
-            "FAILED": true
-        },
-        {
-            "href": "/Cabedelo-Paraiba-Surf-Report/3893/",
-            "town": "Cabedelo - ParaÃ­ba",
-            "spotId": "3893",
-            "lat": -6.987721499999999,
-            "lng": -34.8287221
-        },
-        {
-            "href": "/Cupe-Surf-Report/3891/",
-            "town": "Cupe",
-            "spotId": "3891",
-            "lat": -8.452323999999999,
-            "lng": -34.9883336
-        },
-        {
-            "href": "/Cupe-Surf-Report/2428/",
-            "town": "Cupe",
-            "spotId": "2428",
-            "lat": -8.452323999999999,
-            "lng": -34.9883336
-        }
-    ],
-    "british columbia": [
-        {
-            "href": "/Agate-Beach-Surf-Report/4459/",
-            "town": "Agate Beach",
-            "spotId": "4459",
-            "lat": 53.9113776,
-            "lng": -131.8244809
-        },
-        {
-            "href": "/Bonanza-Beach-Surf-Report/4460/",
-            "town": "Bonanza Beach",
-            "spotId": "4460",
-            "lat": 50.3681376,
-            "lng": -126.7780986
-        },
-        {
-            "href": "/Chesterman-Beach-North-Surf-Report/4711/",
-            "town": "Chesterman Beach (North)",
-            "spotId": "4711",
-            "lat": 49.11328899999999,
-            "lng": -125.8872124
-        },
-        {
-            "href": "/Chesterman-Beach-South-Surf-Report/1123/",
-            "town": "Chesterman Beach (South)",
-            "spotId": "1123",
-            "lat": 49.11328899999999,
-            "lng": -125.8872124
-        }
-    ],
-    "bali": [
-        {
-            "href": "/Airport-Reef-Surf-Report/2309/",
-            "town": "Airport Reef",
-            "spotId": "2309",
-            "lat": -8.763627,
-            "lng": 115.222281
-        },
-        {
-            "href": "/Balangan-Surf-Report/2304/",
-            "town": "Balangan",
-            "spotId": "2304",
-            "lat": -8.7931931,
-            "lng": 115.1243347
-        },
-        {
-            "href": "/Balian-Surf-Report/4009/",
-            "town": "Balian",
-            "spotId": "4009",
-            "lat": -8.503113299999999,
-            "lng": 114.9655596
-        },
-        {
-            "href": "/Berawa-Beach-Surf-Report/1293/",
-            "town": "Berawa Beach",
-            "spotId": "1293",
-            "lat": -8.6558876,
-            "lng": 115.1431862
-        }
-    ],
-    "lombok": [
-        {
-            "href": "/Are-Guling-Surf-Report/4170/",
-            "town": "Are Guling",
-            "spotId": "4170",
-            "lat": -8.902636,
-            "lng": 116.2383593
-        },
-        {
-            "href": "/Belongas-Surf-Report/4119/",
-            "town": "Belongas",
-            "spotId": "4119",
-            "lat": -8.867607999999999,
-            "lng": 116.051045
-        },
-        {
-            "href": "/Desert-Point-Surf-Report/567/",
-            "town": "Desert Point",
-            "spotId": "567",
-            "lat": -8.7267876,
-            "lng": 115.8408076
-        },
-        {
-            "href": "/Don-Don-Surf-Report/4123/",
-            "town": "Don-Don",
-            "spotId": "4123",
-            "lat": -8.9120055,
-            "lng": 116.3561945
-        }
-    ],
-    "mozambique": [
-        {
-            "href": "/Barra-Beach-Surf-Report/577/",
-            "town": "Barra Beach",
-            "spotId": "577",
-            "lat": -23.79367,
-            "lng": 35.529874
-        },
-        {
-            "href": "/Ponta-do-Ouro-Surf-Report/824/",
-            "town": "Ponta do Ouro",
-            "spotId": "824",
-            "lat": -26.8427388,
-            "lng": 32.8859972
-        }
-    ],
-    "madagascar": [
-        {
-            "href": "/Ambohitralanana-Surf-Report/730/",
-            "town": "Ambohitralanana",
-            "spotId": "730",
-            "lat": -15.2434957,
-            "lng": 50.4489065
-        },
-        {
-            "href": "/Antsiranana-Surf-Report/729/",
-            "town": "Antsiranana",
-            "spotId": "729",
-            "lat": -12.3231349,
-            "lng": 49.2942833
-        },
-        {
-            "href": "/Baie-de-Galion-Surf-Report/2754/",
-            "town": "Baie de Galion",
-            "spotId": "2754",
-            "FAILED": true
-        },
-        {
-            "href": "/Baie-des-Singes-Surf-Report/2755/",
-            "town": "Baie des Singes",
-            "spotId": "2755",
-            "FAILED": true
-        }
-    ],
-    "tahiti": [
-        {
-            "href": "/Papenoo-Surf-Report/820/",
-            "town": " Papenoo ",
-            "spotId": "820",
-            "lat": -17.517644,
-            "lng": -149.4202872
-        },
-        {
-            "href": "/Haapiti-Surf-Report/3160/",
-            "town": "Haapiti",
-            "spotId": "3160",
-            "lat": -17.5636896,
-            "lng": -149.8670526
-        },
-        {
-            "href": "/Hauru-Surf-Report/3161/",
-            "town": "Hauru",
-            "spotId": "3161",
-            "lat": -17.5065889,
-            "lng": -149.9147011
-        },
-        {
-            "href": "/Maharepa-Surf-Report/3159/",
-            "town": "Maharepa",
-            "spotId": "3159",
-            "lat": -17.4831413,
-            "lng": -149.7977761
-        }
-    ],
-    "tuamotu": [
-        {
-            "href": "/Rangiroa-Atoll-Surf-Report/621/",
-            "town": "Rangiroa Atoll",
-            "spotId": "621",
-            "lat": -15.0945706,
-            "lng": -147.5985807
-        }
-    ],
-    "huahinã¨": [
-        {
-            "href": "/Faaroa-Surf-Report/3165/",
-            "town": "Faaroa",
-            "spotId": "3165",
-            "FAILED": true
-        },
-        {
-            "href": "/Fare-Surf-Report/622/",
-            "town": "FarÃ©",
-            "spotId": "622",
-            "FAILED": true
-        },
-        {
-            "href": "/Fitii-Surf-Report/2805/",
-            "town": "Fitii",
-            "spotId": "2805",
-            "lat": -16.7355189,
-            "lng": -151.0318528
-        },
-        {
-            "href": "/Miri-Miri-Surf-Report/3167/",
-            "town": "Miri-Miri",
-            "spotId": "3167",
-            "FAILED": true
-        }
-    ],
-    "nias": [
-        {
-            "href": "/Afulu-Surf-Report/3066/",
-            "town": "Afulu",
-            "spotId": "3066",
-            "lat": 1.2595949,
-            "lng": 97.286868
-        },
-        {
-            "href": "/Asu-Surf-Report/623/",
-            "town": "Asu",
-            "spotId": "623",
-            "lat": 0.9058333,
-            "lng": 97.27555559999999
-        },
-        {
-            "href": "/Bawa-Surf-Report/624/",
-            "town": "Bawa",
-            "spotId": "624",
-            "lat": 0.8273162000000001,
-            "lng": 97.3462545
-        },
-        {
-            "href": "/Hiliduha-Surf-Report/3063/",
-            "town": "Hiliduha",
-            "spotId": "3063",
-            "FAILED": true
-        }
-    ],
-    "sumatra": [
-        {
-            "href": "/A-Frame-Surf-Report/3068/",
-            "town": "A-Frame",
-            "spotId": "3068",
-            "FAILED": true
-        },
-        {
-            "href": "/Babah-Nipah-Surf-Report/3055/",
-            "town": "Babah Nipah",
-            "spotId": "3055",
-            "lat": 4.8457102,
-            "lng": 95.4515725
-        },
-        {
-            "href": "/Bali-Village-Surf-Report/2814/",
-            "town": "Bali Village",
-            "spotId": "2814",
-            "lat": 3.6392518,
-            "lng": 98.4949738
-        },
-        {
-            "href": "/Balimbing-Surf-Report/3038/",
-            "town": "Balimbing",
-            "spotId": "3038",
-            "lat": 0.5890688,
-            "lng": 99.1954432
-        }
-    ],
-    "mentawai": [
-        {
-            "href": "/7-Palms-Surf-Report/2835/",
-            "town": "7 Palms",
-            "spotId": "2835",
-            "FAILED": true
-        },
-        {
-            "href": "/A-Frames-Surf-Report/2830/",
-            "town": "A-Frames",
-            "spotId": "2830",
-            "lat": -1.909743,
-            "lng": 99.306106
-        },
-        {
-            "href": "/Ariks-Surf-Report/2853/",
-            "town": "Ariks",
-            "spotId": "2853",
-            "FAILED": true
-        },
-        {
-            "href": "/Bank-Vaults-Surf-Report/916/",
-            "town": "Bank Vaults",
-            "spotId": "916",
-            "lat": -1.847077,
-            "lng": 99.31038
-        }
-    ],
-    "simeulue and banyak": [
-        {
-            "href": "/Cobras-Surf-Report/3327/",
-            "town": "Cobras",
-            "spotId": "3327",
-            "FAILED": true
-        },
-        {
-            "href": "/Dindos-Surf-Report/3326/",
-            "town": "Dindos",
-            "spotId": "3326",
-            "FAILED": true
-        },
-        {
-            "href": "/Gunturs-Surf-Report/3324/",
-            "town": "Gunturs",
-            "spotId": "3324",
-            "FAILED": true
-        },
-        {
-            "href": "/Lizards-Nest-Surf-Report/3322/",
-            "town": "Lizards Nest",
-            "spotId": "3322",
-            "FAILED": true
-        }
-    ],
-    "sumbawa": [
-        {
-            "href": "/Cobblestones-Surf-Report/2863/",
-            "town": "Cobblestones",
-            "spotId": "2863",
-            "lat": -8.738071999999999,
-            "lng": 118.1171082
-        },
-        {
-            "href": "/Dedjoeng-Wane-Surf-Report/3389/",
-            "town": "Dedjoeng Wane",
-            "spotId": "3389",
-            "FAILED": true
-        },
-        {
-            "href": "/Lakey-Peak-Surf-Report/875/",
-            "town": "Lakey Peak",
-            "spotId": "875",
-            "lat": -8.802548,
-            "lng": 118.382468
-        },
-        {
-            "href": "/Lakey-Pipe-Surf-Report/2861/",
-            "town": "Lakey Pipe",
-            "spotId": "2861",
-            "lat": -8.807944599999999,
-            "lng": 118.3837282
-        }
-    ],
-    "west timor": [
-        {
-            "href": "/Boa-Surf-Report/4100/",
-            "town": "Boa",
-            "spotId": "4100",
-            "lat": 39.73281,
-            "lng": -8.785022699999999
-        },
-        {
-            "href": "/Doo-Surf-Report/4102/",
-            "town": "Do'o",
-            "spotId": "4102",
-            "FAILED": true
-        },
-        {
-            "href": "/NDana-Surf-Report/4101/",
-            "town": "N'Dana",
-            "spotId": "4101",
-            "FAILED": true
-        },
-        {
-            "href": "/Ndao-Surf-Report/4103/",
-            "town": "Ndao",
-            "spotId": "4103",
-            "FAILED": true
-        }
-    ],
-    "sumba": [
-        {
-            "href": "/Five-O-Surf-Report/2503/",
-            "town": "Five-O",
-            "spotId": "2503",
-            "lat": 59.44026789999999,
-            "lng": 24.588342
-        },
-        {
-            "href": "/Mangkudu-Lefts-Surf-Report/3386/",
-            "town": "Mangkudu Lefts",
-            "spotId": "3386",
-            "lat": -9.699343899999999,
-            "lng": 119.9740534
-        },
-        {
-            "href": "/Millers-Rights-Surf-Report/4021/",
-            "town": "Miller's Rights",
-            "spotId": "4021",
-            "lat": -9.699343899999999,
-            "lng": 119.9740534
-        },
-        {
-            "href": "/Nihiwatu-Surf-Report/876/",
-            "town": "Nihiwatu",
-            "spotId": "876",
-            "lat": -9.699343899999999,
-            "lng": 119.9740534
-        }
-    ],
-    "fiji": [
-        {
-            "href": "/Daku-Surf-Report/3225/",
-            "town": "Daku",
-            "spotId": "3225",
-            "lat": -16.7846961,
-            "lng": 179.3168893
-        },
-        {
-            "href": "/Frigates-Surf-Report/3023/",
-            "town": "Frigates",
-            "spotId": "3023",
-            "lat": -18.4768514,
-            "lng": 177.9263681
-        },
-        {
-            "href": "/Hideaway-Surf-Report/3223/",
-            "town": "Hideaway",
-            "spotId": "3223",
-            "lat": -18.1963987,
-            "lng": 177.6510223
-        },
-        {
-            "href": "/King-Kong-Left-Surf-Report/3309/",
-            "town": "King Kong Left",
-            "spotId": "3309",
-            "FAILED": true
-        }
-    ],
-    "samoa": [
-        {
-            "href": "/Aganoa-Surf-Report/2953/",
-            "town": "Aganoa",
-            "spotId": "2953",
-            "lat": -13.7667931,
-            "lng": -172.2860787
-        },
-        {
-            "href": "/Aganoa-Beach-Surf-Report/3317/",
-            "town": "Aganoa Beach",
-            "spotId": "3317",
-            "lat": -13.7667931,
-            "lng": -172.2860787
-        },
-        {
-            "href": "/Boulders-Surf-Report/863/",
-            "town": "Boulders",
-            "spotId": "863",
-            "lat": -14.033858,
-            "lng": -171.610046
-        },
-        {
-            "href": "/Coconuts-Surf-Report/2954/",
-            "town": "Coconuts",
-            "spotId": "2954",
-            "lat": -14.0085,
-            "lng": -171.792
-        }
-    ],
-    "tonga": [
-        {
-            "href": "/Corners-Surf-Report/3212/",
-            "town": "Corners",
-            "spotId": "3212",
-            "lat": 28.690345,
-            "lng": 77.264245
-        },
-        {
-            "href": "/Fishtraps-Surf-Report/3213/",
-            "town": "Fishtraps",
-            "spotId": "3213",
-            "FAILED": true
-        },
-        {
-            "href": "/Lighthouse-Tongatapu-Surf-Report/3209/",
-            "town": "Lighthouse (Tongatapu)",
-            "spotId": "3209",
-            "FAILED": true
-        },
-        {
-            "href": "/Motels-Surf-Report/3207/",
-            "town": "Motels",
-            "spotId": "3207",
-            "lat": -21.238239,
-            "lng": -175.133569
-        }
-    ],
-    "american samoa": [
-        {
-            "href": "/Alao-Surf-Report/3303/",
-            "town": "Alao",
-            "spotId": "3303",
-            "lat": -14.2631371,
-            "lng": -170.5674543
-        },
-        {
-            "href": "/Amanave-Bay-Surf-Report/3220/",
-            "town": "Amanave Bay",
-            "spotId": "3220",
-            "FAILED": true
-        },
-        {
-            "href": "/Amouli-Surf-Report/3248/",
-            "town": "Amouli",
-            "spotId": "3248",
-            "lat": -14.2716809,
-            "lng": -170.5834214
-        },
-        {
-            "href": "/Asili-Point-Surf-Report/3227/",
-            "town": "Asili Point",
-            "spotId": "3227",
-            "FAILED": true
-        }
-    ],
-    "north west australia": [
-        {
-            "href": "/Blow-Holes-Surf-Report/2391/",
-            "town": "Blow Holes",
-            "spotId": "2391",
-            "lat": -24.4815901,
-            "lng": 113.4084236
-        },
-        {
-            "href": "/Dunes-Surfers-Beach-Surf-Report/4193/",
-            "town": "Dunes/Surfer's Beach",
-            "spotId": "4193",
-            "FAILED": true
-        },
-        {
-            "href": "/Red-Bluff-Surf-Report/720/",
-            "town": "Red Bluff",
-            "spotId": "720",
-            "lat": -24.05,
-            "lng": 113.4
-        }
-    ],
-    "alaska": [
-        {
-            "href": "/Akbar-Surf-Report/4581/",
-            "town": "Akbar",
-            "spotId": "4581",
-            "lat": 17.3818545,
-            "lng": 78.47266359999999
-        },
-        {
-            "href": "/Good-Rats-Surf-Report/3143/",
-            "town": "Good Rats",
-            "spotId": "3143",
-            "lat": 51.78756689999999,
-            "lng": 178.3253292
-        },
-        {
-            "href": "/Kais-Place-Surf-Report/3140/",
-            "town": "Kai's Place",
-            "spotId": "3140",
-            "FAILED": true
-        },
-        {
-            "href": "/Kodiak-Fossil-Beach-Surf-Report/973/",
-            "town": "Kodiak (Fossil Beach)",
-            "spotId": "973",
-            "lat": 57.42716769999999,
-            "lng": -152.3523169
-        }
-    ],
-    "central california": [
-        {
-            "href": "/Andrew-Molera-State-Park-Surf-Report/260/",
-            "town": "Andrew Molera State Park",
-            "spotId": "260",
-            "lat": 36.2884189,
-            "lng": -121.844272
-        },
-        {
-            "href": "/Cambria-Surf-Report/261/",
-            "town": "Cambria",
-            "spotId": "261",
-            "lat": 35.587415,
-            "lng": -121.121067
-        },
-        {
-            "href": "/Carmel-Beach-Surf-Report/666/",
-            "town": "Carmel Beach",
-            "spotId": "666",
-            "lat": 36.5521696,
-            "lng": -121.9298893
-        },
-        {
-            "href": "/Cayucos-Surf-Report/866/",
-            "town": "Cayucos",
-            "spotId": "866",
-            "lat": 35.4521212,
-            "lng": -120.9044261
-        }
-    ],
-    "russia": [
-        {
-            "href": "/Ahlestisheva-Surf-Report/4282/",
-            "town": "Ahlestisheva",
-            "spotId": "4282",
-            "FAILED": true
-        },
-        {
-            "href": "/Alibi-Surf-Report/4616/",
-            "town": "Alibi",
-            "spotId": "4616",
-            "lat": 56.83518669999999,
-            "lng": 60.61362380000001
-        },
-        {
-            "href": "/Ashe-Surf-Report/4535/",
-            "town": "Ashe",
-            "spotId": "4535",
-            "lat": 43.9579298,
-            "lng": 39.271054
-        },
-        {
-            "href": "/Astafeva-Bay-Surf-Report/4514/",
-            "town": "Astaf'eva Bay",
-            "spotId": "4514",
-            "lat": 42.7986367,
-            "lng": 132.900665
-        }
-    ],
-    "lebanon": [
-        {
-            "href": "/Chekka-Surf-Report/4254/",
-            "town": "Chekka",
-            "spotId": "4254",
-            "lat": 34.3239546,
-            "lng": 35.7294505
-        },
-        {
-            "href": "/Colonel-Surf-Report/4256/",
-            "town": "Colonel",
-            "spotId": "4256",
-            "lat": 34.250289,
-            "lng": 35.658175
-        },
-        {
-            "href": "/Edde-Sands-Tum-Tum-Beach-Surf-Report/4258/",
-            "town": "Edde Sands (Tum Tum Beach)",
-            "spotId": "4258",
-            "lat": 34.1152802,
-            "lng": 35.6489195
-        },
-        {
-            "href": "/Mustafas-A-frame-Surf-Report/4227/",
-            "town": "Mustafas A frame",
-            "spotId": "4227",
-            "FAILED": true
-        }
-    ],
-    "bulgaria": [
-        {
-            "href": "/Kabakum-Beach-Surf-Report/4263/",
-            "town": "Kabakum Beach",
-            "spotId": "4263",
-            "lat": 43.255215,
-            "lng": 28.0301
-        },
-        {
-            "href": "/Obzor-Surf-Report/4265/",
-            "town": "Obzor",
-            "spotId": "4265",
-            "lat": 42.8174622,
-            "lng": 27.8799533
-        },
-        {
-            "href": "/Sunny-Day-Surf-Report/4264/",
-            "town": "Sunny Day",
-            "spotId": "4264",
-            "lat": 42.70792890000001,
-            "lng": 27.7213383
-        }
-    ],
-    "cook islands": [
-        {
-            "href": "/Avaavaroa-Passage-Surf-Report/4277/",
-            "town": "Avaavaroa Passage",
-            "spotId": "4277",
-            "lat": -21.2635249,
-            "lng": -159.783176
-        },
-        {
-            "href": "/Avana-Surf-Report/4274/",
-            "town": "Avana",
-            "spotId": "4274",
-            "lat": -21.252256,
-            "lng": -159.7554998
-        },
-        {
-            "href": "/Club-Raro-Surf-Report/4278/",
-            "town": "Club Raro",
-            "spotId": "4278",
-            "lat": -21.2037416,
-            "lng": -159.7548332
-        },
-        {
-            "href": "/Golf-Course-Socials-Surf-Report/4272/",
-            "town": "Golf Course (Socials)",
-            "spotId": "4272",
-            "lat": -21.206336,
-            "lng": -159.8191211
-        }
-    ],
-    "sweden": [
-        {
-            "href": "/Angjarnsudden-Surf-Report/4307/",
-            "town": "Angjarnsudden",
-            "spotId": "4307",
-            "FAILED": true
-        },
-        {
-            "href": "/Apelviken-Surf-Report/4302/",
-            "town": "Apelviken",
-            "spotId": "4302",
-            "lat": 57.0879688,
-            "lng": 12.2478642
-        },
-        {
-            "href": "/Asa-Surf-Report/4301/",
-            "town": "Asa",
-            "spotId": "4301",
-            "lat": 57.34964539999999,
-            "lng": 12.1234189
-        },
-        {
-            "href": "/Faro-Island-Surf-Report/4311/",
-            "town": "Faro Island",
-            "spotId": "4311",
-            "lat": 57.9441874,
-            "lng": 19.1424789
-        }
-    ],
-    "latvia": [
-        {
-            "href": "/Liepja-Surf-Report/4414/",
-            "town": "LiepÄ�ja",
-            "spotId": "4414",
-            "lat": 56.5046678,
-            "lng": 21.010806
-        },
-        {
-            "href": "/Pape-Surf-Report/4416/",
-            "town": "Pape",
-            "spotId": "4416",
-            "lat": 56.159575,
-            "lng": 21.0258939
-        },
-        {
-            "href": "/Pavilosta-Surf-Report/4413/",
-            "town": "Pavilosta",
-            "spotId": "4413",
-            "lat": 56.886652,
-            "lng": 21.1951809
-        },
-        {
-            "href": "/Uava-Surf-Report/4415/",
-            "town": "UÅ¾ava",
-            "spotId": "4415",
-            "FAILED": true
-        }
-    ],
-    "lithuania": [
-        {
-            "href": "/Melnrage-Surf-Report/4426/",
-            "town": "Melnrage",
-            "spotId": "4426",
-            "lat": 55.7303819,
-            "lng": 21.0804809
-        },
-        {
-            "href": "/Nida-Surf-Report/4417/",
-            "town": "Nida",
-            "spotId": "4417",
-            "lat": 55.302965,
-            "lng": 21.004113
-        },
-        {
-            "href": "/Preila-Surf-Report/4427/",
-            "town": "Preila",
-            "spotId": "4427",
-            "lat": 55.3721069,
-            "lng": 21.0630309
-        }
-    ],
-    "estonia": [
-        {
-            "href": "/Ristna-Surf-Report/4418/",
-            "town": "Ristna",
-            "spotId": "4418",
-            "lat": 58.93395959999999,
-            "lng": 22.0668997
-        },
-        {
-            "href": "/Vaana-Joesuu-Surf-Report/4428/",
-            "town": "VÃ¤Ã¤na-JÃµesuu",
-            "spotId": "4428",
-            "FAILED": true
-        }
-    ],
-    "poland": [
-        {
-            "href": "/Chaupy-Surf-Report/4566/",
-            "town": "ChaÅ�upy",
-            "spotId": "4566",
-            "lat": 43.20346809999999,
-            "lng": -77.5641035
-        },
-        {
-            "href": "/Dabki-Surf-Report/4463/",
-            "town": "Dabki",
-            "spotId": "4463",
-            "lat": 54.38040520000001,
-            "lng": 16.319793
-        },
-        {
-            "href": "/Faleza-Surf-Report/4565/",
-            "town": "Faleza",
-            "spotId": "4565",
-            "lat": 54.833322,
-            "lng": 18.3283309
-        },
-        {
-            "href": "/Gorki-Zachodnie-Surf-Report/4710/",
-            "town": "GÃ³rki Zachodnie",
-            "spotId": "4710",
-            "FAILED": true
-        }
-    ],
-    "turkey": [
-        {
-            "href": "/Alacat-Surf-Report/4531/",
-            "town": "AlaÃ§atÄ±",
-            "spotId": "4531",
-            "FAILED": true
-        },
-        {
-            "href": "/Alanya-Surf-Report/4456/",
-            "town": "Alanya",
-            "spotId": "4456",
-            "lat": 36.544443,
-            "lng": 31.995408
-        },
-        {
-            "href": "/Antalya-Surf-Report/4461/",
-            "town": "Antalya",
-            "spotId": "4461",
-            "lat": 36.8968908,
-            "lng": 30.7133233
-        },
-        {
-            "href": "/Boat-Shed-Surf-Report/4452/",
-            "town": "Boat Shed",
-            "spotId": "4452",
-            "lat": 50.802139,
-            "lng": -1.124829
-        }
-    ],
-    "papua new guinea": [
-        {
-            "href": "/Kairiru-Island-Surf-Report/4583/",
-            "town": "Kairiru Island",
-            "spotId": "4583",
-            "lat": -3.3496974,
-            "lng": 143.5527423
+            "lat": 44.6833,
+            "lng": -63.1167,
+            "timeZone": "America/Halifax",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Mavillette-Beach-Surf-Report/7443/",
+            "town": "Mavillette Beach",
+            "spotId": "7443",
+            "lat": 44.0839,
+            "lng": -66.1911,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Nova-Scotia-Hurricane-Surf-Report/1096/",
+            "town": "Nova Scotia Hurricane",
+            "spotId": "1096",
+            "lat": 44.4652,
+            "lng": -63.3142,
+            "timeZone": "America/New_York",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Point-Michaud-Surf-Report/759/",
+            "town": "Point Michaud",
+            "spotId": "759",
+            "lat": 45.5882,
+            "lng": -60.6905,
+            "timeZone": "America/Halifax",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Sandy-Cove-Beach-Surf-Report/7674/",
+            "town": "Sandy Cove Beach",
+            "spotId": "7674",
+            "lat": 44.4966,
+            "lng": -66.103,
+            "timeZone": "America/Halifax",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Summerville-Surf-Report/788/",
+            "town": "Summerville",
+            "spotId": "788",
+            "lat": 43.9485,
+            "lng": -64.816,
+            "timeZone": "America/Halifax",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/Western-Head-Surf-Report/343/",
+            "town": "Western Head",
+            "spotId": "343",
+            "lat": 43.9975,
+            "lng": -64.6598,
+            "timeZone": "America/Halifax",
+            "hasHourlyForecast": true,
+            "isBigWave": false
+        },
+        {
+            "href": "/White-Point-Surf-Report/4523/",
+            "town": "White Point",
+            "spotId": "4523",
+            "lat": 43.9643,
+            "lng": -64.7352,
+            "timeZone": "America/Halifax",
+            "hasHourlyForecast": true,
+            "isBigWave": false
         }
     ]
 };
